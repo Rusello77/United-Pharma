@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request Information — United Pharma</title>
+  <meta name="description" content="Request product information or a clinical consultation from United Pharma. For healthcare professionals at government and corporate hospitals in Karnataka." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="United Pharma home">
+        <img src="assets/images/united-pharma-logo.png" alt="United Pharma - Healthcare Solutions" width="480" height="126">
+      </a>
+      <ul class="nav-links" role="list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about-our-story.html" class="nav-link">About <span class="chev">▾</span></a><div class="nav-drop"><a href="about-our-story.html">Our Story</a><a href="about-why-united-pharma.html">Why United Pharma</a><a href="about-hospitals-served.html">Hospitals Served</a></div></li>
+        <li class="nav-item"><a href="index.html#solutions-overview" class="nav-link">Solutions</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="partner-brands.html" class="nav-link">Partner Brands</a></li>
+        <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+      </ul>
+      <!-- No persistent CTA button on this page — we are the CTA destination -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<!-- PAGE HERO (narrow — form is the focus) -->
+<section class="page-hero" id="request-hero">
+  <div class="container">
+    <p class="page-hero-eyebrow">Get in Touch</p>
+    <h1 class="h1" style="color:var(--white);">Request Information</h1>
+    <p style="color:rgba(255,255,255,0.70); font-size:18px; max-width:560px; line-height:1.65;">
+      Complete the form below and our team will respond with product information, clinical data and supply availability. No pricing is shared online — our team will contact you directly.
+    </p>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="section" id="request-form-section">
+  <div class="container">
+    <div style="display:grid; grid-template-columns:1fr 340px; gap:var(--s6); align-items:start;" id="form-layout">
+
+      <!-- FORM -->
+      <div>
+        <form id="request-information-form" novalidate
+              action="#" method="POST"
+              aria-label="Request Information form">
+
+          <!-- Prefill notice (visible if triggered from product page) -->
+          <div id="prefill-notice" style="display:none; margin-bottom:var(--s3); padding:var(--s2) var(--s3); background:#F0FDF4; border:1px solid #A7F3D0; border-radius:var(--r-md);">
+            <p class="sm" style="color:#065F46;">✓ Product pre-filled from your selection. You can edit it below.</p>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--s3); margin-bottom:var(--s3);">
+            <div class="form-group">
+              <label for="full-name" class="form-label">Full Name <span class="req">*</span></label>
+              <input type="text" id="full-name" name="full_name" class="form-input" placeholder="Dr. / Mr. / Ms." required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="hospital-name" class="form-label">Hospital / Institution <span class="req">*</span></label>
+              <input type="text" id="hospital-name" name="hospital" class="form-input" placeholder="Hospital name" required />
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--s3); margin-bottom:var(--s3);">
+            <div class="form-group">
+              <label for="department" class="form-label">Department <span class="req">*</span></label>
+              <input type="text" id="department" name="department" class="form-input" placeholder="e.g. Anaesthesia, Surgery" required />
+            </div>
+            <div class="form-group">
+              <label for="designation" class="form-label">Designation / Role <span class="req">*</span></label>
+              <input type="text" id="designation" name="designation" class="form-input" placeholder="e.g. Consultant, Biomedical Engineer" required />
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--s3); margin-bottom:var(--s3);">
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address <span class="req">*</span></label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@hospital.org" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91" required autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="form-group mb-3">
+            <label for="products-of-interest" class="form-label">Product(s) of Interest</label>
+            <input type="text" id="products-of-interest" name="products_of_interest" class="form-input"
+                   placeholder="e.g. Suprane (Desflurane), Starling Monitor — pre-filled when arriving from a product page" />
+            <span class="form-hint">Pre-filled when you use "Request this product" from a product page. You can list multiple products.</span>
+          </div>
+
+          <div class="form-group mb-3">
+            <label for="requirement-details" class="form-label">Requirement Details</label>
+            <textarea id="requirement-details" name="requirement_details" class="form-input"
+                      placeholder="Describe your clinical requirement, quantity, application or any specific questions for our team..."></textarea>
+          </div>
+
+          <div class="form-group mb-3">
+            <label class="form-label">Hospital Type <span style="font-weight:400; color:var(--text-muted);">(optional)</span></label>
+            <div class="radio-group">
+              <label class="radio-label" for="type-govt"><input type="radio" id="type-govt" name="hospital_type" value="government"> Government / Public</label>
+              <label class="radio-label" for="type-corporate"><input type="radio" id="type-corporate" name="hospital_type" value="corporate"> Corporate / Private</label>
+              <label class="radio-label" for="type-other"><input type="radio" id="type-other" name="hospital_type" value="other"> Other</label>
+            </div>
+          </div>
+
+          <div class="form-group mb-4">
+            <label class="check-label" for="privacy-consent">
+              <input type="checkbox" id="privacy-consent" name="privacy_consent" required />
+              <span>I have read and agree to the <a href="#" style="color:var(--teal); text-decoration:underline;">Privacy Notice</a>. I understand that my information will be used by United Pharma to respond to this enquiry. <span class="req">*</span></span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" id="submit-request-btn" style="min-width:200px;">
+            Submit Request <span class="arr">→</span>
+          </button>
+
+          <p class="sm text-muted" style="margin-top:var(--s2);">
+            Fields marked <span style="color:var(--error);">*</span> are required. No pricing information is shared via this form. Our team will respond within [X] working days.
+          </p>
+
+        </form>
+      </div>
+
+      <!-- SIDEBAR INFO -->
+      <div>
+        <div class="product-cta-box" style="position:sticky; top:calc(var(--nav-h) + 16px);" id="form-info-sidebar">
+          <h4 style="margin-bottom:var(--s2);">What happens next?</h4>
+          <div class="flex-col gap-2" style="font-size:14px; color:var(--text-muted);">
+            <div class="flex items-start gap-2">
+              <span style="width:24px; height:24px; background:var(--navy); color:var(--white); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; flex-shrink:0;">1</span>
+              <span>Your request goes directly to the United Pharma team in Bangalore.</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <span style="width:24px; height:24px; background:var(--navy); color:var(--white); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; flex-shrink:0;">2</span>
+              <span>Our team reviews your requirement and prepares a response with product information and clinical data.</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <span style="width:24px; height:24px; background:var(--teal); color:var(--white); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; flex-shrink:0;">3</span>
+              <span>We contact you by phone or email — whichever you prefer — to discuss your needs.</span>
+            </div>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="flex-col gap-1" style="font-size:13px; color:var(--text-muted);">
+            <span>✓ No pricing shared online</span>
+            <span>✓ No spam — enquiry response only</span>
+            <span>✓ For healthcare professionals</span>
+            <span>✓ Authorised Karnataka distributor</span>
+          </div>
+
+          <hr class="divider" />
+
+          <div>
+            <p class="sm text-muted mb-1">Prefer to call?</p>
+            <a href="contact.html" class="btn btn-ghost btn-sm btn-full" id="form-contact-link">See contact details →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="fn">United Pharma</div><p>Specialist healthcare-solutions distributor serving 120+ hospitals across Karnataka.</p></div>
+      <div class="footer-col"><h4>About</h4><ul><li><a href="about-our-story.html">Our Story</a></li><li><a href="about-why-united-pharma.html">Why United Pharma</a></li><li><a href="about-hospitals-served.html">Hospitals Served</a></li></ul></div>
+      <div class="footer-col"><h4>Solutions</h4><ul><li><a href="products.html?solution=anaesthesia">Anaesthesia</a></li><li><a href="#">Critical Care &amp; Respiratory</a></li><li><a href="#">Advanced Surgery</a></li><li><a href="#">Patient Positioning</a></li><li><a href="#">Infection Prevention</a></li></ul></div>
+      <div class="footer-col"><h4>Explore</h4><ul><li><a href="products.html">All Products</a></li><li><a href="partner-brands.html">Partner Brands</a></li><li><a href="resources.html">Resources</a></li><li><a href="request-information.html">Request Information</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Notice</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 United Pharma. All rights reserved.</p><span class="hcp-badge">For healthcare professionals only</span><p>No public pricing. No online sales.</p></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  // Show prefill notice if product was passed via URL
+  (function() {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('product')) {
+      var notice = document.getElementById('prefill-notice');
+      if (notice) notice.style.display = 'block';
+    }
+  }());
+</script>
+</body>
+</html>

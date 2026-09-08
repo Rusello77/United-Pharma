@@ -1,0 +1,5694 @@
+window.MERIL_CATALOGUE_DATA = [
+  {
+    "id": "mirus-powered-endocutter-powered-endoscopic-linear-cutter-with-reloads",
+    "title": "MIRUS Powered Endocutter (Powered Endoscopic Linear Cutter with Reloads)",
+    "overview": "Marketing headline: **\"MIRUS Powered Endocutter — amazingly agile\"**\n\nPositioning statements:\n\n- \"1st Powered Endocutter with 60° Articulation\"\n\n- \"MIRUS Powered Stapling System comes with Better Holding Capacity and Greater Flexibility\"\n\n- Trust marks: \"PERFECT GRIP\", \"MAX REACH\" (60°), \"EASE IN USE\"\n\n- \"A proud product of Meril\"\n\nClinical positioning: \"Tissue Thickness presents a unique challenge when stapling laparoscopically. Powered Endocutters are designed to mitigate the force placed on them during firing based on the tissue thicknesses in order to provide Optimal compression, Consistent staple formation, Transect intended tissues with Stability, Agility and Control. Meril Endo-surgery Introduces 'MIRUS Powered Endoscopic Linear cutter with Reloads' with the great technical advantages for critical needs of many surgeons.\"",
+    "features": [
+      "**The Design of 60° Articulation Angle** — \"The design of 60° articulation angle, guarantees the operation of the low and ultra low rectal cancer resection\"",
+      "**Designed Staple Formation** — \"The innovative 6 rows stair-stepping, design staple formation offers a superior hemostatic effect\"",
+      "**Safety Protection** — \"To prevent firing by mistake\"",
+      "**Non-Slip Technology** — \"Non-slip Anvil to avoid tissue slippage\"",
+      "**Battery Motivated** — \"Brings more stable operation\"",
+      "**Cartridge Remover** — \"An assisting Tool\""
+    ],
+    "specifications": [
+      {
+        "Colour": "Grey",
+        "Closed Staple Height": "(not stated in reload table)"
+      },
+      {
+        "Colour": "White",
+        "Closed Staple Height": "2.5 mm"
+      },
+      {
+        "Colour": "Blue",
+        "Closed Staple Height": "3.5 mm"
+      },
+      {
+        "Colour": "Gold",
+        "Closed Staple Height": "3.8 mm"
+      },
+      {
+        "Colour": "Green",
+        "Closed Staple Height": "4.1 mm"
+      },
+      {
+        "Colour": "Black",
+        "Closed Staple Height": "4.4 mm"
+      }
+    ],
+    "skus": [
+      {
+        "_Name": "MIRUS Power Endocutter 60mm SMALL",
+        "Code": "MEC60-280",
+        "Description": "MIRUS POWER ENDOCUTTER 60mm SMALL",
+        "Staple line length": "60 mm"
+      },
+      {
+        "_Name": "MIRUS Power Endocutter 60mm MEDIUM",
+        "Code": "MEC60-340",
+        "Description": "MIRUS POWER ENDOCUTTER 60mm MEDIUM",
+        "Staple line length": "60 mm"
+      },
+      {
+        "_Name": "MIRUS Power Endocutter 60mm LARGE",
+        "Code": "MEC60-440",
+        "Description": "MIRUS POWER ENDOCUTTER 60mm LARGE",
+        "Staple line length": "60 mm"
+      },
+      {
+        "_Name": "MIRUS Power Endocutter 45mm SMALL",
+        "Code": "MEC45-280",
+        "Description": "MIRUS POWER ENDOCUTTER 45mm SMALL",
+        "Staple line length": "45 mm"
+      },
+      {
+        "_Name": "MIRUS Power Endocutter 45mm MEDIUM",
+        "Code": "MEC45-340",
+        "Description": "MIRUS POWER ENDOCUTTER 45mm MEDIUM",
+        "Staple line length": "45 mm"
+      },
+      {
+        "_Name": "MIRUS Power Endocutter 45mm LARGE",
+        "Code": "MEC45-440",
+        "Description": "MIRUS POWER ENDOCUTTER 45mm LARGE",
+        "Staple line length": "45 mm"
+      },
+      {
+        "_Name": "Power Endocutter Reload 60-25 White",
+        "Code": "MECRW-6025",
+        "Description": "POWER ENDOCUTTER RELOAD 60-25 - WHITE",
+        "Staple line length": "60 mm",
+        "Closed staple height": "2.5 mm",
+        "Cartridge colour": "White"
+      },
+      {
+        "_Name": "Power Endocutter Reload 60-35 Blue",
+        "Code": "MECRB-6035",
+        "Description": "POWER ENDOCUTTER RELOAD 60-35 - BLUE",
+        "Staple line length": "60 mm",
+        "Closed staple height": "3.5 mm",
+        "Cartridge colour": "Blue"
+      },
+      {
+        "_Name": "Power Endocutter Reload 60-38 Gold",
+        "Code": "MECRGD-6038",
+        "Description": "POWER ENDOCUTTER RELOAD 60-38 - GOLD",
+        "Staple line length": "60 mm",
+        "Closed staple height": "3.8 mm",
+        "Cartridge colour": "Gold"
+      },
+      {
+        "_Name": "Power Endocutter Reload 60-41 Green",
+        "Code": "MECRG-6041",
+        "Description": "POWER ENDOCUTTER RELOAD 60-41 - GREEN",
+        "Staple line length": "60 mm",
+        "Closed staple height": "4.1 mm",
+        "Cartridge colour": "Green"
+      },
+      {
+        "_Name": "Power Endocutter Reload 60-44 Black",
+        "Code": "MECRT-6044",
+        "Description": "POWER ENDOCUTTER RELOAD 60-44 - BLACK",
+        "Staple line length": "60 mm",
+        "Closed staple height": "4.4 mm",
+        "Cartridge colour": "Black"
+      },
+      {
+        "_Name": "Power Endocutter Reload 45-25 White",
+        "Code": "MECRW-4525",
+        "Description": "POWER ENDOCUTTER RELOAD 45-25 - WHITE",
+        "Staple line length": "45 mm",
+        "Closed staple height": "2.5 mm",
+        "Cartridge colour": "White"
+      },
+      {
+        "_Name": "Power Endocutter Reload 45-35 Blue",
+        "Code": "MECRB-4535",
+        "Description": "POWER ENDOCUTTER RELOAD 45-35 - BLUE",
+        "Staple line length": "45 mm",
+        "Closed staple height": "3.5 mm",
+        "Cartridge colour": "Blue"
+      },
+      {
+        "_Name": "Power Endocutter Reload 45-41 Green",
+        "Code": "MECRG-4541",
+        "Description": "POWER ENDOCUTTER RELOAD 45-41 - GREEN",
+        "Staple line length": "45 mm",
+        "Closed staple height": "4.1 mm",
+        "Cartridge colour": "Green"
+      }
+    ],
+    "anatomy": [
+      "Cartridge",
+      "Non Slip Anvil",
+      "Articulation Joint",
+      "Shaft",
+      "Articulation Knob",
+      "Rotating Knob",
+      "Blade reverse switch",
+      "Anvil release button",
+      "Battery",
+      "Safety Switch",
+      "Firing Trigger",
+      "Close Handle",
+      "Handle"
+    ],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-powered-endocutter.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Powered Endocutter product packaging"
+  },
+  {
+    "id": "mirus-linear-cutter-non-powered-disposable",
+    "title": "MIRUS Linear Cutter (Non-Powered, Disposable)",
+    "overview": "Brochure tagline: **\"MIRUS Linear Cutter\"**\n\nFeature callouts (from brochure):\n\n- Uniform compression & consistent staple formation\n\n- Low profile anvil tip to minimise tissue trauma\n\n- Cut-line & Staple Line markers for precise cutting & stapling\n\n- New knife with every reload guarantees smooth & precise transection\n\n- Every reload has a safety lock to prevent firing over empty reload\n\n- Push-Button for quick release\n\n- Ambidextrous-Dual side firing for ease of use\n\n- Rear hinge alignment offers ease of handling",
+    "features": [],
+    "specifications": [
+      {
+        "Stapler": "MLC60",
+        "Description": "Mirus Disp. Linear Cutter 60",
+        "Reloads": "MLCR60-3.8, MLCR60-4.8",
+        "Open Length": "3.8 mm, 4.8 mm",
+        "Close Length": "1.5 mm, 2.0 mm",
+        "Color": "Blue, Green",
+        "Number of Firings": "8",
+        "Number of Staples": "64",
+        "Rows of Staple": "4",
+        "Staple Line Length": "64 mm",
+        "Cut Length": "60 mm"
+      },
+      {
+        "Stapler": "MLC80",
+        "Description": "Mirus Disp. Linear Cutter 80",
+        "Reloads": "MLCR80-3.8, MLCR80-4.8",
+        "Open Length": "3.8 mm, 4.8 mm",
+        "Close Length": "1.5 mm, 2.0 mm",
+        "Color": "Blue, Green",
+        "Number of Firings": "8",
+        "Number of Staples": "84",
+        "Rows of Staple": "4",
+        "Staple Line Length": "84 mm",
+        "Cut Length": "80 mm"
+      },
+      {
+        "Stapler": "MLC100",
+        "Description": "Mirus Disp. Linear Cutter 100",
+        "Reloads": "MLCR100-3.8, MLCR100-4.8",
+        "Open Length": "3.8 mm, 4.8 mm",
+        "Close Length": "1.5 mm, 2.0 mm",
+        "Color": "Blue, Green",
+        "Number of Firings": "8",
+        "Number of Staples": "104",
+        "Rows of Staple": "4",
+        "Staple Line Length": "104 mm",
+        "Cut Length": "100 mm"
+      }
+    ],
+    "skus": [
+      {
+        "_Name": "MIRUS Linear Cutter 60",
+        "Stapler code": "MLC60",
+        "Description": "Mirus Disp. Linear Cutter 60",
+        "Cut length": "60 mm",
+        "Staple line length": "64 mm",
+        "Number of firings": "8",
+        "Number of staples": "64",
+        "Rows of staple": "4",
+        "Compatible reloads": "MLCR60-3.8 (Blue, open 3.8 mm / close 1.5 mm), MLCR60-4.8 (Green, open 4.8 mm / close 2.0 mm)"
+      },
+      {
+        "_Name": "MIRUS Linear Cutter 80",
+        "Stapler code": "MLC80",
+        "Description": "Mirus Disp. Linear Cutter 80",
+        "Cut length": "80 mm",
+        "Staple line length": "84 mm",
+        "Number of firings": "8",
+        "Number of staples": "84",
+        "Rows of staple": "4",
+        "Compatible reloads": "MLCR80-3.8 (Blue, open 3.8 mm / close 1.5 mm), MLCR80-4.8 (Green, open 4.8 mm / close 2.0 mm)"
+      },
+      {
+        "_Name": "MIRUS Linear Cutter 100",
+        "Stapler code": "MLC100",
+        "Description": "Mirus Disp. Linear Cutter 100",
+        "Cut length": "100 mm",
+        "Staple line length": "104 mm",
+        "Number of firings": "8",
+        "Number of staples": "104",
+        "Rows of staple": "4",
+        "Compatible reloads": "MLCR100-3.8 (Blue, open 3.8 mm / close 1.5 mm), MLCR100-4.8 (Green, open 4.8 mm / close 2.0 mm)"
+      },
+      {
+        "_Name": "MLCR60-3.8",
+        "Compatible with": "MLC60",
+        "Open length": "3.8 mm",
+        "Close length": "1.5 mm",
+        "Colour": "Blue"
+      },
+      {
+        "_Name": "MLCR60-4.8",
+        "Compatible with": "MLC60",
+        "Open length": "4.8 mm",
+        "Close length": "2.0 mm",
+        "Colour": "Green"
+      },
+      {
+        "_Name": "MLCR80-3.8",
+        "Compatible with": "MLC80",
+        "Open length": "3.8 mm",
+        "Close length": "1.5 mm",
+        "Colour": "Blue"
+      },
+      {
+        "_Name": "MLCR80-4.8",
+        "Compatible with": "MLC80",
+        "Open length": "4.8 mm",
+        "Close length": "2.0 mm",
+        "Colour": "Green"
+      },
+      {
+        "_Name": "MLCR100-3.8",
+        "Compatible with": "MLC100",
+        "Open length": "3.8 mm",
+        "Close length": "1.5 mm",
+        "Colour": "Blue"
+      },
+      {
+        "_Name": "MLCR100-4.8",
+        "Compatible with": "MLC100",
+        "Open length": "4.8 mm",
+        "Close length": "2.0 mm",
+        "Colour": "Green"
+      }
+    ],
+    "anatomy": [
+      "Cut Line Marking",
+      "Anvil Tip",
+      "Anvil Half",
+      "Cartridge Half",
+      "Firm Ergonomic Grip",
+      "Intermediate Alignment",
+      "Dual Side Firing Knob",
+      "Push Button",
+      "Rear Hinge"
+    ],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-linear-cutter.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Linear Cutter product packaging"
+  },
+  {
+    "id": "mirus-circular-stapler",
+    "title": "MIRUS Circular Stapler",
+    "overview": "Introduction text: \"MIRUS Circular Stapler has applications throughout the alimentary tract for the creation of end-to-end, end-to-side and side-to-side anastomosis in both open and endoscopic surgeries. The design offers adequate lumen with a series of cutting diameters from 12mm to 22mm. The adjustable staple height technology assures minimal tissue tension and controlled compression besides a reliable tactile and audible feedback while firing.\"\n\n\"MIRUS Circular Stapler is available in conventional 2 row and the new 3 row staple line design. The 3 row design deploys an additional third row of staples offering wound security and adequate hemostasis.\"",
+    "features": [
+      "**Tissue Compression Scale:** Visual feedback while firing",
+      "**Adjustable Staple Height:** Accommodate varied tissue thickness",
+      "**Wing Nut Knob:** Controlled compression & tactile feedback",
+      "**White Teflon Cutting Washer:** Distinct audible feedback",
+      "**Safety Lock:** Avoids inadvertent firing"
+    ],
+    "specifications": [
+      {
+        "Stapler": "MCS-21R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 21",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "12",
+        "Head Diameter": "21",
+        "Rows of Staples": "3",
+        "Staple Quantity": "27"
+      },
+      {
+        "Stapler": "MCS-24R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 24",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "15",
+        "Head Diameter": "24",
+        "Rows of Staples": "3",
+        "Staple Quantity": "33"
+      },
+      {
+        "Stapler": "MCS-25R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 25",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "16",
+        "Head Diameter": "25",
+        "Rows of Staples": "3",
+        "Staple Quantity": "33"
+      },
+      {
+        "Stapler": "MCS-26R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 26",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "17",
+        "Head Diameter": "26",
+        "Rows of Staples": "3",
+        "Staple Quantity": "33"
+      },
+      {
+        "Stapler": "MCS-29R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 29",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "20",
+        "Head Diameter": "29",
+        "Rows of Staples": "3",
+        "Staple Quantity": "36"
+      },
+      {
+        "Stapler": "MCS-31R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 31",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "21",
+        "Head Diameter": "31",
+        "Rows of Staples": "3",
+        "Staple Quantity": "36"
+      },
+      {
+        "Stapler": "MCS-32R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 32",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "22",
+        "Head Diameter": "32",
+        "Rows of Staples": "3",
+        "Staple Quantity": "42"
+      },
+      {
+        "Stapler": "MCS-24",
+        "Description": "Mirus Disp. Circular Stapler 24",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "15",
+        "Head Diameter": "24",
+        "Rows of Staples": "2",
+        "Staple Quantity": "18"
+      },
+      {
+        "Stapler": "MCS-25",
+        "Description": "Mirus Disp. Circular Stapler 25",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "16",
+        "Head Diameter": "25",
+        "Rows of Staples": "2",
+        "Staple Quantity": "20"
+      },
+      {
+        "Stapler": "MCS-26",
+        "Description": "Mirus Disp. Circular Stapler 26",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "17",
+        "Head Diameter": "26",
+        "Rows of Staples": "2",
+        "Staple Quantity": "20"
+      },
+      {
+        "Stapler": "MCS-29",
+        "Description": "Mirus Disp. Circular Stapler 29",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "20",
+        "Head Diameter": "29",
+        "Rows of Staples": "2",
+        "Staple Quantity": "24"
+      },
+      {
+        "Stapler": "MCS-32",
+        "Description": "Mirus Disp. Circular Stapler 32",
+        "Open Length": "4.5 mm",
+        "Close Length": "1.0-2.5 mm",
+        "Cutting Diameter": "22",
+        "Head Diameter": "32",
+        "Rows of Staples": "2",
+        "Staple Quantity": "30"
+      }
+    ],
+    "skus": [
+      {
+        "_Name": "MCS-21R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 21",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "12",
+        "Head diameter": "21",
+        "Rows of staples": "3",
+        "Staple quantity": "27"
+      },
+      {
+        "_Name": "MCS-24R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 24",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "15",
+        "Head diameter": "24",
+        "Rows of staples": "3",
+        "Staple quantity": "33"
+      },
+      {
+        "_Name": "MCS-25R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 25",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "16",
+        "Head diameter": "25",
+        "Rows of staples": "3",
+        "Staple quantity": "33"
+      },
+      {
+        "_Name": "MCS-26R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 26",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "17",
+        "Head diameter": "26",
+        "Rows of staples": "3",
+        "Staple quantity": "33"
+      },
+      {
+        "_Name": "MCS-29R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 29",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "20",
+        "Head diameter": "29",
+        "Rows of staples": "3",
+        "Staple quantity": "36"
+      },
+      {
+        "_Name": "MCS-31R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 31",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "21",
+        "Head diameter": "31",
+        "Rows of staples": "3",
+        "Staple quantity": "36"
+      },
+      {
+        "_Name": "MCS-32R3",
+        "Description": "Mirus Disp. Circular Stapler 3row 32",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "22",
+        "Head diameter": "32",
+        "Rows of staples": "3",
+        "Staple quantity": "42"
+      },
+      {
+        "_Name": "MCS-24",
+        "Description": "Mirus Disp. Circular Stapler 24",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "15",
+        "Head diameter": "24",
+        "Rows of staples": "2",
+        "Staple quantity": "18"
+      },
+      {
+        "_Name": "MCS-25",
+        "Description": "Mirus Disp. Circular Stapler 25",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "16",
+        "Head diameter": "25",
+        "Rows of staples": "2",
+        "Staple quantity": "20"
+      },
+      {
+        "_Name": "MCS-26",
+        "Description": "Mirus Disp. Circular Stapler 26",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "17",
+        "Head diameter": "26",
+        "Rows of staples": "2",
+        "Staple quantity": "20"
+      },
+      {
+        "_Name": "MCS-29",
+        "Description": "Mirus Disp. Circular Stapler 29",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "20",
+        "Head diameter": "29",
+        "Rows of staples": "2",
+        "Staple quantity": "24"
+      },
+      {
+        "_Name": "MCS-32",
+        "Description": "Mirus Disp. Circular Stapler 32",
+        "Open length": "4.5 mm",
+        "Close length": "1.0-2.5 mm",
+        "Cutting diameter": "22",
+        "Head diameter": "32",
+        "Rows of staples": "2",
+        "Staple quantity": "30"
+      }
+    ],
+    "anatomy": [
+      "Anvil Tip",
+      "Housing",
+      "Shaft",
+      "Compression Gauge",
+      "Safety Lock",
+      "Wing Nut Knob",
+      "Firing Handle"
+    ],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-circular-stapler.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Circular Stapler product packaging"
+  },
+  {
+    "id": "mirus-skin-stapler",
+    "title": "MIRUS Skin Stapler",
+    "overview": "Positioning: \"MIRUS Skin Stapler — Outstanding performance across wider skin wounds\"\n\nTrademark: **MIRUS™ — The Symbol of Excellence**",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "MIRUS Skin Stapler (35 Pins)",
+        "FG Code": "MSSP35",
+        "Description": "MIRUS Skin Stapler 35 Pins",
+        "Units per Box": "6",
+        "Retailer/Hospital Price (₹, Tax Extra)": "3,656",
+        "Maximum Retail Price (₹, incl. taxes)": "7,998",
+        "MRP/Unit (₹, incl. taxes)": "1,333"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-skin-stapler.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Skin Stapler product packaging"
+  },
+  {
+    "id": "mirus-skin-stapler-extractors",
+    "title": "MIRUS Skin Stapler Extractors",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Metal Skin Stapler Extractor Remover",
+        "FG Code": "SSEXT",
+        "Description": "Metal Skin stapler Extractor Remover",
+        "Type": "Metal Extractor",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "318",
+        "Maximum Retail Price (₹)": "462",
+        "MRP/Unit (₹)": "462"
+      },
+      {
+        "_Name": "Plastic Skin Staple Extractor Remover",
+        "FG Code": "SSRM",
+        "Description": "Plastic Skin staple extractor Remover",
+        "Type": "Plastic Extractor",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "318",
+        "Maximum Retail Price (₹)": "462",
+        "MRP/Unit (₹)": "462"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-skin-stapler-extractor.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Skin Stapler Extractor product packaging"
+  },
+  {
+    "id": "mirus-titanium-u-shape-ligation-clips",
+    "title": "MIRUS Titanium U-Shape Ligation Clips",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Ligation Clip Small",
+        "FG Code": "MLT-100",
+        "Description": "Ligationg Clip Small",
+        "Size": "Small",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "7,217",
+        "Maximum Retail Price (₹)": "10,160",
+        "MRP/Unit (₹)": "508"
+      },
+      {
+        "_Name": "Ligation Clip Medium",
+        "FG Code": "MLT-200",
+        "Description": "Ligationg Clip Medium",
+        "Size": "Medium",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "8,207",
+        "Maximum Retail Price (₹)": "10,260",
+        "MRP/Unit (₹)": "513"
+      },
+      {
+        "_Name": "Ligation Clip Medium-Large",
+        "FG Code": "MLT-300",
+        "Description": "Ligationg Clip Medium-Large",
+        "Size": "Medium-Large",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "7,017",
+        "Maximum Retail Price (₹)": "12,960",
+        "MRP/Unit (₹)": "648"
+      },
+      {
+        "_Name": "Ligation Clip Large",
+        "FG Code": "MLT-400",
+        "Description": "Ligationg Clip Large",
+        "Size": "Large",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "9,035",
+        "Maximum Retail Price (₹)": "18,200",
+        "MRP/Unit (₹)": "910"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-u-shape-clip.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Titanium U-Shape Ligating Clip product packaging"
+  },
+  {
+    "id": "mirus-endoscopic-clip-applicator-for-u-shape-titanium-clips",
+    "title": "MIRUS Endoscopic Clip Applicator (for U-Shape Titanium Clips)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Laparoscopic Applicator 300 (for ML Clips)",
+        "FG Code": "FTEA-00300",
+        "Description": "Laparoscopic Applicator 300",
+        "Compatibility": "Endo Applier for ML Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "22,558",
+        "Maximum Retail Price (₹)": "28,875",
+        "MRP/Unit (₹)": "28,875"
+      },
+      {
+        "_Name": "Laparoscopic Applicator 400 (for L Clips)",
+        "FG Code": "FTEA-00400",
+        "Description": "Laparoscopic Applicator 400",
+        "Compatibility": "Endo Applier for L Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "22,558",
+        "Maximum Retail Price (₹)": "28,875",
+        "MRP/Unit (₹)": "28,875"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-endoscopic-applicator.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Endoscopic Clip Applicator product packaging"
+  },
+  {
+    "id": "mirus-open-clip-applicator-for-u-shape-titanium-clips",
+    "title": "MIRUS Open Clip Applicator (for U-Shape Titanium Clips)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Open Applicator 100 - 15 cm",
+        "FG Code": "FTOA-10015",
+        "Length": "15 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 100 - 20 cm",
+        "FG Code": "FTOA-10020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 100 - 28 cm",
+        "FG Code": "FTOA-10028",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 200 - 15 cm",
+        "FG Code": "FTOA-20015",
+        "Length": "15 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 200 - 20 cm",
+        "FG Code": "FTOA-20020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 200 - 28 cm",
+        "FG Code": "FTOA-20028",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 300 - 15 cm",
+        "FG Code": "FTOA-30015",
+        "Length": "15 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 300 - 20 cm",
+        "FG Code": "FTOA-30020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 300 - 28 cm",
+        "FG Code": "FTOA-30028",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 400 - 15 cm",
+        "FG Code": "FTOA-40015",
+        "Length": "15 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 400 - 20 cm",
+        "FG Code": "FTOA-40020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "Open Applicator 400 - 28 cm",
+        "FG Code": "FTOA-40028",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-open-applicator.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Open Clip Applicator product packaging"
+  },
+  {
+    "id": "mirus-titanium-v-shape-ligation-clips",
+    "title": "MIRUS Titanium V-Shape Ligation Clips",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "V Shape Ligation Clip Micro",
+        "FG Code": "VMLT-060",
+        "Description": "V Shape ligation Clip Micro",
+        "Size": "Micro",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "14,753",
+        "Maximum Retail Price (₹)": "22,020",
+        "MRP/Unit (₹)": "1,101"
+      },
+      {
+        "_Name": "V Shape Ligation Clip Small",
+        "FG Code": "VMLT-080",
+        "Description": "V Shape ligation Clip Small",
+        "Size": "Small",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "7,661",
+        "Maximum Retail Price (₹)": "10,640",
+        "MRP/Unit (₹)": "532"
+      },
+      {
+        "_Name": "V Shape Ligation Clip Small-Medium",
+        "FG Code": "VMLT-100",
+        "Description": "V Shape ligation Clip Small-Medium",
+        "Size": "Small-Medium",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "8,652",
+        "Maximum Retail Price (₹)": "12,180",
+        "MRP/Unit (₹)": "609"
+      },
+      {
+        "_Name": "V Shape Ligation Clip Medium",
+        "FG Code": "VMLT-200",
+        "Description": "V Shape ligation Clip Medium",
+        "Size": "Medium",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "10,239",
+        "Maximum Retail Price (₹)": "12,800",
+        "MRP/Unit (₹)": "640"
+      },
+      {
+        "_Name": "V Shape Ligation Clip Medium-Large",
+        "FG Code": "VMLT-300",
+        "Description": "V Shape ligation Clip Medium-Large",
+        "Size": "Medium-Large",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "9,063",
+        "Maximum Retail Price (₹)": "16,740",
+        "MRP/Unit (₹)": "837"
+      },
+      {
+        "_Name": "V Shape Ligation Clip Large",
+        "FG Code": "VMLT-400",
+        "Description": "V Shape ligation Clip Large",
+        "Size": "Large",
+        "Units per Box": "20",
+        "Retailer/Hospital Price (₹)": "11,706",
+        "Maximum Retail Price (₹)": "23,580",
+        "MRP/Unit (₹)": "1,179"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-v-shape-clip.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MIRUS Titanium V-Shape Ligating Clip product packaging"
+  },
+  {
+    "id": "v-shape-ligation-clip-open-applicator",
+    "title": "V Shape Ligation Clip Open Applicator",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "V Open Applicator 100 - 20 cm",
+        "FG Code": "VTOA-10020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Open Applicator 200 - 20 cm",
+        "FG Code": "VTOA-20020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Open Applicator 300 - 20 cm",
+        "FG Code": "VTOA-30020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Open Applicator 400 - 20 cm",
+        "FG Code": "VTOA-40020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Open Applicator 60 - 20 cm",
+        "FG Code": "VTOA-6020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Open Applicator 80 - 20 cm",
+        "FG Code": "VTOA-8020",
+        "Length": "20 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-open-applicator.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril Open Clip Applicator product packaging (representative image; applicator body shared across MIRUS clip-applicator variants)"
+  },
+  {
+    "id": "v-shape-ligation-clip-applicator-28-cm-variants",
+    "title": "V Shape Ligation Clip Applicator (28 cm variants)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "V Shape Clip Applicator 200 - 28 cm",
+        "FG Code": "VTOA-20028",
+        "Description": "V SHAPE CLIP APPLICATORS 200-28CM",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      },
+      {
+        "_Name": "V Shape Clip Applicator 80 - 28 cm",
+        "FG Code": "VTOA-8028",
+        "Description": "V SHAPE CLIP APPLICATORS 80-28CM",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "15,586",
+        "Maximum Retail Price (₹)": "19,950",
+        "MRP/Unit (₹)": "19,950"
+      },
+      {
+        "_Name": "V Shape Clip Applicator 100 - 28 cm",
+        "FG Code": "VTOA-10028",
+        "Description": "V SHAPE CLIP APPLICATORS 100-28CM",
+        "Length": "28 cm",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "17,145",
+        "Maximum Retail Price (₹)": "21,945",
+        "MRP/Unit (₹)": "21,945"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-open-applicator.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril Open Clip Applicator product packaging (representative image; applicator body shared across MIRUS clip-applicator variants)"
+  },
+  {
+    "id": "myclip-polymer-ligation-clips",
+    "title": "MYCLIP Polymer Ligation Clips",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Polymer Clip Medium-Large",
+        "FG Code": "POLY-200",
+        "Description": "POLYMER CLIP MEDIUM - LARGE",
+        "Size": "Medium-Large",
+        "Units per Box": "10",
+        "Retailer/Hospital Price (₹)": "23,700",
+        "Maximum Retail Price (₹)": "32,922",
+        "MRP/Unit (₹)": "3,292"
+      },
+      {
+        "_Name": "Polymer Clip Large",
+        "FG Code": "POLY-300",
+        "Description": "POLYMER CLIP LARGE",
+        "Size": "Large",
+        "Units per Box": "10",
+        "Retailer/Hospital Price (₹)": "18,079",
+        "Maximum Retail Price (₹)": "25,110",
+        "MRP/Unit (₹)": "2,511"
+      },
+      {
+        "_Name": "Polymer Clip Extra Large",
+        "FG Code": "POLY-400",
+        "Description": "POLYMER CLIP EXTRA LARGE",
+        "Size": "Extra-Large",
+        "Units per Box": "10",
+        "Retailer/Hospital Price (₹)": "23,700",
+        "Maximum Retail Price (₹)": "32,922",
+        "MRP/Unit (₹)": "3,292"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/myclip-polymer-clip.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MYCLIP Polymer Ligation Clip product packaging"
+  },
+  {
+    "id": "myclip-endoscopic-clip-applicator-for-polymer-clips",
+    "title": "MYCLIP Endoscopic Clip Applicator (for Polymer Clips)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Polymer Clip Laparoscopic Applicator 200MM (Medium Large)",
+        "FG Code": "PTEA-00200",
+        "Description": "POLYMER CLIP LAPROSCOPIC APLICATOR 200MM",
+        "Compatibility": "For Medium Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      },
+      {
+        "_Name": "Polymer Clip Laparoscopic Applicator 300MM (Large)",
+        "FG Code": "PTEA-00300",
+        "Description": "POLYMER CLIP LAPROSCOPIC APLICATOR 300MM",
+        "Compatibility": "For Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      },
+      {
+        "_Name": "Polymer Clip Laparoscopic Applicator 400MM (Extra-Large)",
+        "FG Code": "PTEA-00400",
+        "Description": "POLYMER CLIP LAPROSCOPIC APLICATOR 400MM",
+        "Compatibility": "For Extra-Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-endoscopic-applicator.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril Endoscopic Clip Applicator product packaging (representative image; applicator body shared across MIRUS/MYCLIP endoscopic applicator variants)"
+  },
+  {
+    "id": "myclip-open-applicator-for-polymer-clips",
+    "title": "MYCLIP Open Applicator (for Polymer Clips)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "_Name": "Polymer Clip Open Applicator 200-30 DEG",
+        "FG Code": "PTOA-20030",
+        "Description": "POLYMER CLIP OPEN APPLICATOR 200-30 DEG",
+        "Compatibility": "For Medium Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      },
+      {
+        "_Name": "Polymer Clip Open Applicator 300-30 DEG",
+        "FG Code": "PTOA-30030",
+        "Description": "POLYMER CLIP OPEN APPLICATOR 300-30 DEG",
+        "Compatibility": "For Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      },
+      {
+        "_Name": "Polymer Clip Open Applicator 400-30 DEG",
+        "FG Code": "PTOA-40030",
+        "Description": "POLYMER CLIP OPEN APPLICATOR 400-30 DEG",
+        "Compatibility": "For Extra-Large Clips",
+        "Units per Box": "1",
+        "Retailer/Hospital Price (₹)": "35,938",
+        "Maximum Retail Price (₹)": "46,000",
+        "MRP/Unit (₹)": "46,000"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mirus-open-applicator.jpeg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril Open Clip Applicator product packaging (representative image; applicator body shared across MIRUS/MYCLIP open applicator variants)"
+  },
+  {
+    "id": "mitsu-ab-synthetic-absorbable-braided-coated-polyglactin-910-with-triclosan",
+    "title": "MITSU AB — Synthetic Absorbable Braided Coated Polyglactin 910 with Triclosan",
+    "overview": "Marketing headline: **\"THE SHIELD YOU CAN TRUST.\"**\n\nTrademark: **MITSU AB™ — Polyglactin 910 Suture with Triclosan — REDUCE SSI**\n\nKey claims (bullet list from brochure):\n\n- Inhibits suture induced Surgical Site Infections (SSIs)\n\n- Clinically proven Safety & Efficacy\n\n- Braided material provides highest knot security\n\nZone-of-Inhibition diagram callouts: \"MITSU AB™ antibacterial suture\" vs. \"Conventional suture\", showing zone of inhibition.",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PGT01 2319",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,823",
+        "MRP (₹)": "10,716",
+        "MRP/Unit (₹)": "893"
+      },
+      {
+        "FG Code": "PGT01 2347",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,583",
+        "MRP (₹)": "13,128",
+        "MRP/Unit (₹)": "1,094"
+      },
+      {
+        "FG Code": "PGT01 2347DNL",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 180 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Taper Cut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,112",
+        "MRP (₹)": "11,112",
+        "MRP/Unit (₹)": "926"
+      },
+      {
+        "FG Code": "PGT01 2350",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 120 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,842",
+        "MRP (₹)": "9,372",
+        "MRP/Unit (₹)": "781"
+      },
+      {
+        "FG Code": "PGT01 2351",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 120 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,769",
+        "MRP (₹)": "12,012",
+        "MRP/Unit (₹)": "1,001"
+      },
+      {
+        "FG Code": "PGT01 2359",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,586",
+        "MRP (₹)": "10,392",
+        "MRP/Unit (₹)": "866"
+      },
+      {
+        "FG Code": "PGT01 2360",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,595",
+        "MRP (₹)": "10,404",
+        "MRP/Unit (₹)": "867"
+      },
+      {
+        "FG Code": "PGT01 2421",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,649",
+        "MRP (₹)": "9,108",
+        "MRP/Unit (₹)": "759"
+      },
+      {
+        "FG Code": "PGT01 2449",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,103",
+        "MRP (₹)": "11,100",
+        "MRP/Unit (₹)": "925"
+      },
+      {
+        "FG Code": "PGT01 2519",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,902",
+        "MRP (₹)": "10,824",
+        "MRP/Unit (₹)": "902"
+      },
+      {
+        "FG Code": "PGT01 2826",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 35 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,549",
+        "MRP (₹)": "11,712",
+        "MRP/Unit (₹)": "976"
+      },
+      {
+        "FG Code": "PGT01 2826XL",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,112",
+        "MRP (₹)": "11,112",
+        "MRP/Unit (₹)": "926"
+      },
+      {
+        "FG Code": "PGT02 2452",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,081",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "PGT02 2478",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,718",
+        "MRP (₹)": "10,572",
+        "MRP/Unit (₹)": "881"
+      },
+      {
+        "FG Code": "PGT10 2338",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,437",
+        "MRP (₹)": "10,188",
+        "MRP/Unit (₹)": "849"
+      },
+      {
+        "FG Code": "PGT10 2346",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,824",
+        "MRP (₹)": "9,348",
+        "MRP/Unit (₹)": "779"
+      },
+      {
+        "FG Code": "PGT10 2346DNL",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 180 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Taper Cut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,769",
+        "MRP (₹)": "12,012",
+        "MRP/Unit (₹)": "1,001"
+      },
+      {
+        "FG Code": "PGT10 2358",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,103",
+        "MRP (₹)": "11,100",
+        "MRP/Unit (₹)": "925"
+      },
+      {
+        "FG Code": "PGT10 2517",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,103",
+        "MRP (₹)": "11,100",
+        "MRP/Unit (₹)": "925"
+      },
+      {
+        "FG Code": "PGT10 2518",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,386",
+        "MRP (₹)": "8,748",
+        "MRP/Unit (₹)": "729"
+      },
+      {
+        "FG Code": "PGT10 2534",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,103",
+        "MRP (₹)": "11,100",
+        "MRP/Unit (₹)": "925"
+      },
+      {
+        "FG Code": "PGT20 2317",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,824",
+        "MRP (₹)": "9,348",
+        "MRP/Unit (₹)": "779"
+      },
+      {
+        "FG Code": "PGT20 2341",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "55 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,335",
+        "MRP (₹)": "7,308",
+        "MRP/Unit (₹)": "609"
+      },
+      {
+        "FG Code": "PGT20 2345",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,824",
+        "MRP (₹)": "9,348",
+        "MRP/Unit (₹)": "779"
+      },
+      {
+        "FG Code": "PGT20 2382",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,376",
+        "MRP (₹)": "10,104",
+        "MRP/Unit (₹)": "842"
+      },
+      {
+        "FG Code": "PGT20 2404U",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN UNDYED) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,437",
+        "MRP (₹)": "10,188",
+        "MRP/Unit (₹)": "849"
+      },
+      {
+        "FG Code": "PGT30 2328U",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN UNDYED) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,306",
+        "MRP (₹)": "10,008",
+        "MRP/Unit (₹)": "834"
+      },
+      {
+        "FG Code": "PGT30 2401",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,538",
+        "MRP (₹)": "6,216",
+        "MRP/Unit (₹)": "518"
+      },
+      {
+        "FG Code": "PGT30 2437",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,160",
+        "MRP (₹)": "7,068",
+        "MRP/Unit (₹)": "589"
+      },
+      {
+        "FG Code": "PGT30 2472",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,722",
+        "MRP (₹)": "6,468",
+        "MRP/Unit (₹)": "539"
+      },
+      {
+        "FG Code": "PGT30 2516",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,783",
+        "MRP (₹)": "6,552",
+        "MRP/Unit (₹)": "546"
+      },
+      {
+        "FG Code": "PGT30 2936U",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "24 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,097",
+        "MRP (₹)": "8,352",
+        "MRP/Unit (₹)": "696"
+      },
+      {
+        "FG Code": "PGT40 2304",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,317",
+        "MRP (₹)": "7,284",
+        "MRP/Unit (₹)": "607"
+      },
+      {
+        "FG Code": "PGT40 2465",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 45 cm",
+        "Size": "4-0",
+        "Needle Description": "5/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,920",
+        "MRP (₹)": "9,480",
+        "MRP/Unit (₹)": "790"
+      },
+      {
+        "FG Code": "PGT50 2303",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,923",
+        "MRP (₹)": "6,744",
+        "MRP/Unit (₹)": "562"
+      },
+      {
+        "FG Code": "PGT50 2442",
+        "Suture Type & Length": "(POLYGLACTIN 910 TRICLOSAN VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,203",
+        "MRP (₹)": "7,128",
+        "MRP/Unit (₹)": "594"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mitsu-ab.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MITSU AB suture product packaging"
+  },
+  {
+    "id": "mitsu-synthetic-absorbable-braided-coated-polyglactin-910",
+    "title": "MITSU — Synthetic Absorbable Braided Coated Polyglactin 910",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PGN01 2319",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,178",
+        "MRP (₹)": "9,792",
+        "MRP/Unit (₹)": "816"
+      },
+      {
+        "FG Code": "PGN01 2326",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,049",
+        "MRP (₹)": "10,980",
+        "MRP/Unit (₹)": "915"
+      },
+      {
+        "FG Code": "PGN01 2347",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PGN01 2347DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 140 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PGN01 2347DNL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 180 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN01 2347DS",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 110 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,750",
+        "MRP (₹)": "10,572",
+        "MRP/Unit (₹)": "881"
+      },
+      {
+        "FG Code": "PGN01 2347SL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,005",
+        "MRP (₹)": "10,920",
+        "MRP/Unit (₹)": "910"
+      },
+      {
+        "FG Code": "PGN01 2347XL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,527",
+        "MRP (₹)": "8,904",
+        "MRP/Unit (₹)": "742"
+      },
+      {
+        "FG Code": "PGN01 2350",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 120 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,114",
+        "MRP (₹)": "4,248",
+        "MRP/Unit (₹)": "354"
+      },
+      {
+        "FG Code": "PGN01 2359",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,923",
+        "MRP (₹)": "9,444",
+        "MRP/Unit (₹)": "787"
+      },
+      {
+        "FG Code": "PGN01 2360",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,404",
+        "MRP (₹)": "8,736",
+        "MRP/Unit (₹)": "728"
+      },
+      {
+        "FG Code": "PGN01 2363",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,612",
+        "MRP (₹)": "7,656",
+        "MRP/Unit (₹)": "638"
+      },
+      {
+        "FG Code": "PGN01 2364",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,853",
+        "MRP (₹)": "9,348",
+        "MRP/Unit (₹)": "779"
+      },
+      {
+        "FG Code": "PGN01 2421",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,430",
+        "MRP (₹)": "8,772",
+        "MRP/Unit (₹)": "731"
+      },
+      {
+        "FG Code": "PGN01 2422",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PGN01 2438",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,213",
+        "MRP (₹)": "9,840",
+        "MRP/Unit (₹)": "820"
+      },
+      {
+        "FG Code": "PGN01 2448",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,788",
+        "MRP (₹)": "7,896",
+        "MRP/Unit (₹)": "658"
+      },
+      {
+        "FG Code": "PGN01 2448DNL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 180 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,794",
+        "MRP (₹)": "10,632",
+        "MRP/Unit (₹)": "886"
+      },
+      {
+        "FG Code": "PGN01 2449",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,794",
+        "MRP (₹)": "10,632",
+        "MRP/Unit (₹)": "886"
+      },
+      {
+        "FG Code": "PGN01 2486",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "10,000",
+        "MRP (₹)": "13,644",
+        "MRP/Unit (₹)": "1,137"
+      },
+      {
+        "FG Code": "PGN01 2519",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,794",
+        "MRP (₹)": "10,632",
+        "MRP/Unit (₹)": "886"
+      },
+      {
+        "FG Code": "PGN01 2826",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 35 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PGN01 2826XL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,835",
+        "MRP (₹)": "9,324",
+        "MRP/Unit (₹)": "777"
+      },
+      {
+        "FG Code": "PGN01 9335",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 75 cm",
+        "Size": "1",
+        "Needle Description": "J Type Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,645",
+        "MRP (₹)": "6,336",
+        "MRP/Unit (₹)": "528"
+      },
+      {
+        "FG Code": "PGN01 947U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,518",
+        "MRP (₹)": "8,892",
+        "MRP/Unit (₹)": "741"
+      },
+      {
+        "FG Code": "PGN01 9998",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Blunt Point",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "12,729",
+        "MRP (₹)": "17,364",
+        "MRP/Unit (₹)": "1,447"
+      },
+      {
+        "FG Code": "PGN02 2452",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,841",
+        "MRP (₹)": "12,060",
+        "MRP/Unit (₹)": "1,005"
+      },
+      {
+        "FG Code": "PGN02 2478",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,814",
+        "MRP (₹)": "12,024",
+        "MRP/Unit (₹)": "1,002"
+      },
+      {
+        "FG Code": "PGN10 2338",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN10 2342",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PGN10 2346",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN10 2346DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 140 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,750",
+        "MRP (₹)": "10,572",
+        "MRP/Unit (₹)": "881"
+      },
+      {
+        "FG Code": "PGN10 2346DNL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 180 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,005",
+        "MRP (₹)": "10,920",
+        "MRP/Unit (₹)": "910"
+      },
+      {
+        "FG Code": "PGN10 2346DS",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 110 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,398",
+        "MRP (₹)": "10,092",
+        "MRP/Unit (₹)": "841"
+      },
+      {
+        "FG Code": "PGN10 2346SL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,114",
+        "MRP (₹)": "4,248",
+        "MRP/Unit (₹)": "354"
+      },
+      {
+        "FG Code": "PGN10 2358",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,178",
+        "MRP (₹)": "9,792",
+        "MRP/Unit (₹)": "816"
+      },
+      {
+        "FG Code": "PGN10 2517",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,675",
+        "MRP (₹)": "9,144",
+        "MRP/Unit (₹)": "762"
+      },
+      {
+        "FG Code": "PGN10 2518",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,348",
+        "MRP (₹)": "7,296",
+        "MRP/Unit (₹)": "608"
+      },
+      {
+        "FG Code": "PGN10 2534",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,853",
+        "MRP (₹)": "9,348",
+        "MRP/Unit (₹)": "779"
+      },
+      {
+        "FG Code": "PGN10 2546",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PGN10 2825",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,322",
+        "MRP (₹)": "7,260",
+        "MRP/Unit (₹)": "605"
+      },
+      {
+        "FG Code": "PGN10 2901",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,542",
+        "MRP (₹)": "7,560",
+        "MRP/Unit (₹)": "630"
+      },
+      {
+        "FG Code": "PGN10 2996",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Blunt Point",
+        "Needle Dimension": "31 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,556",
+        "MRP (₹)": "10,308",
+        "MRP/Unit (₹)": "859"
+      },
+      {
+        "FG Code": "PGN10 946U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,841",
+        "MRP (₹)": "12,060",
+        "MRP/Unit (₹)": "1,005"
+      },
+      {
+        "FG Code": "PGN10 9901U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 75 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PGN20 2122",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      },
+      {
+        "FG Code": "PGN20 2316",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,498",
+        "MRP (₹)": "7,500",
+        "MRP/Unit (₹)": "625"
+      },
+      {
+        "FG Code": "PGN20 2317",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN20 2317DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 140 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,457",
+        "MRP (₹)": "8,808",
+        "MRP/Unit (₹)": "734"
+      },
+      {
+        "FG Code": "PGN20 2317SL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,211",
+        "MRP (₹)": "4,380",
+        "MRP/Unit (₹)": "365"
+      },
+      {
+        "FG Code": "PGN20 2318DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,293",
+        "MRP (₹)": "9,948",
+        "MRP/Unit (₹)": "829"
+      },
+      {
+        "FG Code": "PGN20 2341",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,838",
+        "MRP (₹)": "6,600",
+        "MRP/Unit (₹)": "550"
+      },
+      {
+        "FG Code": "PGN20 2345",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN20 2356",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,178",
+        "MRP (₹)": "9,792",
+        "MRP/Unit (₹)": "816"
+      },
+      {
+        "FG Code": "PGN20 2356SL",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 35 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,877",
+        "MRP (₹)": "3,924",
+        "MRP/Unit (₹)": "327"
+      },
+      {
+        "FG Code": "PGN20 2382",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,738",
+        "MRP (₹)": "9,192",
+        "MRP/Unit (₹)": "766"
+      },
+      {
+        "FG Code": "PGN20 2390U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 75 cm",
+        "Size": "2-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,522",
+        "MRP (₹)": "6,168",
+        "MRP/Unit (₹)": "514"
+      },
+      {
+        "FG Code": "PGN20 2404U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,237",
+        "MRP (₹)": "8,508",
+        "MRP/Unit (₹)": "709"
+      },
+      {
+        "FG Code": "PGN20 2903",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "19 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      },
+      {
+        "FG Code": "PGN20 323",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "15,386",
+        "MRP (₹)": "20,988",
+        "MRP/Unit (₹)": "1,749"
+      },
+      {
+        "FG Code": "PGN20 602",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "5/8 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "11,084",
+        "MRP (₹)": "15,120",
+        "MRP/Unit (₹)": "1,260"
+      },
+      {
+        "FG Code": "PGN20 9350",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 75 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,099",
+        "MRP (₹)": "9,684",
+        "MRP/Unit (₹)": "807"
+      },
+      {
+        "FG Code": "PGN20 945U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,205",
+        "MRP (₹)": "9,828",
+        "MRP/Unit (₹)": "819"
+      },
+      {
+        "FG Code": "PGN20 9828",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 75 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,641",
+        "MRP (₹)": "13,152",
+        "MRP/Unit (₹)": "1,096"
+      },
+      {
+        "FG Code": "PGN20 9123",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,498",
+        "MRP (₹)": "7,584",
+        "MRP/Unit (₹)": "632"
+      },
+      {
+        "FG Code": "PGN30 2123",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      },
+      {
+        "FG Code": "PGN30 2328U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,202",
+        "MRP (₹)": "8,460",
+        "MRP/Unit (₹)": "705"
+      },
+      {
+        "FG Code": "PGN30 2401",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,266",
+        "MRP (₹)": "5,820",
+        "MRP/Unit (₹)": "485"
+      },
+      {
+        "FG Code": "PGN30 2402U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "19 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,554",
+        "MRP (₹)": "8,940",
+        "MRP/Unit (₹)": "745"
+      },
+      {
+        "FG Code": "PGN30 2407",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,871",
+        "MRP (₹)": "5,280",
+        "MRP/Unit (₹)": "440"
+      },
+      {
+        "FG Code": "PGN30 2436DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,164",
+        "MRP (₹)": "7,044",
+        "MRP/Unit (₹)": "587"
+      },
+      {
+        "FG Code": "PGN30 2437",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,372",
+        "MRP (₹)": "5,964",
+        "MRP/Unit (₹)": "497"
+      },
+      {
+        "FG Code": "PGN30 2471",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,856",
+        "MRP (₹)": "6,624",
+        "MRP/Unit (₹)": "552"
+      },
+      {
+        "FG Code": "PGN30 2472",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,436",
+        "MRP (₹)": "7,416",
+        "MRP/Unit (₹)": "618"
+      },
+      {
+        "FG Code": "PGN30 2515",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "17 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,897",
+        "MRP (₹)": "5,316",
+        "MRP/Unit (₹)": "443"
+      },
+      {
+        "FG Code": "PGN30 2516",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,504",
+        "MRP (₹)": "6,144",
+        "MRP/Unit (₹)": "512"
+      },
+      {
+        "FG Code": "PGN30 322",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "14,752",
+        "MRP (₹)": "20,124",
+        "MRP/Unit (₹)": "1,677"
+      },
+      {
+        "FG Code": "PGN30 683U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "24 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,193",
+        "MRP (₹)": "12,540",
+        "MRP/Unit (₹)": "1,045"
+      },
+      {
+        "FG Code": "PGN30 936U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "24 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,580",
+        "MRP (₹)": "13,068",
+        "MRP/Unit (₹)": "1,089"
+      },
+      {
+        "FG Code": "PGN40 2304",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,091",
+        "MRP (₹)": "5,580",
+        "MRP/Unit (₹)": "465"
+      },
+      {
+        "FG Code": "PGN40 2305",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,871",
+        "MRP (₹)": "5,280",
+        "MRP/Unit (₹)": "440"
+      },
+      {
+        "FG Code": "PGN40 2354DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting / 1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,193",
+        "MRP (₹)": "12,540",
+        "MRP/Unit (₹)": "1,045"
+      },
+      {
+        "FG Code": "PGN40 2388",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,401",
+        "MRP (₹)": "7,368",
+        "MRP/Unit (₹)": "614"
+      },
+      {
+        "FG Code": "PGN40 2443U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,386",
+        "MRP (₹)": "8,712",
+        "MRP/Unit (₹)": "726"
+      },
+      {
+        "FG Code": "PGN40 2494",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,469",
+        "MRP (₹)": "6,096",
+        "MRP/Unit (₹)": "508"
+      },
+      {
+        "FG Code": "PGN50 2303",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,871",
+        "MRP (₹)": "5,280",
+        "MRP/Unit (₹)": "440"
+      },
+      {
+        "FG Code": "PGN50 2464U",
+        "Suture Type & Length": "(POLYGLACTIN 910 UNDYED) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "Compound Curve Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,542",
+        "MRP (₹)": "7,560",
+        "MRP/Unit (₹)": "630"
+      },
+      {
+        "FG Code": "PGN50 2493",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,284",
+        "MRP (₹)": "5,844",
+        "MRP/Unit (₹)": "487"
+      },
+      {
+        "FG Code": "PGN50 511",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "20,435",
+        "MRP (₹)": "27,876",
+        "MRP/Unit (₹)": "2,323"
+      },
+      {
+        "FG Code": "PGN60 2671",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 45 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,947",
+        "MRP (₹)": "4,020",
+        "MRP/Unit (₹)": "335"
+      },
+      {
+        "FG Code": "PGN60 9172",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 30 cm",
+        "Size": "6-0",
+        "Needle Description": "5/8 Circle Taper Cut",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,020",
+        "MRP (₹)": "5,484",
+        "MRP/Unit (₹)": "457"
+      },
+      {
+        "FG Code": "PGN60 9575",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 30 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "9.3 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "10,583",
+        "MRP (₹)": "14,436",
+        "MRP/Unit (₹)": "1,203"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mitsu-plain-v2.jpg",
+    "catalogueImageSource": "Meril Life Sciences official IndiaMART storefront listing showing genuine MITSU suture product packaging"
+  },
+  {
+    "id": "mitsu-cls-sutures-synthetic-absorbable-braided-coated-polyglactin-910-non-needled-precut-3-45-cm",
+    "title": "MITSU CLS SUTURES — Synthetic Absorbable Braided Coated Polyglactin 910 Non Needled Precut (3 × 45 cm)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PGNS10 2601",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 135 cm — (3 x 45 cm)",
+        "Size": "0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,920",
+        "MRP (₹)": "8,076",
+        "MRP/Unit (₹)": "673"
+      },
+      {
+        "FG Code": "PGNS20 2602",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 135 cm — (3 x 45 cm)",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,920",
+        "MRP (₹)": "8,076",
+        "MRP/Unit (₹)": "673"
+      },
+      {
+        "FG Code": "PGNS30 2603",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 135 cm — (3 x 45 cm)",
+        "Size": "3-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,164",
+        "MRP (₹)": "7,044",
+        "MRP/Unit (₹)": "587"
+      },
+      {
+        "FG Code": "PGNS40 2604",
+        "Suture Type & Length": "(POLYGLACTIN 910 VIOLET) 135 cm — (3 x 45 cm)",
+        "Size": "4-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mitsu-plain-v2.jpg",
+    "catalogueImageSource": "Meril Life Sciences official IndiaMART storefront listing showing genuine MITSU suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "mitsu-c-synthetic-absorbable-braided-coated-polyglactin-910-with-chlorhexidine",
+    "title": "MITSU C+ — Synthetic Absorbable Braided Coated Polyglactin 910 with Chlorhexidine",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PGP01 2347",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,069",
+        "MRP (₹)": "12,372",
+        "MRP/Unit (₹)": "1,031"
+      },
+      {
+        "FG Code": "PGP01 2350",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 120 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,738",
+        "MRP (₹)": "9,192",
+        "MRP/Unit (₹)": "766"
+      },
+      {
+        "FG Code": "PGP01 2359",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,923",
+        "MRP (₹)": "9,444",
+        "MRP/Unit (₹)": "787"
+      },
+      {
+        "FG Code": "PGP01 2360",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,299",
+        "MRP (₹)": "8,592",
+        "MRP/Unit (₹)": "716"
+      },
+      {
+        "FG Code": "PGP01 2421",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,407",
+        "MRP (₹)": "10,104",
+        "MRP/Unit (₹)": "842"
+      },
+      {
+        "FG Code": "PGP01 2519",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,803",
+        "MRP (₹)": "10,644",
+        "MRP/Unit (₹)": "887"
+      },
+      {
+        "FG Code": "PGP01 2826",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 35 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,680",
+        "MRP (₹)": "10,476",
+        "MRP/Unit (₹)": "873"
+      },
+      {
+        "FG Code": "PGP01 2826XL",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,032",
+        "MRP (₹)": "6,864",
+        "MRP/Unit (₹)": "572"
+      },
+      {
+        "FG Code": "PGP02 2478",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "—",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,293",
+        "MRP (₹)": "9,948",
+        "MRP/Unit (₹)": "829"
+      },
+      {
+        "FG Code": "PGP10 2338",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,738",
+        "MRP (₹)": "9,192",
+        "MRP/Unit (₹)": "766"
+      },
+      {
+        "FG Code": "PGP10 2346",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,738",
+        "MRP (₹)": "9,192",
+        "MRP/Unit (₹)": "766"
+      },
+      {
+        "FG Code": "PGP10 2358",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body (HEAVY)",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,407",
+        "MRP (₹)": "10,104",
+        "MRP/Unit (₹)": "842"
+      },
+      {
+        "FG Code": "PGP10 2517",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,680",
+        "MRP (₹)": "10,476",
+        "MRP/Unit (₹)": "873"
+      },
+      {
+        "FG Code": "PGP10 2518",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,779",
+        "MRP (₹)": "7,884",
+        "MRP/Unit (₹)": "657"
+      },
+      {
+        "FG Code": "PGP10 2534",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,407",
+        "MRP (₹)": "10,104",
+        "MRP/Unit (₹)": "842"
+      },
+      {
+        "FG Code": "PGP10 946U",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE UNDYED) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,553",
+        "MRP (₹)": "13,032",
+        "MRP/Unit (₹)": "1,086"
+      },
+      {
+        "FG Code": "PGP20 2317",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,738",
+        "MRP (₹)": "9,192",
+        "MRP/Unit (₹)": "766"
+      },
+      {
+        "FG Code": "PGP20 2357",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body (HEAVY / OBG)",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,398",
+        "MRP (₹)": "10,092",
+        "MRP/Unit (₹)": "841"
+      },
+      {
+        "FG Code": "PGP20 2382",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,284",
+        "MRP (₹)": "9,936",
+        "MRP/Unit (₹)": "828"
+      },
+      {
+        "FG Code": "PGP20 2404U",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE UNDYED) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PGP20 945U",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE UNDYED) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,856",
+        "MRP (₹)": "10,716",
+        "MRP/Unit (₹)": "893"
+      },
+      {
+        "FG Code": "PGP30 2328U",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE UNDYED) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,703",
+        "MRP (₹)": "9,144",
+        "MRP/Unit (₹)": "762"
+      },
+      {
+        "FG Code": "PGP30 2437",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,715",
+        "MRP (₹)": "6,432",
+        "MRP/Unit (₹)": "536"
+      },
+      {
+        "FG Code": "PGP30 2472",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,612",
+        "MRP (₹)": "7,656",
+        "MRP/Unit (₹)": "638"
+      },
+      {
+        "FG Code": "PGP30 2516",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PGP30 936U",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "24 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,715",
+        "MRP (₹)": "6,432",
+        "MRP/Unit (₹)": "536"
+      },
+      {
+        "FG Code": "PGP40 2304",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,612",
+        "MRP (₹)": "7,656",
+        "MRP/Unit (₹)": "638"
+      },
+      {
+        "FG Code": "PGP50 2303",
+        "Suture Type & Length": "(POLYGLACTIN 910 CHLORHEXIDINE VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mitsu-c-plus.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MITSU C+ suture product packaging"
+  },
+  {
+    "id": "mitsu-fst-synthetic-absorbable-braided-coated-polyglactin-910-fast-all-undyed",
+    "title": "MITSU FST — Synthetic Absorbable Braided Coated Polyglactin 910 Fast (all Undyed)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PGF10 2721",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 45 cm",
+        "Size": "0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,430",
+        "MRP (₹)": "8,772",
+        "MRP/Unit (₹)": "731"
+      },
+      {
+        "FG Code": "PGF10 2763",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 75 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "10,706",
+        "MRP (₹)": "14,604",
+        "MRP/Unit (₹)": "1,217"
+      },
+      {
+        "FG Code": "PGF10 2763RB",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,451",
+        "MRP (₹)": "6,072",
+        "MRP/Unit (₹)": "506"
+      },
+      {
+        "FG Code": "PGF10 9963",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,275",
+        "MRP (₹)": "5,832",
+        "MRP/Unit (₹)": "486"
+      },
+      {
+        "FG Code": "PGF20 2720",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 75 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,472",
+        "MRP (₹)": "3,372",
+        "MRP/Unit (₹)": "281"
+      },
+      {
+        "FG Code": "PGF20 2761",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 470 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,173",
+        "MRP (₹)": "7,056",
+        "MRP/Unit (₹)": "588"
+      },
+      {
+        "FG Code": "PGF20 2761RB",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 60 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,049",
+        "MRP (₹)": "6,888",
+        "MRP/Unit (₹)": "574"
+      },
+      {
+        "FG Code": "PGF20 2762",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,659",
+        "MRP (₹)": "9,084",
+        "MRP/Unit (₹)": "757"
+      },
+      {
+        "FG Code": "PGF20 2762XL",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 45 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,008",
+        "MRP (₹)": "4,104",
+        "MRP/Unit (₹)": "342"
+      },
+      {
+        "FG Code": "PGF20 2777DN",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle RC / 1/2 Circle RB Double Needle",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,885",
+        "MRP (₹)": "3,936",
+        "MRP/Unit (₹)": "328"
+      },
+      {
+        "FG Code": "PGF20 9933",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 45 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,286",
+        "MRP (₹)": "3,132",
+        "MRP/Unit (₹)": "261"
+      },
+      {
+        "FG Code": "PGF30 2719",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 75 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,243",
+        "MRP (₹)": "7,152",
+        "MRP/Unit (₹)": "596"
+      },
+      {
+        "FG Code": "PGF30 2732",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 140 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,430",
+        "MRP (₹)": "8,772",
+        "MRP/Unit (₹)": "731"
+      },
+      {
+        "FG Code": "PGF30 2732SL",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 110 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,803",
+        "MRP (₹)": "10,644",
+        "MRP/Unit (₹)": "887"
+      },
+      {
+        "FG Code": "PGF30 2735",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,920",
+        "MRP (₹)": "8,076",
+        "MRP/Unit (₹)": "673"
+      },
+      {
+        "FG Code": "PGF30 2764",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 100 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,827",
+        "MRP (₹)": "5,220",
+        "MRP/Unit (₹)": "435"
+      },
+      {
+        "FG Code": "PGF30 9919",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 100 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,495",
+        "MRP (₹)": "6,132",
+        "MRP/Unit (₹)": "511"
+      },
+      {
+        "FG Code": "PGF30 9935",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 60 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,586",
+        "MRP (₹)": "3,528",
+        "MRP/Unit (₹)": "294"
+      },
+      {
+        "FG Code": "PGF40 2718",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      },
+      {
+        "FG Code": "PGF40 9918",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST UNDYED) 110 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,398",
+        "MRP (₹)": "6,000",
+        "MRP/Unit (₹)": "500"
+      },
+      {
+        "FG Code": "PGF50 9915",
+        "Suture Type & Length": "(POLYGLACTIN 910 FAST) 110 cm UNDYED",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "11 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,401",
+        "MRP (₹)": "7,368",
+        "MRP/Unit (₹)": "614"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mitsu-fst.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MITSU FST suture product packaging"
+  },
+  {
+    "id": "megasorb-synthetic-absorbable-braided-coated-polyglycolic-acid",
+    "title": "MEGASORB — Synthetic Absorbable Braided Coated Polyglycolic Acid",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "MS2478",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,999",
+        "MRP (₹)": "9,588",
+        "MRP/Unit (₹)": "799"
+      },
+      {
+        "FG Code": "MS2347",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,102",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "MS2347DN",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 140 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,175",
+        "MRP (₹)": "8,424",
+        "MRP/Unit (₹)": "702"
+      },
+      {
+        "FG Code": "MS2347DNL",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 180 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,600",
+        "MRP (₹)": "10,368",
+        "MRP/Unit (₹)": "864"
+      },
+      {
+        "FG Code": "MS2347DS",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 110 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,753",
+        "MRP (₹)": "7,848",
+        "MRP/Unit (₹)": "654"
+      },
+      {
+        "FG Code": "MS2347S",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 45 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,762",
+        "MRP (₹)": "3,768",
+        "MRP/Unit (₹)": "314"
+      },
+      {
+        "FG Code": "MS2359",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,011",
+        "MRP (₹)": "5,472",
+        "MRP/Unit (₹)": "456"
+      },
+      {
+        "FG Code": "MS2360",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body Heavy",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,340",
+        "MRP (₹)": "7,284",
+        "MRP/Unit (₹)": "607"
+      },
+      {
+        "FG Code": "MS2421",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,035",
+        "MRP (₹)": "8,232",
+        "MRP/Unit (₹)": "686"
+      },
+      {
+        "FG Code": "MS2160DN",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 180 cm",
+        "Size": "1",
+        "Needle Description": "3/8 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,776",
+        "MRP (₹)": "10,608",
+        "MRP/Unit (₹)": "884"
+      },
+      {
+        "FG Code": "MS2338",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,102",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "MS2346",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,102",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "MS2346DN",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 140 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,102",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "MS2346DNL",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 180 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,175",
+        "MRP (₹)": "8,424",
+        "MRP/Unit (₹)": "702"
+      },
+      {
+        "FG Code": "MS2346S",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,600",
+        "MRP (₹)": "10,368",
+        "MRP/Unit (₹)": "864"
+      },
+      {
+        "FG Code": "MS2518",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,762",
+        "MRP (₹)": "3,768",
+        "MRP/Unit (₹)": "314"
+      },
+      {
+        "FG Code": "MS2518SL",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 45 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,451",
+        "MRP (₹)": "6,072",
+        "MRP/Unit (₹)": "506"
+      },
+      {
+        "FG Code": "MS2534",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,408",
+        "MRP (₹)": "4,668",
+        "MRP/Unit (₹)": "389"
+      },
+      {
+        "FG Code": "MS2346U",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID UNDYED) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,639",
+        "MRP (₹)": "7,692",
+        "MRP/Unit (₹)": "641"
+      },
+      {
+        "FG Code": "MS2317",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,173",
+        "MRP (₹)": "7,056",
+        "MRP/Unit (₹)": "588"
+      },
+      {
+        "FG Code": "MS2317DN",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 140 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body / 1/2 Circle Tapercut Double Needle",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,102",
+        "MRP (₹)": "6,960",
+        "MRP/Unit (₹)": "580"
+      },
+      {
+        "FG Code": "MS2345",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,175",
+        "MRP (₹)": "8,424",
+        "MRP/Unit (₹)": "702"
+      },
+      {
+        "FG Code": "MS2382",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,340",
+        "MRP (₹)": "7,284",
+        "MRP/Unit (₹)": "607"
+      },
+      {
+        "FG Code": "MS2437",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,651",
+        "MRP (₹)": "4,980",
+        "MRP/Unit (₹)": "415"
+      },
+      {
+        "FG Code": "MS2472",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,469",
+        "MRP (₹)": "6,096",
+        "MRP/Unit (₹)": "508"
+      },
+      {
+        "FG Code": "MS9932U",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID UNDYED) 75 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,390",
+        "MRP (₹)": "5,988",
+        "MRP/Unit (₹)": "499"
+      },
+      {
+        "FG Code": "MS2494",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 45 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,264",
+        "MRP (₹)": "4,452",
+        "MRP/Unit (₹)": "371"
+      },
+      {
+        "FG Code": "MS2304",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,390",
+        "MRP (₹)": "5,988",
+        "MRP/Unit (₹)": "499"
+      },
+      {
+        "FG Code": "MS9918U",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID UNDYED) 75 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,149",
+        "MRP (₹)": "4,296",
+        "MRP/Unit (₹)": "358"
+      },
+      {
+        "FG Code": "MS2305",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,973",
+        "MRP (₹)": "4,056",
+        "MRP/Unit (₹)": "338"
+      },
+      {
+        "FG Code": "MS2303",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 45 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,803",
+        "MRP (₹)": "6,552",
+        "MRP/Unit (₹)": "546"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/megasorb.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MEGASORB suture product packaging"
+  },
+  {
+    "id": "megasorb-cls-sutures-non-needled-precut",
+    "title": "MEGASORB CLS SUTURES — Non Needled Precut",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "MS2614NS",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 180 cm",
+        "Size": "0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,803",
+        "MRP (₹)": "6,552",
+        "MRP/Unit (₹)": "546"
+      },
+      {
+        "FG Code": "MS2615NS",
+        "Suture Type & Length": "(POLYGLYCOLIC ACID VIOLET) 180 cm",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,803",
+        "MRP (₹)": "6,552",
+        "MRP/Unit (₹)": "546"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/megasorb.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MEGASORB suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "filaxyn-synthetic-absorbable-monofilament-polydioxanone",
+    "title": "FILAXYN — Synthetic Absorbable Monofilament Polydioxanone",
+    "overview": "Marketing headline: **\"FILAXYN™ — Polydioxanone — Enduring Strength for long-term wound support\"**\n\nAbsorption profile diagram: \"60% retention of tensile strength at 28 days, complete absorption at 180-210 days\"\n\nRelated: \"Also available - FASIATUF SUTURE\" and Loop Suture illustration.",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PDX01 9221",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,856",
+        "MRP (₹)": "10,716",
+        "MRP/Unit (₹)": "893"
+      },
+      {
+        "FG Code": "PDX01 9234",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "48 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,644",
+        "MRP (₹)": "10,428",
+        "MRP/Unit (₹)": "869"
+      },
+      {
+        "FG Code": "PDX01 9248",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,293",
+        "MRP (₹)": "9,948",
+        "MRP/Unit (₹)": "829"
+      },
+      {
+        "FG Code": "PDX01 9255",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,266",
+        "MRP (₹)": "9,912",
+        "MRP/Unit (₹)": "826"
+      },
+      {
+        "FG Code": "PDX01 9262",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 150 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body Loop",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,416",
+        "MRP (₹)": "10,116",
+        "MRP/Unit (₹)": "843"
+      },
+      {
+        "FG Code": "PDX01 9352",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,199",
+        "MRP (₹)": "11,184",
+        "MRP/Unit (₹)": "932"
+      },
+      {
+        "FG Code": "PDX01 9352TC",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,081",
+        "MRP (₹)": "9,660",
+        "MRP/Unit (₹)": "805"
+      },
+      {
+        "FG Code": "PDX01 9374",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,680",
+        "MRP (₹)": "10,476",
+        "MRP/Unit (₹)": "873"
+      },
+      {
+        "FG Code": "PDX01 9367",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 150 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body LOOP CODE",
+        "Needle Dimension": "44 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,008",
+        "MRP (₹)": "8,196",
+        "MRP/Unit (₹)": "683"
+      },
+      {
+        "FG Code": "PDX02 9249",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,201",
+        "MRP (₹)": "12,552",
+        "MRP/Unit (₹)": "1,046"
+      },
+      {
+        "FG Code": "PDX10 9210",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,325",
+        "MRP (₹)": "12,720",
+        "MRP/Unit (₹)": "1,060"
+      },
+      {
+        "FG Code": "PDX10 9233",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,436",
+        "MRP (₹)": "11,508",
+        "MRP/Unit (₹)": "959"
+      },
+      {
+        "FG Code": "PDX10 9254",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "44 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,600",
+        "MRP (₹)": "10,368",
+        "MRP/Unit (₹)": "864"
+      },
+      {
+        "FG Code": "PDX10 9261",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 150 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body Loop",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,659",
+        "MRP (₹)": "9,084",
+        "MRP/Unit (₹)": "757"
+      },
+      {
+        "FG Code": "PDX10 9371",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,081",
+        "MRP (₹)": "9,660",
+        "MRP/Unit (₹)": "805"
+      },
+      {
+        "FG Code": "PDX10 9371TC",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,049",
+        "MRP (₹)": "10,980",
+        "MRP/Unit (₹)": "915"
+      },
+      {
+        "FG Code": "PDX20 9133",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "31 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,556",
+        "MRP (₹)": "10,308",
+        "MRP/Unit (₹)": "859"
+      },
+      {
+        "FG Code": "PDX30 9116",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,917",
+        "MRP (₹)": "10,800",
+        "MRP/Unit (₹)": "900"
+      },
+      {
+        "FG Code": "PDX30 9132",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "31 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,416",
+        "MRP (₹)": "10,116",
+        "MRP/Unit (₹)": "843"
+      },
+      {
+        "FG Code": "PDX30 9237",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,257",
+        "MRP (₹)": "9,900",
+        "MRP/Unit (₹)": "825"
+      },
+      {
+        "FG Code": "PDX30 9332DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,688",
+        "MRP (₹)": "10,488",
+        "MRP/Unit (₹)": "874"
+      },
+      {
+        "FG Code": "PDX30 9336DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 75 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,923",
+        "MRP (₹)": "9,444",
+        "MRP/Unit (₹)": "787"
+      },
+      {
+        "FG Code": "PDX30 0968",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,486",
+        "MRP (₹)": "10,212",
+        "MRP/Unit (₹)": "851"
+      },
+      {
+        "FG Code": "PDX40 9102",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 45 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,559",
+        "MRP (₹)": "11,676",
+        "MRP/Unit (₹)": "973"
+      },
+      {
+        "FG Code": "PDX40 9109DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "27 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,149",
+        "MRP (₹)": "4,296",
+        "MRP/Unit (₹)": "358"
+      },
+      {
+        "FG Code": "PDX40 9115",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,680",
+        "MRP (₹)": "10,476",
+        "MRP/Unit (₹)": "873"
+      },
+      {
+        "FG Code": "PDX40 9304",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "17 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,946",
+        "MRP (₹)": "12,204",
+        "MRP/Unit (₹)": "1,017"
+      },
+      {
+        "FG Code": "PDX50 1013",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,257",
+        "MRP (₹)": "9,900",
+        "MRP/Unit (₹)": "825"
+      },
+      {
+        "FG Code": "PDX50 9201DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,416",
+        "MRP (₹)": "10,116",
+        "MRP/Unit (₹)": "843"
+      },
+      {
+        "FG Code": "PDX50 9733",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,052",
+        "MRP (₹)": "12,348",
+        "MRP/Unit (₹)": "1,029"
+      },
+      {
+        "FG Code": "PDX60 127DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 75 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,190",
+        "MRP (₹)": "11,172",
+        "MRP/Unit (₹)": "931"
+      },
+      {
+        "FG Code": "PDX60 9091DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 45 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "24,226",
+        "MRP (₹)": "33,048",
+        "MRP/Unit (₹)": "2,754"
+      },
+      {
+        "FG Code": "PDX60 9093DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 45 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "12,104",
+        "MRP (₹)": "16,512",
+        "MRP/Unit (₹)": "1,376"
+      },
+      {
+        "FG Code": "PDX60 0487",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 45 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "8 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,712",
+        "MRP (₹)": "13,248",
+        "MRP/Unit (₹)": "1,104"
+      },
+      {
+        "FG Code": "PDX70 155DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 60 cm",
+        "Size": "7-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "11 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,122",
+        "MRP (₹)": "12,444",
+        "MRP/Unit (₹)": "1,037"
+      },
+      {
+        "FG Code": "PDX70 1711DN",
+        "Suture Type & Length": "(POLYDIOXANONE VIOLET) 70 cm",
+        "Size": "7-0",
+        "Needle Description": "3/8 Circle Tapercut Double Needle",
+        "Needle Dimension": "11 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "14,365",
+        "MRP (₹)": "19,596",
+        "MRP/Unit (₹)": "1,633"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filaxyn.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAXYN suture product packaging"
+  },
+  {
+    "id": "filapron-synthetic-absorbable-monofilament-polyglecaprone-25",
+    "title": "FILAPRON — Synthetic Absorbable Monofilament Polyglecaprone 25",
+    "overview": "Marketing headline: **\"FILAPRON™ — Polyglecaprone 25 Suture — A Reliable choice for scarless Sub-cuticular suturing\"**\n\nAbsorption profile: \"60-90% retention of tensile strength at 7 days, complete absorption at 90-110 days\"\n\nRelated: \"Also available - SubK SUTURE\"",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PCL10 1245U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 45 cm",
+        "Size": "1-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "9 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "11,348",
+        "MRP (₹)": "15,480",
+        "MRP/Unit (₹)": "1,290"
+      },
+      {
+        "FG Code": "PCL10 1642U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "1-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "9.3 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,466",
+        "MRP (₹)": "4,728",
+        "MRP/Unit (₹)": "394"
+      },
+      {
+        "FG Code": "PCL10 1742V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "1-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "23 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,041",
+        "MRP (₹)": "6,876",
+        "MRP/Unit (₹)": "573"
+      },
+      {
+        "FG Code": "PCL20 1602U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "5/8 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      },
+      {
+        "FG Code": "PCL20 1665U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,398",
+        "MRP (₹)": "10,092",
+        "MRP/Unit (₹)": "841"
+      },
+      {
+        "FG Code": "PCL20 1666U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PCL20 1765V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,076",
+        "MRP (₹)": "6,924",
+        "MRP/Unit (₹)": "577"
+      },
+      {
+        "FG Code": "PCL20 3441V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "36 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,826",
+        "MRP (₹)": "13,404",
+        "MRP/Unit (₹)": "1,117"
+      },
+      {
+        "FG Code": "PCL20 3665V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "9,826",
+        "MRP (₹)": "13,404",
+        "MRP/Unit (₹)": "1,117"
+      },
+      {
+        "FG Code": "PCL30 1326SLU",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "31 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,293",
+        "MRP (₹)": "9,948",
+        "MRP/Unit (₹)": "829"
+      },
+      {
+        "FG Code": "PCL30 1326U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,231",
+        "MRP (₹)": "5,772",
+        "MRP/Unit (₹)": "481"
+      },
+      {
+        "FG Code": "PCL30 1326V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,730",
+        "MRP (₹)": "9,180",
+        "MRP/Unit (₹)": "765"
+      },
+      {
+        "FG Code": "PCL30 1663U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,178",
+        "MRP (₹)": "9,792",
+        "MRP/Unit (₹)": "816"
+      },
+      {
+        "FG Code": "PCL30 1664UB",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,542",
+        "MRP (₹)": "7,560",
+        "MRP/Unit (₹)": "630"
+      },
+      {
+        "FG Code": "PCL30 1737V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,973",
+        "MRP (₹)": "8,148",
+        "MRP/Unit (₹)": "679"
+      },
+      {
+        "FG Code": "PCL30 1764V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,108",
+        "MRP (₹)": "5,604",
+        "MRP/Unit (₹)": "467"
+      },
+      {
+        "FG Code": "PCL30 3326U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,416",
+        "MRP (₹)": "10,116",
+        "MRP/Unit (₹)": "843"
+      },
+      {
+        "FG Code": "PCL30 3650U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,046",
+        "MRP (₹)": "9,612",
+        "MRP/Unit (₹)": "801"
+      },
+      {
+        "FG Code": "PCL40 1205V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,803",
+        "MRP (₹)": "10,644",
+        "MRP/Unit (₹)": "887"
+      },
+      {
+        "FG Code": "PCL40 1648U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,556",
+        "MRP (₹)": "10,308",
+        "MRP/Unit (₹)": "859"
+      },
+      {
+        "FG Code": "PCL40 1748V",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 VIOLET) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,774",
+        "MRP (₹)": "5,148",
+        "MRP/Unit (₹)": "429"
+      },
+      {
+        "FG Code": "PCL60 833U",
+        "Suture Type & Length": "(POLYGLECAPRONE 25 UNDYED) 45 cm",
+        "Size": "6-0",
+        "Needle Description": "SKKI Cutting",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,522",
+        "MRP (₹)": "6,168",
+        "MRP/Unit (₹)": "514"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filapron.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAPRON suture product packaging"
+  },
+  {
+    "id": "filamide-synthetic-non-absorbable-monofilament-polyamide",
+    "title": "FILAMIDE — Synthetic Non-Absorbable Monofilament Polyamide",
+    "overview": "Marketing headline: **\"FILAMIDE™ — Polyamide — Versatility in applications along with exceptional knot security\"**\n\nProduct overview: Structure: Monofilament. Colour: Black. Chemical composition: Polyamide 6-6.6. Sterilization: Gamma radiation. Size: USP 10/0 - USP 2.\n\nKey claims:\n\n- Excellent histocompatibility\n\n- Smooth passage through tissue\n\n- Flexible, easy to handle and tie\n\n\"Available with Elixir Needle to ensure you achieve a good surgical precision — The point of surgical precision\"",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "NYL02 3398",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "2",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "13,485",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "13,485",
+        "MRP (₹)": "18,396",
+        "MRP/Unit (₹)": "1,533"
+      },
+      {
+        "FG Code": "NYL01 3338",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,498",
+        "MRP (₹)": "3,408",
+        "MRP/Unit (₹)": "284"
+      },
+      {
+        "FG Code": "NYL01 3347",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,384",
+        "MRP (₹)": "3,252",
+        "MRP/Unit (₹)": "271"
+      },
+      {
+        "FG Code": "NYL01 3348",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 150 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body LOOP CODE",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,944",
+        "MRP (₹)": "2,652",
+        "MRP/Unit (₹)": "221"
+      },
+      {
+        "FG Code": "NYL01 3362",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,211",
+        "MRP (₹)": "4,380",
+        "MRP/Unit (₹)": "365"
+      },
+      {
+        "FG Code": "NYL01 3397",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "1",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,008",
+        "MRP (₹)": "4,104",
+        "MRP/Unit (₹)": "342"
+      },
+      {
+        "FG Code": "NYL10 3337",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,762",
+        "MRP (₹)": "3,768",
+        "MRP/Unit (₹)": "314"
+      },
+      {
+        "FG Code": "NYL10 3337XL",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 150 cm",
+        "Size": "0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,812",
+        "MRP (₹)": "2,472",
+        "MRP/Unit (₹)": "206"
+      },
+      {
+        "FG Code": "NYL10 3340",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 150 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body LOOP CODE",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,745",
+        "MRP (₹)": "3,744",
+        "MRP/Unit (₹)": "312"
+      },
+      {
+        "FG Code": "NYL10 3346",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 100 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,947",
+        "MRP (₹)": "4,020",
+        "MRP/Unit (₹)": "335"
+      },
+      {
+        "FG Code": "NYL10 3389",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,944",
+        "MRP (₹)": "2,652",
+        "MRP/Unit (₹)": "221"
+      },
+      {
+        "FG Code": "NYL20 3333",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,663",
+        "MRP (₹)": "2,268",
+        "MRP/Unit (₹)": "189"
+      },
+      {
+        "FG Code": "NYL20 3336",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,918",
+        "MRP (₹)": "2,616",
+        "MRP/Unit (₹)": "218"
+      },
+      {
+        "FG Code": "NYL20 3336SL",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 35 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,962",
+        "MRP (₹)": "2,676",
+        "MRP/Unit (₹)": "223"
+      },
+      {
+        "FG Code": "NYL20 3336XL",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 100 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "774",
+        "MRP (₹)": "1,056",
+        "MRP/Unit (₹)": "88"
+      },
+      {
+        "FG Code": "NYL20 3390",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,129",
+        "MRP (₹)": "2,904",
+        "MRP/Unit (₹)": "242"
+      },
+      {
+        "FG Code": "NYL30 3321",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,751",
+        "MRP (₹)": "2,388",
+        "MRP/Unit (₹)": "199"
+      },
+      {
+        "FG Code": "NYL30 3328",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,516",
+        "MRP (₹)": "3,432",
+        "MRP/Unit (₹)": "286"
+      },
+      {
+        "FG Code": "NYL30 3328SL",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 35 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "48 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,891",
+        "MRP (₹)": "2,580",
+        "MRP/Unit (₹)": "215"
+      },
+      {
+        "FG Code": "NYL30 3328ML",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "783",
+        "MRP (₹)": "1,068",
+        "MRP/Unit (₹)": "89"
+      },
+      {
+        "FG Code": "NYL30 3388",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "90 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,874",
+        "MRP (₹)": "2,556",
+        "MRP/Unit (₹)": "213"
+      },
+      {
+        "FG Code": "NYL40 3318",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,366",
+        "MRP (₹)": "3,228",
+        "MRP/Unit (₹)": "269"
+      },
+      {
+        "FG Code": "NYL40 3319",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,665",
+        "MRP (₹)": "3,636",
+        "MRP/Unit (₹)": "303"
+      },
+      {
+        "FG Code": "NYL40 3326XL",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,387",
+        "MRP (₹)": "4,620",
+        "MRP/Unit (₹)": "385"
+      },
+      {
+        "FG Code": "NYL50 3316",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 90 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,751",
+        "MRP (₹)": "2,388",
+        "MRP/Unit (₹)": "199"
+      },
+      {
+        "FG Code": "NYL50 3317",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,665",
+        "MRP (₹)": "3,636",
+        "MRP/Unit (₹)": "303"
+      },
+      {
+        "FG Code": "NYL60 3320",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 70 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,363",
+        "MRP (₹)": "1,860",
+        "MRP/Unit (₹)": "155"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filamide.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAMIDE suture product packaging"
+  },
+  {
+    "id": "filamide-pre-cut-synthetic-non-absorbable-monofilament-polyamide-non-needled-pre-cut-2-76-cm",
+    "title": "FILAMIDE PRE-CUT — Synthetic Non-Absorbable Monofilament Polyamide, Non-Needled Pre-Cut (2 × 76 cm)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "NYS01 705",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 35 cm",
+        "Size": "1",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,138",
+        "MRP (₹)": "2,916",
+        "MRP/Unit (₹)": "243"
+      },
+      {
+        "FG Code": "NYS01 905",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 76 cm",
+        "Size": "1",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,724",
+        "MRP (₹)": "2,352",
+        "MRP/Unit (₹)": "196"
+      },
+      {
+        "FG Code": "NYS02 906",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 76 cm",
+        "Size": "2",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,610",
+        "MRP (₹)": "2,196",
+        "MRP/Unit (₹)": "183"
+      },
+      {
+        "FG Code": "NYS10 904",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 76 cm",
+        "Size": "0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,108",
+        "MRP (₹)": "1,512",
+        "MRP/Unit (₹)": "126"
+      },
+      {
+        "FG Code": "NYS20 703",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 35 cm",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,495",
+        "MRP (₹)": "2,040",
+        "MRP/Unit (₹)": "170"
+      },
+      {
+        "FG Code": "NYS20 903",
+        "Suture Type & Length": "(POLYAMIDE BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,627",
+        "MRP (₹)": "2,220",
+        "MRP/Unit (₹)": "185"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filamide.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAMIDE suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "filamide-pre-cut-synthetic-non-absorbable-monofilament-polyamide-non-needled-pre-cut-5-35-cm",
+    "title": "FILAMIDE PRE-CUT — Synthetic Non-Absorbable Monofilament Polyamide, Non-Needled Pre-Cut (5 × 35 cm)",
+    "overview": "*Note: this second Filamide pre-cut section header appears in the source; two SKUs appear directly under it.*",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "SLS20 223",
+        "Suture Type & Length": "(SILK BLACK) 35 cm",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,495",
+        "MRP (₹)": "2,040",
+        "MRP/Unit (₹)": "170"
+      },
+      {
+        "FG Code": "SLS30 222",
+        "Suture Type & Length": "(SILK BLACK) 35 cm",
+        "Size": "3-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,407",
+        "MRP (₹)": "1,920",
+        "MRP/Unit (₹)": "160"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filamide.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAMIDE suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "filasilk-natural-non-absorbable-braided-silk",
+    "title": "FILASILK — Natural Non-Absorbable Braided Silk",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "SLK01 5062NX",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "1",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,566",
+        "MRP (₹)": "2,136",
+        "MRP/Unit (₹)": "178"
+      },
+      {
+        "FG Code": "SLK01 5005",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,469",
+        "MRP (₹)": "2,004",
+        "MRP/Unit (₹)": "167"
+      },
+      {
+        "FG Code": "SLK010339",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,592",
+        "MRP (₹)": "2,172",
+        "MRP/Unit (₹)": "181"
+      },
+      {
+        "FG Code": "SLK10 5017",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,363",
+        "MRP (₹)": "1,860",
+        "MRP/Unit (₹)": "155"
+      },
+      {
+        "FG Code": "SLK10 5037NX",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,621",
+        "MRP (₹)": "3,576",
+        "MRP/Unit (₹)": "298"
+      },
+      {
+        "FG Code": "SLK10 5332NX",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,366",
+        "MRP (₹)": "3,228",
+        "MRP/Unit (₹)": "269"
+      },
+      {
+        "FG Code": "SLK10 5334",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,750",
+        "MRP (₹)": "6,480",
+        "MRP/Unit (₹)": "540"
+      },
+      {
+        "FG Code": "SLK20 5036NX",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "607",
+        "MRP (₹)": "828",
+        "MRP/Unit (₹)": "69"
+      },
+      {
+        "FG Code": "SLK20 5052",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "871",
+        "MRP (₹)": "1,188",
+        "MRP/Unit (₹)": "99"
+      },
+      {
+        "FG Code": "SLK20 5065",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "739",
+        "MRP (₹)": "1,008",
+        "MRP/Unit (₹)": "84"
+      },
+      {
+        "FG Code": "SLK20 5208",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "Straight Cutting Round Body",
+        "Needle Dimension": "50 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "871",
+        "MRP (₹)": "1,188",
+        "MRP/Unit (₹)": "99"
+      },
+      {
+        "FG Code": "SLK20 5290",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "721",
+        "MRP (₹)": "984",
+        "MRP/Unit (₹)": "82"
+      },
+      {
+        "FG Code": "SLK20 5331NX",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "501",
+        "MRP (₹)": "684",
+        "MRP/Unit (₹)": "57"
+      },
+      {
+        "FG Code": "SLK20 5333",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,610",
+        "MRP (₹)": "2,196",
+        "MRP/Unit (₹)": "183"
+      },
+      {
+        "FG Code": "SLK20 5335",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "35 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,847",
+        "MRP (₹)": "2,520",
+        "MRP/Unit (₹)": "210"
+      },
+      {
+        "FG Code": "SLK20 533VB",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body (V-Black)",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,680",
+        "MRP (₹)": "2,292",
+        "MRP/Unit (₹)": "191"
+      },
+      {
+        "FG Code": "SLK20 5611",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "17 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,610",
+        "MRP (₹)": "2,196",
+        "MRP/Unit (₹)": "183"
+      },
+      {
+        "FG Code": "SLK20 5670",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,847",
+        "MRP (₹)": "2,520",
+        "MRP/Unit (₹)": "210"
+      },
+      {
+        "FG Code": "SLK205231",
+        "Suture Type & Length": "(SILK BLACK) 75 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Cutting",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,680",
+        "MRP (₹)": "2,292",
+        "MRP/Unit (₹)": "191"
+      },
+      {
+        "FG Code": "SLK30 5002",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,460",
+        "MRP (₹)": "1,992",
+        "MRP/Unit (₹)": "166"
+      },
+      {
+        "FG Code": "SLK30 5003",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,874",
+        "MRP (₹)": "2,556",
+        "MRP/Unit (₹)": "213"
+      },
+      {
+        "FG Code": "SLK30 5028NX",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "26 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,085",
+        "MRP (₹)": "2,844",
+        "MRP/Unit (₹)": "237"
+      },
+      {
+        "FG Code": "SLK30 5028SL",
+        "Suture Type & Length": "(SILK BLACK) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,038",
+        "MRP (₹)": "1,416",
+        "MRP/Unit (₹)": "118"
+      },
+      {
+        "FG Code": "SLK30 5064",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,610",
+        "MRP (₹)": "2,196",
+        "MRP/Unit (₹)": "183"
+      },
+      {
+        "FG Code": "SLK30 5070",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,179",
+        "MRP (₹)": "1,608",
+        "MRP/Unit (₹)": "134"
+      },
+      {
+        "FG Code": "SLK30 5085NX",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,575",
+        "MRP (₹)": "2,148",
+        "MRP/Unit (₹)": "179"
+      },
+      {
+        "FG Code": "SLK30 5087NX",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,451",
+        "MRP (₹)": "1,980",
+        "MRP/Unit (₹)": "165"
+      },
+      {
+        "FG Code": "SLK30 5087SL",
+        "Suture Type & Length": "(SILK BLACK) 45 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "35 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "713",
+        "MRP (₹)": "972",
+        "MRP/Unit (₹)": "81"
+      },
+      {
+        "FG Code": "SLK30 5100",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,232",
+        "MRP (₹)": "1,680",
+        "MRP/Unit (₹)": "140"
+      },
+      {
+        "FG Code": "SLK30 587VB",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body (V-Black)",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,363",
+        "MRP (₹)": "1,860",
+        "MRP/Unit (₹)": "155"
+      },
+      {
+        "FG Code": "SLK40 5000NX",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,226",
+        "MRP (₹)": "3,036",
+        "MRP/Unit (₹)": "253"
+      },
+      {
+        "FG Code": "SLK40 5001",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,460",
+        "MRP (₹)": "1,992",
+        "MRP/Unit (₹)": "166"
+      },
+      {
+        "FG Code": "SLK40 5049",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,469",
+        "MRP (₹)": "2,004",
+        "MRP/Unit (₹)": "167"
+      },
+      {
+        "FG Code": "SLK40 5050",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,891",
+        "MRP (₹)": "2,580",
+        "MRP/Unit (₹)": "215"
+      },
+      {
+        "FG Code": "SLK40 5082",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,451",
+        "MRP (₹)": "1,980",
+        "MRP/Unit (₹)": "165"
+      },
+      {
+        "FG Code": "SLK40 5086",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "17 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,882",
+        "MRP (₹)": "2,568",
+        "MRP/Unit (₹)": "214"
+      },
+      {
+        "FG Code": "SLK40 5099",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,874",
+        "MRP (₹)": "2,556",
+        "MRP/Unit (₹)": "213"
+      },
+      {
+        "FG Code": "SLK50 5027",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,275",
+        "MRP (₹)": "5,832",
+        "MRP/Unit (₹)": "486"
+      },
+      {
+        "FG Code": "SLK50 5079",
+        "Suture Type & Length": "(SILK BLACK) 90 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,516",
+        "MRP (₹)": "3,432",
+        "MRP/Unit (₹)": "286"
+      },
+      {
+        "FG Code": "SLK50 5080",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,953",
+        "MRP (₹)": "2,664",
+        "MRP/Unit (₹)": "222"
+      },
+      {
+        "FG Code": "SLK50 5081",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "1,751",
+        "MRP (₹)": "2,388",
+        "MRP/Unit (₹)": "199"
+      },
+      {
+        "FG Code": "SLK50 5095",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,630",
+        "MRP (₹)": "3,588",
+        "MRP/Unit (₹)": "299"
+      },
+      {
+        "FG Code": "SLK60 5012",
+        "Suture Type & Length": "(SILK BLACK) 38 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,909",
+        "MRP (₹)": "6,696",
+        "MRP/Unit (₹)": "558"
+      },
+      {
+        "FG Code": "SLK60 5029",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "8 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,275",
+        "MRP (₹)": "5,832",
+        "MRP/Unit (₹)": "486"
+      },
+      {
+        "FG Code": "SLK60 5088",
+        "Suture Type & Length": "(SILK BLACK) 38 cm",
+        "Size": "6-0",
+        "Needle Description": "1/4 Circle Spatula Point",
+        "Needle Dimension": "—",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,768",
+        "MRP (₹)": "6,504",
+        "MRP/Unit (₹)": "542"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filasilk.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILASILK suture product packaging"
+  },
+  {
+    "id": "filasilk-pre-cut-natural-non-absorbable-braided-silk-non-needled-pre-cut-2-76-cm",
+    "title": "FILASILK PRE-CUT — Natural Non-Absorbable Braided Silk, Non-Needled Pre-Cut (2 × 76 cm)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "SLS03 217",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "783",
+        "MRP (₹)": "1,068",
+        "MRP/Unit (₹)": "89"
+      },
+      {
+        "FG Code": "SLS02 216",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "721",
+        "MRP (₹)": "984",
+        "MRP/Unit (₹)": "82"
+      },
+      {
+        "FG Code": "SLS01 215",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "1",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "545",
+        "MRP (₹)": "744",
+        "MRP/Unit (₹)": "62"
+      },
+      {
+        "FG Code": "SLS10 214",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "607",
+        "MRP (₹)": "828",
+        "MRP/Unit (₹)": "69"
+      },
+      {
+        "FG Code": "SLS20 213",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "510",
+        "MRP (₹)": "696",
+        "MRP/Unit (₹)": "58"
+      },
+      {
+        "FG Code": "SLS30 212",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "3-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "466",
+        "MRP (₹)": "636",
+        "MRP/Unit (₹)": "53"
+      },
+      {
+        "FG Code": "SLS40 211",
+        "Suture Type & Length": "(SILK BLACK) 76 cm",
+        "Size": "4-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "466",
+        "MRP (₹)": "636",
+        "MRP/Unit (₹)": "53"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filasilk.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILASILK suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "filasilk-pre-cut-natural-non-absorbable-braided-silk-non-needled-pre-cut-10-35-cm",
+    "title": "FILASILK PRE-CUT — Natural Non-Absorbable Braided Silk, Non-Needled Pre-Cut (10 × 35 cm)",
+    "overview": "*Note: header printed on page 14 of the source. The two SKUs at the top of the same page (SLS20 223, SLS30 222) may belong here rather than under Filamide Pre-Cut; the source layout is ambiguous. Preserved as printed.*",
+    "features": [],
+    "specifications": [],
+    "skus": [],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filasilk.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILASILK suture product packaging (representative image; same base suture material, non-needled pre-cut variant)"
+  },
+  {
+    "id": "filasilk-reel-natural-non-absorbable-braided-silk-reels-non-sterile",
+    "title": "FILASILK REEL — Natural Non-Absorbable Braided Silk Reels (Non-Sterile)",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "SLK02 826R",
+        "Suture Type & Length": "(SILK BLACK) 25 MTR",
+        "Size": "2",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "3,743",
+        "MRP (₹)": "5,106",
+        "MRP/Unit (₹)": "851"
+      },
+      {
+        "FG Code": "SLK01 825R",
+        "Suture Type & Length": "(SILK BLACK) 25 MTR",
+        "Size": "1",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "3,321",
+        "MRP (₹)": "4,530",
+        "MRP/Unit (₹)": "755"
+      },
+      {
+        "FG Code": "SLK10 824R",
+        "Suture Type & Length": "(SILK BLACK) 25 MTR",
+        "Size": "0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "3,321",
+        "MRP (₹)": "4,530",
+        "MRP/Unit (₹)": "755"
+      },
+      {
+        "FG Code": "SLK20 823R",
+        "Suture Type & Length": "(SILK BLACK) 25 MTR",
+        "Size": "2-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "3,030",
+        "MRP (₹)": "4,134",
+        "MRP/Unit (₹)": "689"
+      },
+      {
+        "FG Code": "SLK30 822R",
+        "Suture Type & Length": "(SILK BLACK) 25 MTR",
+        "Size": "3-0",
+        "Needle Description": "Non-Needled",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "3,030",
+        "MRP (₹)": "4,134",
+        "MRP/Unit (₹)": "689"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filasilk.jpg",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILASILK suture product packaging (representative image; same base suture material, non-sterile reel variant)"
+  },
+  {
+    "id": "filaprop-synthetic-non-absorbable-monofilament-polypropylene",
+    "title": "FILAPROP — Synthetic Non-Absorbable Monofilament Polypropylene",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "PPL01 834",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 150 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body LOOP CODE",
+        "Needle Dimension": "48 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,340",
+        "MRP (₹)": "7,284",
+        "MRP/Unit (₹)": "607"
+      },
+      {
+        "FG Code": "PPL01 840",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,334",
+        "MRP (₹)": "4,548",
+        "MRP/Unit (₹)": "379"
+      },
+      {
+        "FG Code": "PPL01 843",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,510",
+        "MRP (₹)": "4,788",
+        "MRP/Unit (₹)": "399"
+      },
+      {
+        "FG Code": "PPL01 843DS",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "40 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "5,005",
+        "MRP (₹)": "6,828",
+        "MRP/Unit (₹)": "569"
+      },
+      {
+        "FG Code": "PPL01 883",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 100 cm",
+        "Size": "1",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,677",
+        "MRP (₹)": "5,016",
+        "MRP/Unit (₹)": "418"
+      },
+      {
+        "FG Code": "PPL10 830",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,316",
+        "MRP (₹)": "4,524",
+        "MRP/Unit (₹)": "377"
+      },
+      {
+        "FG Code": "PPL10 846",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,651",
+        "MRP (₹)": "4,980",
+        "MRP/Unit (₹)": "415"
+      },
+      {
+        "FG Code": "PPL10 894",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,478",
+        "MRP (₹)": "6,108",
+        "MRP/Unit (₹)": "509"
+      },
+      {
+        "FG Code": "PPL20 807",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Taper Cut",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,519",
+        "MRP (₹)": "4,800",
+        "MRP/Unit (₹)": "400"
+      },
+      {
+        "FG Code": "PPL20 844",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "2-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "30 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,633",
+        "MRP (₹)": "4,956",
+        "MRP/Unit (₹)": "413"
+      },
+      {
+        "FG Code": "PPL30 018",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,545",
+        "MRP (₹)": "4,836",
+        "MRP/Unit (₹)": "403"
+      },
+      {
+        "FG Code": "PPL30 800",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,302",
+        "MRP (₹)": "5,868",
+        "MRP/Unit (₹)": "489"
+      },
+      {
+        "FG Code": "PPL30 825",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,827",
+        "MRP (₹)": "5,220",
+        "MRP/Unit (₹)": "435"
+      },
+      {
+        "FG Code": "PPL30 838",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "25 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,387",
+        "MRP (₹)": "4,620",
+        "MRP/Unit (₹)": "385"
+      },
+      {
+        "FG Code": "PPL30 887",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "20 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,319",
+        "MRP (₹)": "5,892",
+        "MRP/Unit (₹)": "491"
+      },
+      {
+        "FG Code": "PPL30 888",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "3-0",
+        "Needle Description": "Straight Cutting",
+        "Needle Dimension": "60 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "2,877",
+        "MRP (₹)": "3,924",
+        "MRP/Unit (₹)": "327"
+      },
+      {
+        "FG Code": "PPL40 8204SL",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 60 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body Double Needle",
+        "Needle Dimension": "13 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "14,013",
+        "MRP (₹)": "19,116",
+        "MRP/Unit (₹)": "1,593"
+      },
+      {
+        "FG Code": "PPL40 849",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "1/2 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,387",
+        "MRP (₹)": "4,620",
+        "MRP/Unit (₹)": "385"
+      },
+      {
+        "FG Code": "PPL40 870",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "4-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,783",
+        "MRP (₹)": "5,160",
+        "MRP/Unit (₹)": "430"
+      },
+      {
+        "FG Code": "PPL50 881",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,319",
+        "MRP (₹)": "5,892",
+        "MRP/Unit (₹)": "491"
+      },
+      {
+        "FG Code": "PPL50 882DN",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "6,061",
+        "MRP (₹)": "8,268",
+        "MRP/Unit (₹)": "689"
+      },
+      {
+        "FG Code": "PPL100 1713DN",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 23 cm",
+        "Size": "10-0",
+        "Needle Description": "Straight Cutting Double Needle",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "35,961",
+        "MRP (₹)": "49,056",
+        "MRP/Unit (₹)": "4,088"
+      },
+      {
+        "FG Code": "PPL50 827",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Round Body",
+        "Needle Dimension": "16 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,557",
+        "MRP (₹)": "6,216",
+        "MRP/Unit (₹)": "518"
+      },
+      {
+        "FG Code": "PPL50 889",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 90 cm",
+        "Size": "5-0",
+        "Needle Description": "3/8 Circle Reverse Cutting",
+        "Needle Dimension": "12 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "3,598",
+        "MRP (₹)": "4,908",
+        "MRP/Unit (₹)": "409"
+      },
+      {
+        "FG Code": "PPL60 823",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Cutting",
+        "Needle Dimension": "15 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,117",
+        "MRP (₹)": "5,616",
+        "MRP/Unit (₹)": "468"
+      },
+      {
+        "FG Code": "PPL60 895DN",
+        "Suture Type & Length": "(POLYPROPYLENE BLUE) 70 cm",
+        "Size": "6-0",
+        "Needle Description": "3/8 Circle Round Body Double Needle",
+        "Needle Dimension": "10 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "7,134",
+        "MRP (₹)": "9,732",
+        "MRP/Unit (₹)": "811"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/filaprop.webp",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril FILAPROP suture product packaging"
+  },
+  {
+    "id": "mericron-xl-synthetic-non-absorbable-braided-polyester",
+    "title": "MERICRON XL — Synthetic Non-Absorbable Braided Polyester",
+    "overview": "",
+    "features": [],
+    "specifications": [],
+    "skus": [
+      {
+        "FG Code": "ME517G",
+        "Suture Type & Length": "(POLYESTER GREEN) 75 cm",
+        "Size": "0",
+        "Needle Description": "1/2 Circle Reverse Cutting",
+        "Needle Dimension": "22 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "8,014",
+        "MRP (₹)": "10,932",
+        "MRP/Unit (₹)": "911"
+      },
+      {
+        "FG Code": "ME646",
+        "Suture Type & Length": "(POLYESTER GREEN) 75 cm",
+        "Size": "5",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "55 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,653",
+        "MRP (₹)": "6,348",
+        "MRP/Unit (₹)": "529"
+      },
+      {
+        "FG Code": "ME4846",
+        "Suture Type & Length": "(POLYESTER GREEN) 75 cm",
+        "Size": "5",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "55 mm",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "8,168",
+        "MRP (₹)": "11,142",
+        "MRP/Unit (₹)": "1,857"
+      },
+      {
+        "FG Code": "ME643",
+        "Suture Type & Length": "(POLYESTER GREEN) 100 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "12",
+        "Hospital Price (₹)": "4,161",
+        "MRP (₹)": "5,676",
+        "MRP/Unit (₹)": "473"
+      },
+      {
+        "FG Code": "ME4843",
+        "Suture Type & Length": "(POLYESTER GREEN) 75 cm",
+        "Size": "2",
+        "Needle Description": "1/2 Circle Tapercut",
+        "Needle Dimension": "45 mm",
+        "Foils/Box": "6",
+        "Hospital Price (₹)": "7,029",
+        "MRP (₹)": "9,588",
+        "MRP/Unit (₹)": "1,598"
+      }
+    ],
+    "anatomy": [],
+    "raw_html": "",
+    "catalogueImage": "assets/images/web-sourced-meril/mericron-xl.png",
+    "catalogueImageSource": "Distributor listing (indiamart.com) showing genuine Meril MERICRON XL suture product packaging"
+  }
+]
+;

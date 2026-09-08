@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suprane (Desflurane) — Baxter | United Pharma</title>
+  <meta name="description" content="Suprane (Desflurane) by Baxter — volatile inhalational anaesthetic agent. For healthcare professionals. Request product information from United Pharma, Karnataka." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="United Pharma home">
+        <img src="assets/images/united-pharma-logo.png" alt="United Pharma - Healthcare Solutions" width="480" height="126">
+      </a>
+      <ul class="nav-links" role="list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about-our-story.html" class="nav-link">About <span class="chev">▾</span></a><div class="nav-drop"><a href="about-our-story.html">Our Story</a><a href="about-why-united-pharma.html">Why United Pharma</a><a href="about-hospitals-served.html">Hospitals Served</a></div></li>
+        <li class="nav-item">
+          <a href="index.html#solutions-overview" class="nav-link">Solutions</a>
+        </li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="partner-brands.html" class="nav-link">Partner Brands</a></li>
+        <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+      </ul>
+      <div class="nav-cta"><a href="request-information.html" class="btn btn-primary btn-sm" id="nav-request-cta">Request Information <span class="arr">→</span></a></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<!-- BREADCRUMB + HERO (light) -->
+<div style="background: var(--surface); border-bottom: 1px solid var(--border-light); padding: var(--s3) 0;">
+  <div class="container">
+    <nav class="breadcrumb breadcrumb-light" aria-label="Breadcrumb" id="pd-breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="products.html">Products</a>
+      <span class="sep">/</span>
+      <span class="cur" id="pd-bc-title">Product Details</span>
+    </nav>
+  </div>
+</div>
+
+<!-- PRODUCT DETAIL BODY -->
+<section class="section" id="product-detail-main">
+  <div class="container">
+    <div class="sidebar-layout-right">
+
+      <!-- MAIN CONTENT -->
+      <div>
+        <div id="loading-spinner" style="padding: 40px; text-align: center; color: var(--text-muted);">Loading product details...</div>
+        
+        <div id="product-content" style="display: none;">
+          <!-- Product Header -->
+          <div class="flex-between items-start mb-3" style="flex-wrap:wrap; gap:var(--s2);">
+            <div>
+              <div class="flex gap-1 wrap mb-2">
+                <span class="badge b-device" id="pd-type-badge">Product</span>
+                <span class="badge b-available">Available</span>
+                <span class="badge b-hcp">Healthcare Professionals Only</span>
+              </div>
+              <h1 class="h1 text-navy" id="pd-title">Product Name</h1>
+            </div>
+          </div>
+
+          <!-- Product Image / No-Image Placeholder (internal staging preview — not cleared for public publish) -->
+          <div class="pd-hero-image" id="pd-hero-image" style="display:none;">
+            <img id="pd-hero-image-el" src="" alt="" />
+          </div>
+          <div class="pd-hero-placeholder" id="pd-hero-placeholder" style="display:none;">
+            <span class="pd-ph-icon">🖼️</span>
+            <span class="pd-ph-label">Product image available on request</span>
+            <span class="pd-ph-sub">Contact United Pharma for manufacturer photography</span>
+          </div>
+
+          <div class="b-chip mb-3" style="width:fit-content; font-size:13px;" id="pd-brand">
+            <span>Manufacturer Partner</span>
+          </div>
+
+          <!-- Tabs -->
+          <div class="tabs" role="tablist" aria-label="Product sections">
+            <button class="tab-btn active" data-tab="tab-overview" role="tab" aria-selected="true">Overview</button>
+            <button class="tab-btn" data-tab="tab-specs" role="tab" aria-selected="false">Specifications</button>
+            <button class="tab-btn" data-tab="tab-catalogue" role="tab" aria-selected="false">Ordering & SKUs</button>
+          </div>
+
+          <!-- Tab: Overview -->
+          <div class="tab-panel" id="tab-overview" role="tabpanel">
+            <div class="mb-4">
+              <h2 class="h4 text-navy mb-2">Product Overview</h2>
+              <div class="body text-muted" style="line-height:1.75; white-space: pre-wrap;" id="pd-overview"></div>
+            </div>
+
+            <div id="pd-indications-container" style="display: none;" class="mb-4">
+              <hr class="divider" />
+              <h2 class="h4 text-navy mb-2">Clinical Indications</h2>
+              <div class="body text-muted" style="line-height:1.75;" id="pd-indications"></div>
+            </div>
+
+            <div id="pd-contraindications-container" style="display: none;" class="mb-4">
+              <h2 class="h4 text-navy mb-2">Contraindications & Safety</h2>
+              <div class="body text-muted" style="line-height:1.75;" id="pd-contraindications"></div>
+            </div>
+
+            <div id="pd-features-container" style="display: none;">
+              <hr class="divider" />
+              <div class="mb-4">
+                <h2 class="h4 text-navy mb-3">Key Features & Clinical Benefits</h2>
+                <div class="feature-list" id="pd-features"></div>
+              </div>
+            </div>
+            
+            <div id="pd-anatomy-container" style="display: none;">
+              <hr class="divider" />
+              <div class="mb-4">
+                <h2 class="h4 text-navy mb-3">Device Anatomy & Design</h2>
+                <div class="feature-list" id="pd-anatomy"></div>
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div>
+              <a href="products.html" class="btn btn-ghost btn-sm" style="padding-left:0;">← Back to all products</a>
+            </div>
+          </div>
+
+          <!-- Tab: Specifications -->
+          <div class="tab-panel" id="tab-specs" role="tabpanel" style="display:none;">
+            <h2 class="h4 text-navy mb-3">Technical Specifications</h2>
+            <div class="spec-list" id="pd-specs"></div>
+          </div>
+
+          <!-- Tab: Catalogue -->
+          <div class="tab-panel" id="tab-catalogue" role="tabpanel" style="display:none;">
+            <h2 class="h4 text-navy mb-3">Ordering Information & SKUs</h2>
+            <div style="overflow-x: auto;">
+              <table class="data-table" id="pd-sku-table">
+                <thead id="pd-sku-head"></thead>
+                <tbody id="pd-sku-body"></tbody>
+              </table>
+            </div>
+            <p class="sm text-muted" style="margin-top:var(--s3); font-style:italic;">* No public pricing. Institutional hospital pricing is provided upon verified request.</p>
+          </div>
+
+          <!-- Related Products -->
+          <hr class="divider" style="margin-top:var(--s6);" />
+          <div id="related-products">
+            <h2 class="h4 text-navy mb-3">Need assistance selecting the right solution?</h2>
+            <p class="sm text-muted mb-3">United Pharma provides clinical technical guidance, hospital product demonstrations, and official procurement quotes across Karnataka.</p>
+            <div class="flex gap-2 wrap">
+              <a href="request-information.html" class="btn btn-primary btn-sm" id="pd-bottom-req">Request Product Details <span class="arr">→</span></a>
+              <a href="products.html" class="btn btn-outline btn-sm">Browse Full Catalogue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STICKY SIDEBAR CTA -->
+      <div>
+        <div class="product-cta-box" id="product-sidebar-cta">
+          <span class="b-chip" style="margin-bottom:var(--s2);" id="sb-brand-chip">Authorised Brand</span>
+          <h4 id="sb-product-title">Product Name</h4>
+          <p>Submit a request and our Karnataka specialist team will provide product specifications, availability, and hospital delivery timelines.</p>
+          <a href="request-information.html"
+             class="btn btn-primary btn-full mb-2"
+             id="product-request-cta">
+            Request Information / Quote <span class="arr">→</span>
+          </a>
+          <a href="contact.html" class="btn btn-ghost btn-full btn-sm" id="product-contact-link">
+            Contact United Pharma
+          </a>
+          <hr class="divider" />
+          <div class="flex-col gap-1" style="font-size:13px; color:var(--text-muted);">
+            <span>✓ No public pricing / No online sales</span>
+            <span>✓ For healthcare professionals only</span>
+            <span>✓ 120+ Karnataka hospitals served</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="fn">United Pharma</div><p>Specialist healthcare-solutions distributor serving 120+ government and corporate hospitals across Karnataka.</p></div>
+      <div class="footer-col"><h4>About</h4><ul><li><a href="about-our-story.html">Our Story</a></li><li><a href="about-why-united-pharma.html">Why United Pharma</a></li><li><a href="about-hospitals-served.html">Hospitals Served</a></li></ul></div>
+      <div class="footer-col"><h4>Solutions</h4><ul><li><a href="products.html?solution=anaesthesia">Anaesthesia</a></li><li><a href="products.html">Critical Care &amp; Respiratory</a></li><li><a href="products.html">Advanced Surgery</a></li><li><a href="products.html">Orthopaedics &amp; Sports Med</a></li><li><a href="products.html">Urology</a></li><li><a href="products.html">Patient Positioning</a></li><li><a href="products.html">Infection Prevention</a></li></ul></div>
+      <div class="footer-col"><h4>Explore</h4><ul><li><a href="products.html">All Products</a></li><li><a href="partner-brands.html">Partner Brands</a></li><li><a href="resources.html">Resources</a></li><li><a href="request-information.html">Request Information</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 United Pharma. All rights reserved. Bangalore, Karnataka.</p>
+      <span class="hcp-badge">For healthcare professionals only</span>
+      <p>No public pricing. No online sales.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- PRODUCT DATA SCRIPTS (Supports file:// protocol and http://) -->
+<script src="assets/data/products-catalogue.js"></script>
+<script src="assets/data/meril-catalogue.js"></script>
+
+<!-- DYNAMIC PRODUCT DETAIL SCRIPT -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var productId = urlParams.get('id');
+
+    if (!productId) {
+      window.location.href = 'products.html';
+      return;
+    }
+
+    // Smart product lookup function supporting exact & fuzzy/prefix matching
+    function findProduct(products, id) {
+      if (!id || !products) return null;
+      var exact = products.find(p => p.id === id);
+      if (exact) return exact;
+
+      var cleanId = id.toLowerCase().replace(/^product-family-/, '').replace(/-reloads$/, '');
+      return products.find(p => {
+        var pId = (p.id || '').toLowerCase();
+        return pId === cleanId || pId.startsWith(cleanId) || cleanId.startsWith(pId) || pId.includes(cleanId);
+      });
+    }
+
+    // 1. First check in-memory JS data (works even on file:// protocol without web server)
+    var allProducts = (window.PRODUCTS_CATALOGUE_DATA || []).concat(window.MERIL_CATALOGUE_DATA || []);
+    var product = findProduct(allProducts, productId);
+
+    if (product) {
+      renderProduct(product);
+      return;
+    }
+
+    // 2. Fallback to fetch if data object wasn't loaded
+    fetch('assets/data/products-catalogue.json')
+      .then(response => response.json())
+      .then(mainData => {
+        var prod = findProduct(mainData, productId);
+        if (prod) {
+          renderProduct(prod);
+        } else {
+          fetch('assets/data/meril-catalogue.json')
+            .then(res => res.json())
+            .then(merilData => {
+              var merilProd = findProduct(merilData, productId);
+              if (merilProd) {
+                renderProduct(merilProd);
+              }
+            })
+            .catch(err => console.error("Error loading Meril fallback data:", err));
+        }
+      })
+      .catch(err => console.error("Error loading products catalogue fetch:", err));
+
+    function renderProduct(product) {
+      document.getElementById('loading-spinner').style.display = 'none';
+      document.getElementById('product-content').style.display = 'block';
+
+      // Title & Document Title
+      document.title = product.title + ' — United Pharma';
+      document.getElementById('pd-title').textContent = product.title;
+      document.getElementById('pd-bc-title').textContent = product.title;
+
+      // Product image (from verified catalogue package) or no-image placeholder.
+      // Products with neither catalogueImage nor catalogueImageStatus are outside
+      // this pass's scope and show no image block at all (unchanged behaviour).
+      var heroImgBox = document.getElementById('pd-hero-image');
+      var heroImgEl = document.getElementById('pd-hero-image-el');
+      var heroPlaceholder = document.getElementById('pd-hero-placeholder');
+      heroImgBox.style.display = 'none';
+      heroPlaceholder.style.display = 'none';
+      if (product.catalogueImage) {
+        heroImgEl.src = product.catalogueImage;
+        heroImgEl.alt = product.title;
+        heroImgBox.style.display = 'block';
+      } else if (product.catalogueImageStatus === 'no-image-available') {
+        heroPlaceholder.style.display = 'flex';
+      }
+
+      // Brand
+      var brandName = product.brand || 'Authorised Partner';
+      document.getElementById('pd-brand').querySelector('span').textContent = brandName;
+      document.getElementById('sb-brand-chip').textContent = brandName;
+      document.getElementById('sb-product-title').textContent = product.title;
+
+      // Type Badge
+      var typeText = product.type || 'Medical Product';
+      document.getElementById('pd-type-badge').textContent = typeText;
+      if (typeText.toLowerCase() === 'drug') {
+        document.getElementById('pd-type-badge').className = 'badge b-drug';
+      } else if (typeText.toLowerCase() === 'device') {
+        document.getElementById('pd-type-badge').className = 'badge b-device';
+      } else if (typeText.toLowerCase() === 'disposable') {
+        document.getElementById('pd-type-badge').className = 'badge b-disposable';
+      } else if (typeText.toLowerCase().includes('equipment')) {
+        document.getElementById('pd-type-badge').className = 'badge b-equipment';
+      } else if (typeText.toLowerCase().includes('implant')) {
+        document.getElementById('pd-type-badge').className = 'badge b-implant';
+      }
+
+      // Request CTA links
+      var reqUrl = 'request-information.html?product=' + encodeURIComponent(product.title + ' (' + brandName + ')');
+      document.getElementById('product-request-cta').href = reqUrl;
+      document.getElementById('pd-bottom-req').href = reqUrl;
+
+      // Overview
+      document.getElementById('pd-overview').innerHTML = product.overview || 'Detailed product overview available upon inquiry.';
+
+      // Indications
+      if (product.indications) {
+        document.getElementById('pd-indications-container').style.display = 'block';
+        document.getElementById('pd-indications').textContent = product.indications;
+      }
+
+      // Contraindications
+      if (product.contraindications) {
+        document.getElementById('pd-contraindications-container').style.display = 'block';
+        document.getElementById('pd-contraindications').textContent = product.contraindications;
+      }
+
+      // Features
+      if (product.features && product.features.length > 0) {
+        document.getElementById('pd-features-container').style.display = 'block';
+        var fList = document.getElementById('pd-features');
+        fList.innerHTML = '';
+        product.features.forEach(f => {
+          var fHTML = f.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+          var item = document.createElement('div');
+          item.className = 'feature-item';
+          item.innerHTML = '<div class="feature-dot"></div><span>' + fHTML + '</span>';
+          fList.appendChild(item);
+        });
+      }
+
+      // Anatomy
+      if (product.anatomy && product.anatomy.length > 0) {
+        document.getElementById('pd-anatomy-container').style.display = 'block';
+        var aList = document.getElementById('pd-anatomy');
+        aList.innerHTML = '';
+        product.anatomy.forEach(a => {
+          var item = document.createElement('div');
+          item.className = 'feature-item';
+          item.innerHTML = '<div class="feature-dot"></div><span>' + a + '</span>';
+          aList.appendChild(item);
+        });
+      }
+
+      // Specifications
+      var specContainer = document.getElementById('pd-specs');
+      specContainer.innerHTML = '';
+      if (product.specifications && product.specifications.length > 0) {
+        product.specifications.forEach(s => {
+          Object.keys(s).forEach(k => {
+            var item = document.createElement('div');
+            item.className = 'spec-item';
+            item.innerHTML = '<span class="spec-key">' + k + '</span><span class="spec-val">' + s[k] + '</span>';
+            specContainer.appendChild(item);
+          });
+        });
+      } else {
+        specContainer.innerHTML = '<p class="text-muted">Technical specifications available upon verified request.</p>';
+      }
+
+      // SKUs Table
+      var thead = document.getElementById('pd-sku-head');
+      var tbody = document.getElementById('pd-sku-body');
+      thead.innerHTML = '';
+      tbody.innerHTML = '';
+
+      if (product.skus && product.skus.length > 0) {
+        var keys = Object.keys(product.skus[0]).filter(k => k !== '_Name');
+        var headerRow = document.createElement('tr');
+        keys.forEach(k => {
+          var th = document.createElement('th');
+          th.textContent = k;
+          headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+
+        product.skus.forEach(sku => {
+          var tr = document.createElement('tr');
+          keys.forEach(k => {
+            var td = document.createElement('td');
+            td.textContent = sku[k] || '-';
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+      } else {
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td>Contact United Pharma for pack size details &amp; order codes.</td>';
+        tbody.appendChild(tr);
+      }
+    }
+  });
+</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

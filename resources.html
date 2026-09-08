@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources &amp; Downloads — United Pharma</title>
+  <meta name="description" content="Product brochures and IFUs from United Pharma's partner brands — for biomedical engineers, procurement teams and clinical staff." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="United Pharma home">
+        <img src="assets/images/united-pharma-logo.png" alt="United Pharma - Healthcare Solutions" width="480" height="126">
+      </a>
+      <ul class="nav-links" role="list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about-our-story.html" class="nav-link">About <span class="chev">▾</span></a><div class="nav-drop"><a href="about-our-story.html">Our Story</a><a href="about-why-united-pharma.html">Why United Pharma</a><a href="about-hospitals-served.html">Hospitals Served</a></div></li>
+        <li class="nav-item"><a href="index.html#solutions-overview" class="nav-link">Solutions</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="partner-brands.html" class="nav-link">Partner Brands</a></li>
+        <li class="nav-item"><a href="resources.html" class="nav-link active">Resources</a></li>
+      </ul>
+      <div class="nav-cta"><a href="request-information.html" class="btn btn-primary btn-sm" id="nav-request-cta">Request Information <span class="arr">→</span></a></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero" id="resources-hero">
+  <div class="container">
+    <p class="page-hero-eyebrow">Resources &amp; Downloads</p>
+    <h1 class="h1">Product Brochures &amp; IFUs</h1>
+    <p>Technical documentation for biomedical engineers, procurement teams and clinical staff. All materials are for professional use only.</p>
+    <div class="hcp-banner" style="margin-top:var(--s3); background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15);">
+      <span class="hi">📋</span>
+      <p style="color:rgba(255,255,255,0.75);">These documents are intended for qualified healthcare professionals, biomedical engineers and hospital procurement staff — not for patient use.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="resources-list">
+  <div class="container">
+
+    <!-- Quick filter by solution / brand -->
+    <div class="reveal mb-4">
+      <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+        <span class="sm text-muted" style="margin-right:4px;">Filter by:</span>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-all-res">All</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-anaesthesia-res">Anaesthesia</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-critical-res">Critical Care</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-surgery-res">Advanced Surgery</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-urology-res">Urology</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-positioning-res">Patient Positioning</button>
+        <button class="b-chip-sm" style="cursor:pointer;" id="filter-infection-res">Infection Prevention</button>
+      </div>
+    </div>
+
+    <!-- Permission notice at top -->
+    <div style="padding:var(--s3); background:#FFF7ED; border:1px solid #FDE68A; border-radius:var(--r-lg); margin-bottom:var(--s4);" class="reveal">
+      <p class="sm" style="color:#78350F;"><strong style="color:#451A03;">Hosting rights pending (§6):</strong> Rights to host manufacturer brochures and IFUs are being confirmed with ~10 brand partners. Download links below are structural placeholders — they will be activated once permissions are obtained. Materials are listed to show the template structure.</p>
+    </div>
+
+    <!-- Resource list -->
+    <div style="display:flex; flex-direction:column; gap:var(--s2);" class="reveal">
+
+      <!-- Anaesthesia -->
+      <div style="margin-bottom:var(--s2);">
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">💉</span>
+          <h2 class="h4 text-navy">Anaesthesia</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-suprane-pi">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Suprane (Desflurane) — Prescribing Information</h4><p>Baxter International · PDF · For HCP use only</p></div>
+            <span class="badge b-hcp" style="flex-shrink:0;">HCP</span>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+          <div class="resource-item" id="res-suprane-brochure">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Suprane (Desflurane) — Product Brochure</h4><p>Baxter International · PDF · Clinical overview</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+          <div class="resource-item" id="res-varenyam-anaesthesia">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Varenyam / Nidrava Anaesthesia Range — Product Catalogue</h4><p>Varenyam / Nidrava · PDF · Full anaesthesia product list</p></div>
+            <span class="badge b-hcp" style="flex-shrink:0;">HCP</span>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Critical Care -->
+      <div style="margin-bottom:var(--s2);">
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">🫁</span>
+          <h2 class="h4 text-navy">Critical Care &amp; Respiratory</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-starling">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Starling Monitor — User Guide</h4><p>Baxter (Cheetah Medical) · PDF · Biomedical &amp; clinical reference</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+          <div class="resource-item" id="res-vest">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Vest Model 205 — Product Brochure &amp; IFU</h4><p>Hillrom / Baxter · PDF · Airway clearance system</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+          <div class="resource-item" id="res-flexbumin">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Flexbumin — Prescribing Information</h4><p>Takeda · PDF · For HCP use only</p></div>
+            <span class="badge b-hcp" style="flex-shrink:0;">HCP</span>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advanced Surgery -->
+      <div style="margin-bottom:var(--s2);">
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">🔬</span>
+          <h2 class="h4 text-navy">Advanced Surgery</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-novopec">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>NOVOPEC HIPEC/HITOC System — Brochure</h4><p>Curotherm · PDF · Technical and clinical overview</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+          <div class="resource-item" id="res-mitek">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>DePuy/Mitek Arthroscopy &amp; Sports Medicine — Catalogue</h4><p>DePuy / J&amp;J · PDF · Note: India-current SKU verification pending (§6)</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Urology -->
+      <div style="margin-bottom:var(--s2);">
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">🩺</span>
+          <h2 class="h4 text-navy">Urology</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-meril-urology">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Meril Urology Range — Product Catalogue</h4><p>Meril Life Sciences · PDF · Full urology portfolio</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Patient Positioning -->
+      <div style="margin-bottom:var(--s2);">
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">🛏️</span>
+          <h2 class="h4 text-navy">Patient Positioning</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-lenvitz">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Lenvitz Silicone Gel Positioning — Product Catalogue</h4><p>Lenvitz · PDF · Full positioning range</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infection Prevention -->
+      <div>
+        <div class="flex items-center gap-2 mb-2" style="border-bottom:2px solid var(--border-light); padding-bottom:var(--s1);">
+          <span style="font-size:18px;">🧤</span>
+          <h2 class="h4 text-navy">Infection Prevention</h2>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div class="resource-item" id="res-meril360">
+            <div class="res-icon">📄</div>
+            <div class="res-info"><h4>Meril 360 — Product Catalogue</h4><p>Meril Life Sciences · PDF · Full infection prevention range</p></div>
+            <a href="#" class="btn btn-outline btn-sm" style="flex-shrink:0;">Download PDF</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Professional use notice -->
+    <div style="margin-top:var(--s6); padding:var(--s3); background:var(--surface); border-radius:var(--r-lg); text-align:center;" class="reveal">
+      <p class="sm text-muted">All documents on this page are for the use of qualified healthcare professionals, biomedical engineers and hospital procurement staff only. Not for patient distribution.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="fn">United Pharma</div><p>Specialist healthcare-solutions distributor serving 120+ hospitals across Karnataka.</p></div>
+      <div class="footer-col"><h4>About</h4><ul><li><a href="about-our-story.html">Our Story</a></li><li><a href="about-why-united-pharma.html">Why United Pharma</a></li><li><a href="about-hospitals-served.html">Hospitals Served</a></li></ul></div>
+      <div class="footer-col"><h4>Solutions</h4><ul><li><a href="products.html?solution=anaesthesia">Anaesthesia</a></li><li><a href="#">Critical Care &amp; Respiratory</a></li><li><a href="#">Advanced Surgery</a></li><li><a href="#">Patient Positioning</a></li><li><a href="#">Infection Prevention</a></li></ul></div>
+      <div class="footer-col"><h4>Explore</h4><ul><li><a href="products.html">All Products</a></li><li><a href="partner-brands.html">Partner Brands</a></li><li><a href="resources.html">Resources</a></li><li><a href="request-information.html">Request Information</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 United Pharma. All rights reserved.</p><span class="hcp-badge">For healthcare professionals only</span><p>No public pricing.</p></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

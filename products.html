@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Products — United Pharma</title>
+  <meta name="description" content="Browse the full United Pharma product catalogue — filterable by clinical solution, partner brand and product type. Healthcare professionals only." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="United Pharma home">
+        <img src="assets/images/united-pharma-logo.png" alt="United Pharma - Healthcare Solutions" width="480" height="126">
+      </a>
+      <ul class="nav-links" role="list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about-our-story.html" class="nav-link">About <span class="chev">▾</span></a><div class="nav-drop"><a href="about-our-story.html">Our Story</a><a href="about-why-united-pharma.html">Why United Pharma</a><a href="about-hospitals-served.html">Hospitals Served</a></div></li>
+        <li class="nav-item"><a href="index.html#solutions-overview" class="nav-link">Solutions</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link active">Products</a></li>
+        <li class="nav-item"><a href="partner-brands.html" class="nav-link">Partner Brands</a></li>
+        <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+      </ul>
+      <div class="nav-cta"><a href="request-information.html" class="btn btn-primary btn-sm" id="nav-request-cta">Request Information <span class="arr">→</span></a></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero" id="products-hero">
+  <div class="container">
+    <p class="page-hero-eyebrow">Product Catalogue</p>
+    <h1 class="h1">All Products</h1>
+    <p>Filterable index across all clinical solutions and partner brands. Use the filters to find products by specialty, brand or product type.</p>
+  </div>
+</section>
+
+<!-- PRODUCTS INDEX -->
+<section class="section" id="products-index">
+  <div class="container">
+    <div class="sidebar-layout">
+
+      <!-- FILTER SIDEBAR -->
+      <aside class="filter-sidebar" aria-label="Product filters" id="filter-sidebar">
+        <div class="filter-panel">
+          <div style="font-size:14px; font-weight:600; color:var(--navy); margin-bottom:var(--s3);">Filter products</div>
+
+          <!-- By Solution -->
+          <div class="filter-group">
+            <div class="filter-group-title">Clinical Solution</div>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="anaesthesia" id="f-anaesthesia"> Anaesthesia</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="critical-care" id="f-critical-care"> Critical Care &amp; Respiratory</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="advanced-surgery" id="f-adv-surgery"> Advanced Surgery</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="orthopaedics" id="f-orthopaedics"> Orthopaedics &amp; Sports Med</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="urology" id="f-urology"> Urology</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="patient-positioning" id="f-positioning"> Patient Positioning</label>
+            <label class="filter-opt"><input type="checkbox" data-group="solution" value="infection-prevention" id="f-infection"> Infection Prevention</label>
+          </div>
+
+          <!-- By Brand -->
+          <div class="filter-group">
+            <div class="filter-group-title">Partner Brand</div>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="baxter" id="f-baxter"> Baxter</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="depuy" id="f-depuy"> DePuy / J&amp;J</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="takeda" id="f-takeda"> Takeda</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="meril" id="f-meril"> Meril</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="lenvitz" id="f-lenvitz"> Lenvitz</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="lyvex" id="f-lyvex"> Lyvex</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="varenyam" id="f-varenyam"> Varenyam / Nidrava</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="spyrox" id="f-spyrox"> Spyrox (Sorath Ortho)</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="curotherm" id="f-curotherm"> Curotherm</label>
+            <label class="filter-opt"><input type="checkbox" data-group="brand" value="hillrom" id="f-hillrom"> Hillrom / Baxter</label>
+          </div>
+
+          <!-- By Product Type -->
+          <div class="filter-group">
+            <div class="filter-group-title">Product Type</div>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="drug" id="f-drug"> Drug</label>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="device" id="f-device"> Device</label>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="implant" id="f-implant"> Implant</label>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="disposable" id="f-disposable"> Disposable</label>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="equipment" id="f-equipment"> Capital Equipment</label>
+            <label class="filter-opt"><input type="checkbox" data-group="type" value="instrument" id="f-instrument"> Instrument</label>
+          </div>
+
+          <button onclick="document.querySelectorAll('.filter-opt input').forEach(function(i){i.checked=false;}); document.querySelectorAll('[data-solution]').forEach(function(c){c.style.display='';}); document.getElementById('active-chips').innerHTML='';"
+                  class="btn btn-ghost btn-sm btn-full" style="margin-top:var(--s1);" id="clear-filters-btn">Clear all filters</button>
+        </div>
+      </aside>
+
+      <!-- PRODUCT GRID -->
+      <div>
+        <!-- Active filter chips -->
+        <div class="active-filters" id="active-chips" aria-live="polite"></div>
+
+        <!-- Result count / sort (placeholder) -->
+        <div class="flex-between mb-3" style="border-bottom:1px solid var(--border-light); padding-bottom:var(--s2);">
+          <p class="sm text-muted">Showing all validated products from §4 of the Handoff Package</p>
+          <p class="sm text-muted" style="font-style:italic;">Sort: coming later</p>
+        </div>
+
+        <div class="grid-auto">
+
+          <!-- ANAESTHESIA -->
+          <div data-solution="anaesthesia" data-brand="baxter" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Suprane (Desflurane)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Volatile inhalational anaesthetic for general anaesthesia. Requires calibrated desflurane vaporiser.</p><div class="p-actions"><a href="product-detail.html?id=suprane-desflurane" class="btn btn-outline btn-sm" id="p-suprane-view">View</a><a href="request-information.html?product=Suprane+%28Desflurane%29" class="btn btn-primary btn-sm" id="p-suprane-req">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="baxter" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Sevoflurane</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Inhalational anaesthetic agent. Volatile liquid for induction and maintenance of general anaesthesia.</p><div class="p-actions"><a href="product-detail.html?id=sevoflurane-baxter" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Sevoflurane+-+Baxter" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="baxter" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Isoflurane</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Halogenated ether volatile inhalational anaesthetic agent for induction and maintenance of general anaesthesia.</p><div class="p-actions"><a href="product-detail.html?id=isoflurane-baxter" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Isoflurane+-+Baxter" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>LEVO-BUPIFIX</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>20 ml Vial</p><div class="p-actions"><a href="product-detail.html?id=levo-bupifix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=LEVO-BUPIFIX" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>BUPIFIX-H</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Regional / Local Anaesthetic</p><div class="p-actions"><a href="product-detail.html?id=bupifix-h" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=BUPIFIX-H" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>BUPIFIX</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Regional / Local Anaesthetic</p><div class="p-actions"><a href="product-detail.html?id=bupifix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=BUPIFIX" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>ROPIFIX</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Regional / Local Anaesthetic</p><div class="p-actions"><a href="product-detail.html?id=ropifix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=ROPIFIX" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Lidofix ADR</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Regional / Local Anaesthetic</p><div class="p-actions"><a href="product-detail.html?id=lidofix-adr" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Lidofix+ADR" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Lidofix Gel</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Regional / Local Anaesthetic</p><div class="p-actions"><a href="product-detail.html?id=lidofix-gel" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Lidofix+Gel" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Lidofix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Lignocaine Hydrochloride Inj 2% w/v (30 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=lidofix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Lidofix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>ATRABLOC</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Atracurium Besylate Inj 2 mg/ml (1 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=atrabloc" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=ATRABLOC" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>CIS-ATRABLOC</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Cis-Atracurium Besylate Inj 2 mg/ml</p><div class="p-actions"><a href="product-detail.html?id=cis-atrabloc" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=CIS-ATRABLOC" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>RocuroFix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Rocuronium Bromide Inj 10 mg/ml (5/10 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=rocurofix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=RocuroFix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VecuroFix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Vecuronium Bromide Inj 4 mg/10 mg (Vial)</p><div class="p-actions"><a href="product-detail.html?id=vecurofix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VecuroFix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARPRESS</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Vasopressin Inj IP 20 units/ml (1 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=varpress" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARPRESS" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>TERMIVA</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Terlipressin Acetate Inj IP 1 mg (10 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=termiva" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=TERMIVA" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Ephinor</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Noradrenaline Inj IP 2 mg/ml (2 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=ephinor" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Ephinor" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>REMISHOT</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Remifentanil Hydrochloride Inj 1 mg/2 mg (Vial)</p><div class="p-actions"><a href="product-detail.html?id=remishot" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=REMISHOT" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Opifent</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Fentanyl Citrate Inj 50 mcg/ml (2/10 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=opifent" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Opifent" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARPHIN</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Nalbuphine Hydrochloride Inj 10 mg/ml (1 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=varphin" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARPHIN" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARMOL</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Paracetamol Inj (100 ml Bottle)</p><div class="p-actions"><a href="product-detail.html?id=varmol" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARMOL" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Zocifix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Pentazocine Lactate Inj 30 mg/ml (1 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=zocifix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Zocifix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Sugimdex</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Sugammadex Inj 100 mg/ml (2/5 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=sugimdex" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Sugimdex" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Varcolate-Neo</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Glycopyrrolate 0.5 mg & Neostigmine 2.5 mg (5 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=varcolate-neo" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Varcolate-Neo" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Medetofix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Dexmedetomidine Hydrochloride Inj USP 100 mcg/ml (0.5/1/2 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=medetofix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Medetofix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Midfix</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Midazolam Inj IP 1 mg/ml (5/10 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=midfix" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Midfix" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Indifol</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Propofol Inj IP 1% (10/20/50 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=indifol" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Indifol" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Qualket</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Ketamine Hydrochloride Inj 50 mg/ml (10 ml Vial)</p><div class="p-actions"><a href="product-detail.html?id=qualket" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Qualket" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Varcolate</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Glycopyrrolate Inj IP 0.2 mg/ml (1 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=varcolate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Varcolate" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>SEVOVAR</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Sevoflurane Liquid for Inhalation IP (50/250 ml Bottle)</p><div class="p-actions"><a href="product-detail.html?id=sevovar" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SEVOVAR" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="anaesthesia" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>SEVOFLURANE (YARCOLATE)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Liquid for Inhalation IP (50/250 ml Bottle)</p><div class="p-actions"><a href="product-detail.html?id=sevoflurane-yarcolate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SEVOFLURANE+(YARCOLATE)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+
+
+          <!-- CRITICAL CARE -->
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>COLISTIMETHATE SODIUM INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>1/2/3/4.5 MIU</p><div class="p-actions"><a href="product-detail.html?id=colistimethate-sodium-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=COLISTIMETHATE+SODIUM+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>TIGECYCLINE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>50 mg</p><div class="p-actions"><a href="product-detail.html?id=tigecycline-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=TIGECYCLINE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>TEICOPLANIN INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>200/400 mg</p><div class="p-actions"><a href="product-detail.html?id=teicoplanin-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=TEICOPLANIN+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>MEROPENEM INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>500/1000 mg</p><div class="p-actions"><a href="product-detail.html?id=meropenem-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=MEROPENEM+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>CEFTRIAXONE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>1 g</p><div class="p-actions"><a href="product-detail.html?id=ceftriaxone-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=CEFTRIAXONE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARTAZ-P</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Piperacillin 4g & Tazobactam 0.5g Inj (4.5g Vial)</p><div class="p-actions"><a href="product-detail.html?id=vartaz-p" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARTAZ-P" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARXON-S</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Ceftriaxone 1g & Sulbactam 0.5g Inj (1.5g Vial)</p><div class="p-actions"><a href="product-detail.html?id=varxon-s" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARXON-S" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Varpraz-S</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Cefoperazone 1g & Sulbactam 0.5g Inj (1.5g Vial)</p><div class="p-actions"><a href="product-detail.html?id=varpraz-s" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Varpraz-S" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>CLINDYM</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Clindamycin Inj 150 mg/ml (2/4 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=clindym" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=CLINDYM" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Varmox-CV</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Amoxycillin & Potassium Clavulanate Inj 1.2g (1.2g Vial)</p><div class="p-actions"><a href="product-detail.html?id=varmox-cv" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Varmox-CV" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>D-CYCLINE</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Doxycycline Inj 100 mg (100 mg Vial)</p><div class="p-actions"><a href="product-detail.html?id=d-cycline" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=D-CYCLINE" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>PENTOVAR</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Pantoprazole Inj 40 mg (40 mg Vial)</p><div class="p-actions"><a href="product-detail.html?id=pentovar" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=PENTOVAR" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>HEPARIN SODIUM INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>1000/5000 IU/ml</p><div class="p-actions"><a href="product-detail.html?id=heparin-sodium-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=HEPARIN+SODIUM+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>ENOXAPARIN SODIUM INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>40/60 mg</p><div class="p-actions"><a href="product-detail.html?id=enoxaparin-sodium-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=ENOXAPARIN+SODIUM+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>N-ACETYL CYSTEINE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>200 mg/ml</p><div class="p-actions"><a href="product-detail.html?id=n-acetyl-cysteine-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=N-ACETYL+CYSTEINE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>CALCIUM GLUCONATE & CALCIUM LACTOBIONATE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Critical Care Range</p><div class="p-actions"><a href="product-detail.html?id=calcium-gluconate-lactobionate-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=CALCIUM+GLUCONATE+%26+CALCIUM+LACTOBIONATE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>SODIUM BICARBONATE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>8.4% w/v</p><div class="p-actions"><a href="product-detail.html?id=sodium-bicarbonate-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SODIUM+BICARBONATE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>POTASSIUM CHLORIDE INJECTION</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>150 mg/ml (10 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=potassium-chloride-injection" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=POTASSIUM+CHLORIDE+INJECTION" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Glycipresin</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Terlipressin Acetate Inj 1mg/10ml (10 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=glycipresin" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Glycipresin" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Labelbloc</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Labetalol Hydrochloride Inj 5mg/ml (4 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=labelbloc" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Labelbloc" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARCLOT</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Tranexamic Acid Inj 100mg/ml (5 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=varclot" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARCLOT" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARDOL</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Tramadol Hydrochloride Inj 50mg/ml (1/2 ml Amp)</p><div class="p-actions"><a href="product-detail.html?id=vardol" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARDOL" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>SUFFICORT</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Hydrocortisone Sodium Succinate Inj 100mg (100mg Vial)</p><div class="p-actions"><a href="product-detail.html?id=sufficort" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SUFFICORT" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="varenyam" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>VARPRED-S</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Varenyam / Nidrava</div><p>Methyl Prednisolone Sodium Succinate Inj 500mg/1g (Vial)</p><div class="p-actions"><a href="product-detail.html?id=varpred-s" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=VARPRED-S" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="critical-care" data-brand="baxter" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Starling Monitor</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Non-invasive hemodynamic monitoring platform for patient assessment in ICU and ER.</p><div class="p-actions"><a href="product-detail.html?id=starling-monitor" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Starling+Monitor" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Starling Sensor</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Sensors for non-invasive bioconductance hemodynamic monitoring setup.</p><div class="p-actions"><a href="product-detail.html?id=starling-sensor" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Starling+Sensor" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Starter Pack (MDN)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Starter patient kit for non-invasive hemodynamic monitoring setup.</p><div class="p-actions"><a href="product-detail.html?id=starter-pack-mdn" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=MDN+Starter+Pack" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Vest Airway System (Device)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>High-frequency chest wall oscillation device for airway clearance therapy.</p><div class="p-actions"><a href="product-detail.html?id=vest-airway-system" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Vest+Airway+System" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Infusion Pump</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Ambulatory infusion pump. Available in sizes: 2-3-5 ml, 5-7-12 ml, 5 ml, and 10 ml.</p><div class="p-actions"><a href="product-detail.html?id=infusion-pump-baxter" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Infusion+Pump" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>TPN (Oliclinomel)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Parenteral nutrition solution in multi-chamber bags. Variants: Central line (1L, 2L) and Peripheral line (1L, 2L).</p><div class="p-actions"><a href="product-detail.html?id=tpn-oliclinomel" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Oliclinomel+TPN" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Healthport</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Venous access port system for high-performance infusion therapies.</p><div class="p-actions"><a href="product-detail.html?id=healthport" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Healthport" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Mira Filter IV Set</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Intravenous administration set with integrated high-efficiency filtration.</p><div class="p-actions"><a href="product-detail.html?id=mira-filter-iv-set" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Mira+Filter+IV+Set" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>LiDCO CNAP Monitor</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter (LiDCO)</div><p>Continuous non-invasive arterial pressure and cardiac output monitoring.</p><div class="p-actions"><a href="product-detail.html?id=lidco-cnap-monitor" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=LiDCO+CNAP" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="baxter" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Plasma-Lyte A</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Baxter</div><p>Balanced crystalloid IV fluid for replacement and maintenance in critical care.</p><div class="p-actions"><a href="product-detail.html?id=plasma-lyte-a" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Plasma-Lyte+A" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="takeda" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>One Albumin</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Takeda</div><p>Human serum albumin solution. Available in 5% (250 ml) and 20% (100 ml) concentrations.</p><div class="p-actions"><a href="product-detail.html?id=one-albumin" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=One+Albumin" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="takeda" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Flexbumin</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Takeda</div><p>Human serum albumin solution in flexible plastic container. Available in 5% (250 ml) and 20% (100 ml).</p><div class="p-actions"><a href="product-detail.html?id=flexbumin" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Flexbumin" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="takeda" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Hemophilia Therapies</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Takeda</div><p>Therapeutic factor concentrates. Variants: Immunate 250 IU, Immunate 600 IU, and FEIBA STIM 4.</p><div class="p-actions"><a href="product-detail.html?id=hemophilia-therapies" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Takeda+Hemophilia" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="takeda" data-type="drug">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-drug">Drug</span><span class="badge b-available">Available</span><span class="badge b-hcp">HCP Only</span></div><h3>Adcetris (50mg)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Takeda</div><p>CD30-directed antibody-drug conjugate. Specifications: 50mg Injection vial.</p><div class="p-actions"><a href="product-detail.html?id=adcetris-50mg" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Adcetris+50mg" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="hillrom" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Vest Model 205 Airway Clearance</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Hillrom / Baxter</div><p>High-frequency chest wall oscillation (HFCWO) system for airway clearance in respiratory patients.</p><div class="p-actions"><a href="product-detail.html?id=vest-model-205" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Vest+Model+205" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="lyvex" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Disposable Endobronchial Blocker Tube</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lyvex</div><p>Endobronchial blocker tube for lung isolation. Available sizes: 5 French, 7 French, and 9 French.</p><div class="p-actions"><a href="product-detail.html?id=disposable-endobronchial-blocker-tube" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Disposable+Endobronchial+Blocker+Tube" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="lyvex" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Non-invasive Ventilation Mask</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lyvex</div><p>Masks for non-invasive positive pressure ventilation. Configurations: HI-Neomask and Neomask.</p><div class="p-actions"><a href="product-detail.html?id=non-invasive-ventilation-mask" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Non-invasive+Ventilation+Mask" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="critical-care" data-brand="lyvex" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Fitfix Disposable Linear Bag</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lyvex</div><p>Disposable linear bags for collection/respiratory use. Variants: Green Bag and Red Bag.</p><div class="p-actions"><a href="product-detail.html?id=fitfix-disposable-linear-bag" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Fitfix+Disposable+Linear+Bag" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <!-- ADVANCED SURGERY -->
+          <div data-solution="advanced-surgery" data-brand="curotherm" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>NOVOPEC HIPEC/HITOC System</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Curotherm</div><p>Hyperthermic intraperitoneal chemotherapy (HIPEC) and HITOC perfusion system for advanced oncological surgery.</p><div class="p-actions"><a href="product-detail.html?id=novopec-hipec-hitoc-system" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=NOVOPEC+HIPEC" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <!-- ORTHOPAEDICS & SPORTS MED -->
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="equipment">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-equipment">Capital Equipment</span><span class="badge b-available">Available</span></div><h3>Camera Source</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Endoscopic camera source for high-definition arthroscopic visualisation.</p><div class="p-actions"><a href="product-detail.html?id=camera-source-depuy" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Camera+Source" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Radio Frequency Machine</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Includes VAPR Electrode 90° Foot Controlled Probe and VAPR Coolpulse 90° Hand Controlled Probe.</p><div class="p-actions"><a href="product-detail.html?id=radio-frequency-machine" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Radio+Frequency+Machine" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="equipment">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-equipment">Capital Equipment</span><span class="badge b-available">Available</span></div><h3>Light Source</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>High-intensity light source for endoscopic and arthroscopic surgical procedures.</p><div class="p-actions"><a href="product-detail.html?id=light-source-depuy" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Light+Source" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="equipment">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-equipment">Capital Equipment</span><span class="badge b-available">Available</span></div><h3>4K Monitor</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Surgical display monitor delivering 4K resolution for precise intraoperative visualisation.</p><div class="p-actions"><a href="product-detail.html?id=4k-monitor-depuy" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=4K+Monitor" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="instrument">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-instrument">Instrument</span><span class="badge b-available">Available</span></div><h3>Twister Reamer (Flip Cutter)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Specialized instrument for bone socket preparation. Available sizes: 6.0 mm and 12.0 mm.</p><div class="p-actions"><a href="product-detail.html?id=twister-reamer" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Twister+Reamer" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="instrument">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-instrument">Instrument</span><span class="badge b-available">Available</span></div><h3>Graft Preparation Speedtrap</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Instrument system for rapid and secure graft preparation in ligament reconstruction.</p><div class="p-actions"><a href="product-detail.html?id=graft-preparation-speedtrap" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Graft+Preparation+Speedtrap" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>Rotator Cuff - Lateral Row Anchors</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Helix Advanced S/P 5.5 mm BR Anchor and Helix Advanced S/P 5.5 mm PEEK Anchor.</p><div class="p-actions"><a href="product-detail.html?id=rotator-cuff-lateral-row-anchors" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Rotator+Cuff+Lateral+Row" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>Rotator Cuff - Medial Row Anchors</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Helix Advanced 5.5 mm Biocomposite (Knotless), PEEK (Knotless), PEEK 3 Suture, and Fastin RC 5.5 mm. All with Orthocord.</p><div class="p-actions"><a href="product-detail.html?id=rotator-cuff-medial-row-anchors" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Rotator+Cuff+Medial+Row" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>Bankart Fixation Anchors</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Gryphon PBR with Orthocord, and Versal Loop (1.5mm, 1.8mm 2 Suture/Tape, 2.5mm Suture/Tape).</p><div class="p-actions"><a href="product-detail.html?id=bankart-fixation-anchors" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Bankart+Fixation" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>Latarjet Solutions</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Experience Top Hat and Experience Screws. Available screw sizes: 28 mm, 30 mm, 32 mm.</p><div class="p-actions"><a href="product-detail.html?id=latarjet-solutions" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Latarjet+Solutions" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>PCL &amp; ACL - Rigid Loops</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Adjustable, Standard, and Long Rigid Loops. Fixed Rigid Loops in 15 mm, 20 mm, and 25 mm lengths.</p><div class="p-actions"><a href="product-detail.html?id=pcl-acl-rigid-loops" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Rigid+Loops" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>PCL &amp; ACL - Milagro Bio Screws</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Bio-absorbable interference screws for ligament reconstruction. Available in Titanium and PEEK materials.</p><div class="p-actions"><a href="product-detail.html?id=pcl-acl-milagro-bio-screws" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Milagro+Bio+Screws" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="orthopaedics" data-brand="depuy" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>Meniscus Repair Solutions</h3><div class="b-chip" style="width:fit-content;font-size:11px;">DePuy / J&amp;J</div><p>Meniscus Needle, Truespan Peak Material (0°, 12°, 24°), and PLGA Material (12°, 24°).</p><div class="p-actions"><a href="product-detail.html?id=meniscus-repair-solutions" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Meniscus+Repair" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <!-- SPYROX IMPLANTS -->
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Proton Proximal Humerus Plate, Short</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Proton Proximal Humerus Plate (Short) is a next-generation veriaxial locking plating system featuring v...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-proton-proximal-humerus-plate-short" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Proton+Proximal+Humerus+Plate%2C+Short" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Proton Proximal Humerus Plate</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Proton Proximal Humerus Plate is an extensive veriaxial anatomical plating system available in 3 to 9 h...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-proton-proximal-humerus-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Proton+Proximal+Humerus+Plate" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Dura line Distal Radius Plate, 2.4/2.7 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Dura line Distal Radius Plate system (2.4/2.7 mm) is available in Regular, Small, and Wide head variant...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-dura-line-distal-radius-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Dura+line+Distal+Radius+Plate%2C+2.4%2F2.7+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Dura line Distal Radius Plate with Extend Support, 2.4/2.7 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Dura line Distal Radius Plate with Extend Support provides additional distal styloid tabs and extended ...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-dura-line-distal-radius-plate-extend-support" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Dura+line+Distal+Radius+Plate+with+Extend+Support%2C+2.4%2F2.7+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Medial Distal Tibial Plate, 2.7/3.5 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Medial Distal Tibial Plate (2.7/3.5 mm) is a low-profile veriaxial anatomical plate designed for medial...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-medial-distal-tibial-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Medial+Distal+Tibial+Plate%2C+2.7%2F3.5+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Stelios Fix Plate</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Stelios Fix Plate is a specialized high-fatigue osteotomy fixation plate engineered specifically for Hi...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-stelios-fix-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Stelios+Fix+Plate" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Proximal Tibia Plate, 3.5 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Proximal Tibia Plate (3.5 mm) is a lateral proximal tibial veriaxial locking plate available in 4 to 14...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-proximal-tibia-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Proximal+Tibia+Plate%2C+3.5+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Stelios Fix Medial Distal Femoral Plate</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Stelios Fix Medial Distal Femoral Plate is an osteotomy fixation plate engineered for medial distal fem...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-stelios-fix-medial-distal-femoral-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Stelios+Fix+Medial+Distal+Femoral+Plate" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Patella Plate with Hook, Star</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Patella Plate with Hook (Star Configuration) features an inferior hook extension paired with a multi-di...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-patella-plate-with-hook-star" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Patella+Plate+with+Hook%2C+Star" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Patella Plate, Star</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Patella Plate (Star Configuration) is a low-profile star-shaped locking plate providing multi-planar su...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-patella-plate-star" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Patella+Plate%2C+Star" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Trochanteric Stabilizer Plate</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Trochanteric Stabilizer Plate is designed to stabilize greater trochanteric fragments in unstable pertr...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-trochanteric-stabilizer-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Trochanteric+Stabilizer+Plate" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Olecranon Plate, 2.7/3.5 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Olecranon Plate (2.7/3.5 mm) is a proximal ulna anatomical plate available in 2 to 12 hole variations f...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-olecranon-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Olecranon+Plate%2C+2.7%2F3.5+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Extended Distal Medial Humerus Plate, 2.7/3.5 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Extended Distal Medial Humerus Plate (2.7/3.5 mm) is an extended anatomical medial column plating syste...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-extended-distal-medial-humerus-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Extended+Distal+Medial+Humerus+Plate%2C+2.7%2F3.5+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+          <div data-solution="orthopaedics" data-brand="spyrox" data-type="implant">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-implant">Implant</span><span class="badge b-available">Available</span></div><h3>SPYROX Posterolateral Distal Humerus Plate, 2.7/3.5 mm</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Spyrox (Sorath Ortho)</div><p>SPYROX Posterolateral Distal Humerus Plate (2.7/3.5 mm) is designed for posterolateral distal humerus plating,...</p><div class="p-actions"><a href="product-detail.html?id=spyrox-posterolateral-distal-humerus-plate" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=SPYROX+Posterolateral+Distal+Humerus+Plate%2C+2.7%2F3.5+mm" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <!-- UROLOGY -->
+          <div data-solution="urology" data-brand="meril" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>ri-Uniview Ureteroscope</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Flexible digital ureteroscope for upper urinary tract visualisation and endoscopic stone management.</p><div class="p-actions"><a href="product-detail.html?id=ri-uniview-ureteroscope" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=ri-Uniview+Ureteroscope" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="urology" data-brand="meril" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>MeriFRAG+ Holmium Laser</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Holmium:YAG laser system for endoscopic stone fragmentation and soft tissue procedures in urology.</p><div class="p-actions"><a href="product-detail.html?id=merifrag-holmium-laser" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=MeriFRAG%2B+Holmium+Laser" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="urology" data-brand="meril" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>ProNeph PCNL Access Kit</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Percutaneous nephrolithotomy (PCNL) access and drainage system for renal stone management.</p><div class="p-actions"><a href="product-detail.html?id=proneph-pcnl-access-kit" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=ProNeph+PCNL" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="urology" data-brand="meril" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Meril Urology Disposables</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Catheters, stone baskets, sheaths, ureteral stents, guidewires and dilators for urological procedures.</p><div class="p-actions"><a href="product-detail.html?id=meril-urology-disposables" class="btn btn-outline btn-sm">View range</a><a href="request-information.html?product=Meril+Urology+Disposables" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <!-- PATIENT POSITIONING -->
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>General Use Silicone Gel Pads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel pads designed for general patient positioning across all patient positions.</p><div class="p-actions"><a href="product-detail.html?id=general-use-silicone-gel-pads" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=General+Use+Silicone+Gel+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Supine &amp; Lithotomy Position Pads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel patient positioners configured specifically for supine and lithotomy positions.</p><div class="p-actions"><a href="product-detail.html?id=supine-lithotomy-position-pads" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Supine+%26+Lithotomy+Position+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Prone Position Gel Pads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel patient positioners configured for general prone surgical procedures.</p><div class="p-actions"><a href="product-detail.html?id=prone-position-gel-pads" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Prone+Position+Gel+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Lateral Position Gel Pads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel pads designed for stable support in lateral decubitus positioning.</p><div class="p-actions"><a href="product-detail.html?id=lateral-position-gel-pads" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Lateral+Position+Gel+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>OT Table Pads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Full-length silicone gel operating table overlays for pressure relief and sores prevention.</p><div class="p-actions"><a href="product-detail.html?id=ot-table-pads" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=OT+Table+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Supine Position Pads (Pediatric &amp; Neonatal)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel positioning solutions sized for pediatric and neonatal patients in supine position.</p><div class="p-actions"><a href="product-detail.html?id=supine-position-pads-pediatric-neonatal" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Pediatric+Supine+Gel+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="patient-positioning" data-brand="lenvitz" data-type="device">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-device">Device</span><span class="badge b-available">Available</span></div><h3>Prone Position Pads (Pediatric &amp; Neonatal)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Lenvitz</div><p>Silicone gel positioning solutions sized for pediatric and neonatal patients in prone position.</p><div class="p-actions"><a href="product-detail.html?id=prone-position-pads-pediatric-neonatal" class="btn btn-outline btn-sm">View</a><a href="request-information.html?product=Pediatric+Prone+Gel+Pads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+
+
+          <!-- MERIL SURGICAL STAPLERS -->
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Powered Endocutter</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Powered endoscopic linear cutter with 60° articulation. 6-row stair-stepping staple formation for superior hemostasis. Available in 45 mm and 60 mm staple line lengths, each in Small, Medium, and Large shaft variants. Battery-powered for stable operation. Non-slip anvil technology. Safety switch prevents accidental firing.</p><div class="p-actions"><a href="product-detail.html?id=mirus-powered-endocutter-powered-endoscopic-linear-cutter-with-reloads" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Powered+Endocutter" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Powered Endocutter Reloads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Colour-coded reloads for MIRUS Powered Endocutter. 60 mm: White (2.5 mm), Blue (3.5 mm), Gold (3.8 mm), Green (4.1 mm), Black (4.4 mm). 45 mm: White (2.5 mm), Blue (3.5 mm), Green (4.1 mm). New knife blade with every reload.</p><div class="p-actions"><a href="product-detail.html?id=mirus-powered-endocutter-powered-endoscopic-linear-cutter-with-reloads" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Powered+Endocutter+Reloads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Linear Cutter</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Disposable linear cutter for open surgery. Available in 60 mm, 80 mm, and 100 mm cut lengths. 4 rows of titanium staples, 8 firings per device. Dual-side firing knob, push-button quick release, rear hinge alignment. Compatible with Blue (3.8 mm open / 1.5 mm close) and Green (4.8 mm open / 2.0 mm close) reloads.</p><div class="p-actions"><a href="product-detail.html?id=mirus-linear-cutter-non-powered-disposable" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Linear+Cutter" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Linear Cutter Reloads</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Reloads for MIRUS Linear Cutter. Available for 60/80/100 mm cutters. Blue cartridge: 3.8 mm open / 1.5 mm closed staple height. Green cartridge: 4.8 mm open / 2.0 mm closed. New knife with every reload for smooth, precise transection. Safety lock prevents firing over empty reload.</p><div class="p-actions"><a href="product-detail.html?id=mirus-linear-cutter-non-powered-disposable" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Linear+Cutter+Reloads" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Circular Stapler (3-Row)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Disposable circular stapler with 3-row design for enhanced wound security and hemostasis. For end-to-end, end-to-side, and side-to-side anastomosis. 7 sizes: 21–32 mm head diameter (12–22 mm cutting diameter). Adjustable staple height (4.5 mm open / 1.0–2.5 mm closed). CE Approved, US 510K Cleared.</p><div class="p-actions"><a href="product-detail.html?id=mirus-circular-stapler" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Circular+Stapler+(3-Row)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Circular Stapler (2-Row)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Disposable circular stapler with conventional 2-row design. 5 sizes: 24–32 mm head diameter (15–22 mm cutting diameter). Adjustable staple height, visual compression gauge, white Teflon cutting washer for audible feedback. Safety lock.</p><div class="p-actions"><a href="product-detail.html?id=mirus-circular-stapler" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Circular+Stapler+(2-Row)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Skin Stapler</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Disposable skin stapler with 35 pins for efficient wound closure. Outstanding performance across wider skin wounds. FG Code: MSSP35. 6 units per box.</p><div class="p-actions"><a href="product-detail.html?id=mirus-skin-stapler" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Skin+Stapler" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Skin Stapler Extractors</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Skin staple extractor removers. Available in Metal (FG: SSEXT) and Plastic (FG: SSRM) variants. 1 unit per box.</p><div class="p-actions"><a href="product-detail.html?id=mirus-skin-stapler-extractors" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Skin+Stapler+Extractors" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Titanium U-Shape Ligation Clips</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Titanium ligation clips in U-shape design. Available in Small (MLT-100), Medium (MLT-200), Medium-Large (MLT-300), and Large (MLT-400). 20 clips per box.</p><div class="p-actions"><a href="product-detail.html?id=mirus-titanium-u-shape-ligation-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Titanium+U-Shape+Ligation+Clips" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Endoscopic Clip Applicator</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Laparoscopic applicators for MIRUS U-Shape Titanium Clips. Applicator 300 for Medium-Large clips (FTEA-00300). Applicator 400 for Large clips (FTEA-00400).</p><div class="p-actions"><a href="product-detail.html?id=mirus-endoscopic-clip-applicator-for-u-shape-titanium-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Endoscopic+Clip+Applicator" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Open Clip Applicator (U-Shape)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Open surgical applicators for MIRUS U-Shape Titanium Clips. Available for clip sizes 100/200/300/400 in lengths 15 cm, 20 cm, and 28 cm. 12 variants total.</p><div class="p-actions"><a href="product-detail.html?id=mirus-open-clip-applicator-for-u-shape-titanium-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Open+Clip+Applicator+(U-Shape)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MIRUS™ Titanium V-Shape Ligation Clips</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Titanium ligation clips in V-shape design. 6 sizes: Micro (VMLT-060), Small (VMLT-080), Small-Medium (VMLT-100), Medium (VMLT-200), Medium-Large (VMLT-300), Large (VMLT-400). 20 clips per box.</p><div class="p-actions"><a href="product-detail.html?id=mirus-titanium-v-shape-ligation-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MIRUS+Titanium+V-Shape+Ligation+Clips" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>V-Shape Ligation Clip Applicators</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Open applicators for MIRUS V-Shape Titanium Clips. 20 cm variants for sizes 60/80/100/200/300/400. 28 cm variants for sizes 80/100/200. 1 unit per box.</p><div class="p-actions"><a href="product-detail.html?id=mirus-titanium-v-shape-ligation-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=V-Shape+Ligation+Clip+Applicators" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MYCLIP™ Polymer Ligation Clips</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Non-metallic polymer ligation clips. Available in Medium-Large (POLY-200), Large (POLY-300), and Extra-Large (POLY-400). 10 clips per box. MRI-safe alternative to titanium.</p><div class="p-actions"><a href="product-detail.html?id=myclip-polymer-ligation-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MYCLIP+Polymer+Ligation+Clips" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MYCLIP™ Endoscopic Clip Applicator</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Laparoscopic applicators for MYCLIP Polymer Clips. 200mm for Medium-Large (PTEA-00200), 300mm for Large (PTEA-00300), 400mm for Extra-Large (PTEA-00400).</p><div class="p-actions"><a href="product-detail.html?id=myclip-endoscopic-clip-applicator-for-polymer-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MYCLIP+Endoscopic+Clip+Applicator" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MYCLIP™ Open Applicator (Polymer)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Open surgical applicators (30° angled) for MYCLIP Polymer Clips. 200-30 DEG for ML clips, 300-30 DEG for L clips, 400-30 DEG for XL clips.</p><div class="p-actions"><a href="product-detail.html?id=myclip-open-applicator-for-polymer-clips" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MYCLIP+Open+Applicator+(Polymer)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+
+
+          <!-- MERIL SURGICAL SUTURES -->
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MITSU AB™ — Polyglactin 910 with Triclosan</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable braided coated suture with antibacterial Triclosan coating. Inhibits suture-induced Surgical Site Infections (SSIs). Clinically proven safety and efficacy. 35 SKUs across sizes 1 to 5-0. Violet and Undyed variants. Mid-term absorption.</p><div class="p-actions"><a href="product-detail.html?id=mitsu-ab-synthetic-absorbable-braided-coated-polyglactin-910-with-triclosan" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MITSU+AB+-+Polyglactin+910+with+Triclosan" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MITSU™ — Polyglactin 910</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable braided coated suture. Highest knot security with braided construction. 63 SKUs across sizes 2 to 6-0. Multiple needle configurations: Round Body, Reverse Cutting, Taper Cut, Blunt Point, J-Type. Violet and Undyed. Includes Double Needle, Loop, and short/extra-length variants.</p><div class="p-actions"><a href="product-detail.html?id=mitsu-synthetic-absorbable-braided-coated-polyglactin-910" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MITSU+-+Polyglactin+910" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MITSU™ CLS — Polyglactin 910 Non-Needled</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Pre-cut non-needled synthetic absorbable braided suture (3 × 45 cm per foil). Available in sizes 0, 2-0, 3-0, and 4-0. Violet. 12 foils per box.</p><div class="p-actions"><a href="product-detail.html?id=mitsu-cls-sutures-synthetic-absorbable-braided-coated-polyglactin-910-non-needled-precut-3-45-cm" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MITSU+CLS+-+Polyglactin+910+Non-Needled" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MITSU C+™ — Polyglactin 910 with Chlorhexidine</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable braided coated suture with Chlorhexidine antibacterial coating. 29 SKUs across sizes 0 to 5-0. Violet and Undyed variants. Round Body, Reverse Cutting, Taper Cut, and Cutting needle options.</p><div class="p-actions"><a href="product-detail.html?id=mitsu-c-synthetic-absorbable-braided-coated-polyglactin-910-with-chlorhexidine" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MITSU+C++-+Polyglactin+910+with+Chlorhexidine" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MITSU FST™ — Polyglactin 910 Fast</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Short-term absorbable braided coated suture. Low molecular weight Polyglactin 910 for faster absorption. All Undyed. 17 SKUs across sizes 0 to 5-0. Reverse Cutting, Taper Cut, Cutting, and Round Body needles. Includes Double Needle variants.</p><div class="p-actions"><a href="product-detail.html?id=mitsu-fst-synthetic-absorbable-braided-coated-polyglactin-910-fast-all-undyed" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MITSU+FST+-+Polyglactin+910+Fast" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MEGASORB™ — Polyglycolic Acid</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable braided coated suture (PGA). 30 SKUs across sizes 2 to 5-0. Violet and Undyed. Includes Heavy, Double Needle (DN/DNL), and short-length variants. Round Body, Reverse Cutting, Taper Cut needles.</p><div class="p-actions"><a href="product-detail.html?id=megasorb-synthetic-absorbable-braided-coated-polyglycolic-acid" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MEGASORB+-+Polyglycolic+Acid" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MEGASORB™ CLS — PGA Non-Needled</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Pre-cut non-needled synthetic absorbable PGA suture (180 cm per foil). Available in sizes 0 (MS2614NS) and 2-0 (MS2615NS). Violet. 12 foils per box.</p><div class="p-actions"><a href="product-detail.html?id=megasorb-cls-sutures-non-needled-precut" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MEGASORB+CLS+-+PGA+Non-Needled" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILAXYN™ — Polydioxanone (PDS)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable monofilament suture for long-term wound support. 60% tensile strength retention at 28 days, complete absorption at 180–210 days. 37 SKUs across sizes 1 to 7-0. Violet. Includes Loop and Double Needle variants.</p><div class="p-actions"><a href="product-detail.html?id=filaxyn-synthetic-absorbable-monofilament-polydioxanone" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILAXYN+-+Polydioxanone+(PDS)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILAPRON™ — Polyglecaprone 25</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic absorbable monofilament suture for scarless sub-cuticular suturing. 60–90% tensile strength retention at 7 days, complete absorption at 90–110 days. 18 SKUs across sizes 1-0 to 6-0. Undyed and Violet. Also available as SubK suture.</p><div class="p-actions"><a href="product-detail.html?id=filapron-synthetic-absorbable-monofilament-polyglecaprone-25" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILAPRON+-+Polyglecaprone+25" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILAMIDE™ — Polyamide (Nylon)</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic non-absorbable monofilament suture. Black. Polyamide 6-6.6. Excellent histocompatibility, smooth tissue passage, flexible and easy to handle. 27 SKUs across sizes 2 to 6-0. Available with Elixir Needle for surgical precision.</p><div class="p-actions"><a href="product-detail.html?id=filamide-synthetic-non-absorbable-monofilament-polyamide" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILAMIDE+-+Polyamide+(Nylon)" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILAMIDE™ Pre-Cut — Non-Needled</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Pre-cut non-needled polyamide monofilament suture (2 × 76 cm and 35 cm lengths). Available in sizes 0 to 2. Black. 6 SKUs. 12 foils per box.</p><div class="p-actions"><a href="product-detail.html?id=filamide-pre-cut-synthetic-non-absorbable-monofilament-polyamide-non-needled-pre-cut-2-76-cm" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILAMIDE+Pre-Cut+-+Non-Needled" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILASILK™ — Braided Silk</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Natural non-absorbable braided coated silk suture. Black. 46 SKUs across sizes 1 to 6-0. Comprehensive needle range including Spatula Point, Taper Cut, V-Black variants. Versatile for general, cardiovascular, ophthalmic, and plastic surgery.</p><div class="p-actions"><a href="product-detail.html?id=filasilk-natural-non-absorbable-braided-silk" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILASILK+-+Braided+Silk" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILASILK™ Pre-Cut — Non-Needled Silk</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Pre-cut non-needled braided silk suture (2 × 76 cm per foil). Available in sizes 3 to 4-0. Black. 7 SKUs. 12 foils per box.</p><div class="p-actions"><a href="product-detail.html?id=filasilk-pre-cut-natural-non-absorbable-braided-silk-non-needled-pre-cut-2-76-cm" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILASILK+Pre-Cut+-+Non-Needled+Silk" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILASILK™ Reel — Non-Sterile Silk</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Non-sterile braided silk reels (25 metres). Available in sizes 2, 1, 0, 2-0, and 3-0. Black. 6 reels per box.</p><div class="p-actions"><a href="product-detail.html?id=filasilk-reel-natural-non-absorbable-braided-silk-reels-non-sterile" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILASILK+Reel+-+Non-Sterile+Silk" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>FILAPROP™ — Polypropylene</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic non-absorbable monofilament suture. Blue. 26 SKUs across sizes 1 to 10-0. Known for exceptional strength and elasticity. Includes Loop, Double Needle, and short-length variants. Round Body, Cutting, Reverse Cutting, Taper Cut needles.</p><div class="p-actions"><a href="product-detail.html?id=filaprop-synthetic-non-absorbable-monofilament-polypropylene" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=FILAPROP+-+Polypropylene" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+          <div data-solution="advanced-surgery" data-brand="meril" data-type="disposable">
+
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>MERICRON XL™ — Braided Polyester</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Synthetic non-absorbable braided polyester suture. Green. 5 SKUs in sizes 0, 2, and 5. 1/2 Circle Reverse Cutting and Taper Cut needles. Available in 12-foil and 6-foil boxes.</p><div class="p-actions"><a href="product-detail.html?id=mericron-xl-synthetic-non-absorbable-braided-polyester" class="btn btn-outline btn-sm">View details</a><a href="request-information.html?product=MERICRON+XL+-+Braided+Polyester" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+
+          </div>
+
+
+          <!-- INFECTION PREVENTION -->
+          <div data-solution="infection-prevention" data-brand="meril" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Meril 360 Surgical Drapes &amp; Apparels</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Surgical drapes, gowns and theatre apparels from the Meril 360 infection prevention portfolio.</p><div class="p-actions"><a href="product-detail.html?id=meril-360-drapes-apparels" class="btn btn-outline btn-sm">View range</a><a href="request-information.html?product=Meril+360+Drapes" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+          <div data-solution="infection-prevention" data-brand="meril" data-type="disposable">
+            <div class="card card-product"><div class="p-meta"><span class="badge b-disposable">Disposable</span><span class="badge b-available">Available</span></div><h3>Meril 360 Wound Care &amp; Hygiene</h3><div class="b-chip" style="width:fit-content;font-size:11px;">Meril</div><p>Wound care, disinfectants, hand hygiene and sterilizer products. MyWrap equipment covers and ostomy range.</p><div class="p-actions"><a href="product-detail.html?id=meril-360-wound-care-hygiene" class="btn btn-outline btn-sm">View range</a><a href="request-information.html?product=Meril+360+Wound+Care" class="btn btn-primary btn-sm">Request <span class="arr">→</span></a></div></div>
+          </div>
+
+        </div><!-- /grid-auto -->
+
+        <!-- On-request / upcoming notice -->
+        <div style="margin-top:var(--s5); padding:var(--s3); background:var(--surface); border:1px solid var(--border-light); border-radius:var(--r-lg);">
+          <p class="sm text-muted"><strong style="color:var(--text-2);">Additional products coming soon:</strong> Anaesthesia disposables, Baxter Infusor (device), B. Braun and Microlife own lines are being sourced. These will appear as "on request" once validated — per §8 of the Handoff Package.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="fn">United Pharma</div><p>Specialist healthcare-solutions distributor serving 120+ hospitals across Karnataka.</p></div>
+      <div class="footer-col"><h4>About</h4><ul><li><a href="about-our-story.html">Our Story</a></li><li><a href="about-why-united-pharma.html">Why United Pharma</a></li><li><a href="about-hospitals-served.html">Hospitals Served</a></li></ul></div>
+      <div class="footer-col"><h4>Solutions</h4><ul><li><a href="products.html?solution=anaesthesia">Anaesthesia</a></li><li><a href="#">Critical Care &amp; Respiratory</a></li><li><a href="#">Advanced Surgery</a></li><li><a href="#">Patient Positioning</a></li><li><a href="#">Infection Prevention</a></li></ul></div>
+      <div class="footer-col"><h4>Explore</h4><ul><li><a href="products.html">All Products</a></li><li><a href="partner-brands.html">Partner Brands</a></li><li><a href="resources.html">Resources</a></li><li><a href="request-information.html">Request Information</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Notice</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 United Pharma. All rights reserved.</p>
+      <span class="hcp-badge">For healthcare professionals only</span>
+      <p>No public pricing. No online sales.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Product data (for card thumbnails below) -->
+<script src="assets/data/products-catalogue.js"></script>
+<script src="assets/data/meril-catalogue.js"></script>
+
+<!-- Card-level product image / no-image placeholder (staging preview — not cleared for public publish) -->
+<script>
+(function () {
+  'use strict';
+  var products = (window.PRODUCTS_CATALOGUE_DATA || []).concat(window.MERIL_CATALOGUE_DATA || []);
+  var byId = {};
+  products.forEach(function (p) { byId[p.id] = p; });
+
+  document.querySelectorAll('.card-product').forEach(function (card) {
+    var viewLink = card.querySelector('.p-actions a[href*="product-detail.html?id="]');
+    if (!viewLink) return;
+    var match = viewLink.getAttribute('href').match(/[?&]id=([^&]+)/);
+    if (!match) return;
+    var product = byId[decodeURIComponent(match[1])];
+    if (!product) return; // outside catalogue-verification scope — card left unchanged
+
+    var box;
+    if (product.catalogueImage) {
+      box = document.createElement('div');
+      box.className = 'card-product-image';
+      var img = document.createElement('img');
+      img.src = product.catalogueImage;
+      img.alt = product.title || '';
+      box.appendChild(img);
+    } else if (product.catalogueImageStatus === 'no-image-available') {
+      box = document.createElement('div');
+      box.className = 'card-product-placeholder';
+      box.innerHTML = '<span class="cp-ph-icon">🖼️</span><span class="cp-ph-label">Product image available on request</span>';
+    }
+    if (box) card.insertBefore(box, card.firstChild);
+  });
+}());
+</script>
+
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>

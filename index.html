@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>United Pharma — Specialist Healthcare Solutions, Bangalore</title>
+  <meta name="description" content="United Pharma is a specialist healthcare-solutions distributor serving 120+ government and corporate hospitals across Karnataka. Authorised partner for Baxter, DePuy/J&amp;J, Takeda, Meril, Lenvitz, and more." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     GLOBAL HEADER / NAV
+═══════════════════════════════════════════ -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="United Pharma home">
+        <img src="assets/images/united-pharma-logo.png" alt="United Pharma - Healthcare Solutions" width="480" height="126">
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about-our-story.html" class="nav-link" aria-haspopup="true">
+            About <span class="chev">▾</span>
+          </a>
+          <div class="nav-drop" role="menu">
+            <a href="about-our-story.html" role="menuitem">Our Story</a>
+            <a href="about-why-united-pharma.html" role="menuitem">Why United Pharma</a>
+            <a href="about-hospitals-served.html" role="menuitem">Hospitals Served</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#solutions-overview" class="nav-link">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a href="products.html" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a href="partner-brands.html" class="nav-link">Partner Brands</a>
+        </li>
+        <li class="nav-item">
+          <a href="resources.html" class="nav-link">Resources</a>
+        </li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="request-information.html" class="btn btn-primary btn-sm" id="nav-request-cta">
+          Request Information <span class="arr">→</span>
+        </a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section id="hero" class="hero-backdrop-section">
+  <!-- Subtle geometric accent -->
+  <div style="position:absolute; top:-80px; right:-80px; width:500px; height:500px; border-radius:50%; border:1px solid rgba(26,127,110,0.12); pointer-events:none;"></div>
+  <div style="position:absolute; top:-40px; right:-40px; width:300px; height:300px; border-radius:50%; border:1px solid rgba(26,127,110,0.08); pointer-events:none;"></div>
+
+  <div class="container">
+    <div style="max-width: 720px;" class="fade-in-up">
+      <p class="section-label" style="color: var(--teal-light); margin-bottom: var(--s2);">Bangalore, Karnataka</p>
+      <h1 class="display" style="color: var(--white); margin-bottom: var(--s3);">
+        Specialist healthcare<br>solutions for Karnataka's hospitals.
+      </h1>
+      <p class="body-lg" style="color: rgba(255,255,255,0.70); margin-bottom: var(--s4); max-width: 580px;">
+        Trusted clinical-solutions partner to 120+ government and corporate hospitals. Anaesthesia, critical care, advanced surgery and beyond — with technical support and authorised brand partnerships that matter.
+      </p>
+
+      <!-- LIVE SEARCH BAR -->
+      <div class="hero-search-wrapper" style="margin-bottom: var(--s4); max-width: 600px;">
+        <div class="hero-search-input-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="hero-live-search" class="hero-search-input" 
+                 placeholder="Search products (e.g. Suprane, Spyrox, Starling Monitor, Gel Pads)..." 
+                 autocomplete="off" aria-label="Search product catalogue" />
+          <button type="button" id="clear-search-btn" class="search-clear-btn" style="display:none;" aria-label="Clear search">×</button>
+        </div>
+
+        <!-- Autocomplete Results Dropdown -->
+        <div id="search-results-panel" class="search-results-panel" style="display: none;">
+          <div class="search-results-header">
+            <span id="search-count-text">0 products found</span>
+            <span style="opacity:0.6;">Press ESC to close</span>
+          </div>
+          <div id="search-results-list" class="search-results-list"></div>
+          <div class="search-results-footer">
+            <a href="products.html" id="view-all-results-link" style="color: var(--teal-light); font-weight:600; font-size:13px;">
+              View complete catalogue in Products section →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-2 wrap">
+        <a href="request-information.html" class="btn btn-primary btn-lg" id="hero-cta-primary">
+          Request Information <span class="arr">→</span>
+        </a>
+        <a href="products.html?solution=anaesthesia" class="btn btn-lg" id="hero-cta-secondary"
+           style="background: rgba(255,255,255,0.08); color: var(--white); border-color: rgba(255,255,255,0.2);">
+          Explore Solutions
+        </a>
+      </div>
+    </div>
+
+    <!-- Stats row -->
+    <div class="grid-3" style="margin-top: var(--s10); max-width: 640px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--s5); gap: var(--s5);">
+      <div class="stat-block">
+        <div class="stat-num"><span class="accent">120</span>+</div>
+        <div class="stat-lbl" style="color:rgba(255,255,255,0.55);">Hospitals served</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num"><span class="accent">10</span>+</div>
+        <div class="stat-lbl" style="color:rgba(255,255,255,0.55);">Global brand partners</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-num" style="font-size:clamp(20px,3vw,30px); letter-spacing:-.01em;">Karnataka</div>
+        <div class="stat-lbl" style="color:rgba(255,255,255,0.55);">Govt &amp; corporate hospitals</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SOLUTIONS OVERVIEW
+═══════════════════════════════════════════ -->
+<section class="section" id="solutions-overview">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-label">Clinical Solutions</p>
+      <h2 class="h2 text-navy">Organised by specialty, not by brand.</h2>
+      <p>Eight solution areas covering the operating theatre, critical care unit, and ward — each with validated products and authorised partner support.</p>
+    </div>
+
+    <div class="grid-4" style="gap: var(--s3);">
+      <!-- Anaesthesia -->
+      <div class="card card-solution reveal">
+        <div class="sol-icon">💉</div>
+        <h3>Anaesthesia</h3>
+        <p>Inhalational agents, regional and local anaesthetics, muscle relaxants, reversal, sedatives, vasopressors and more.</p>
+        <a href="products.html?solution=anaesthesia" class="cl" id="sol-anaesthesia-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Critical Care -->
+      <div class="card card-solution reveal">
+        <div class="sol-icon">🫁</div>
+        <h3>Critical Care &amp; Respiratory</h3>
+        <p>Haemodynamic monitoring, parenteral nutrition, albumin therapy, and airway clearance for ICU and HDU settings.</p>
+        <a href="products.html?solution=critical-care" class="cl" id="sol-critical-care-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Advanced Surgery -->
+      <div class="card card-solution reveal">
+        <div class="sol-icon">🔬</div>
+        <h3>Advanced Surgery</h3>
+        <p>HIPEC/HITOC systems, arthroscopy implants, RF ablation, and fluid management for complex surgical procedures.</p>
+        <a href="products.html?solution=advanced-surgery" class="cl" id="sol-adv-surgery-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Orthopaedics -->
+      <div class="card card-solution reveal" style="position:relative;">
+        <div class="sol-icon">🦴</div>
+        <h3>Orthopaedics &amp; Sports Medicine</h3>
+        <p>Spyrox veriaxial locking plates, DePuy shoulder/knee arthroscopy, VAPR RF, and sports med implants.</p>
+        <a href="products.html?solution=orthopaedics" class="cl" id="sol-ortho-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Urology -->
+      <div class="card card-solution reveal" style="position:relative;">
+        <div class="sol-icon">🩺</div>
+        <h3>Urology</h3>
+        <p>Meril catheters, stone baskets, stents, ureteroscopes, holmium laser systems and PCNL access kits.</p>
+        <a href="products.html?solution=urology" class="cl" id="sol-urology-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Patient Positioning -->
+      <div class="card card-solution reveal">
+        <div class="sol-icon">🛏️</div>
+        <h3>Patient Positioning</h3>
+        <p>Lenvitz silicone gel positioning systems for supine, lithotomy, prone, lateral and OT-table configurations.</p>
+        <a href="products.html?solution=patient-positioning" class="cl" id="sol-positioning-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Infection Prevention -->
+      <div class="card card-solution reveal">
+        <div class="sol-icon">🧤</div>
+        <h3>Infection Prevention</h3>
+        <p>Meril 360 — surgical drapes, apparels, wound care, disinfectants, hand hygiene, sterilizers and ostomy.</p>
+        <a href="products.html?solution=infection-prevention" class="cl" id="sol-infection-link">Explore <span>→</span></a>
+      </div>
+
+      <!-- Pharmacy / Hospital Support — pending -->
+      <div class="card card-solution pending reveal" aria-hidden="true">
+        <div class="sol-icon">🏥</div>
+        <h3>Pharmacy / Hospital Support</h3>
+        <p style="font-style:italic;">Content pending — this solution area is being finalised. Check back soon.</p>
+        <span class="cl" style="color:var(--text-subtle); cursor:default;">Coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     ABOUT STRIP
+═══════════════════════════════════════════ -->
+<section class="section-sm bg-surface" id="about-strip">
+  <div class="container">
+    <div class="grid-3" style="gap: var(--s5); align-items: start;">
+      <div class="reveal">
+        <div style="width:40px; height:3px; background:var(--teal); border-radius:2px; margin-bottom:var(--s2);"></div>
+        <h3 class="h3 text-navy mb-2">20+ years of anaesthesia expertise</h3>
+        <p class="sm text-muted" style="line-height:1.7;">Founded on a deep understanding of the anaesthesia department, United Pharma has grown into a multi-specialty solutions partner without losing its clinical precision.</p>
+        <a href="about-our-story.html" class="btn btn-ghost" style="margin-top:var(--s2); padding-left:0;" id="about-story-link">Our Story <span class="arr">→</span></a>
+      </div>
+      <div class="reveal">
+        <div style="width:40px; height:3px; background:var(--teal); border-radius:2px; margin-bottom:var(--s2);"></div>
+        <h3 class="h3 text-navy mb-2">Technical support, not just distribution</h3>
+        <p class="sm text-muted" style="line-height:1.7;">United Pharma provides clinical and technical support alongside product supply — working closely with surgeons, biomedical engineers and procurement teams.</p>
+        <a href="about-why-united-pharma.html" class="btn btn-ghost" style="margin-top:var(--s2); padding-left:0;" id="about-why-link">Why United Pharma <span class="arr">→</span></a>
+      </div>
+      <div class="reveal">
+        <div style="width:40px; height:3px; background:var(--teal); border-radius:2px; margin-bottom:var(--s2);"></div>
+        <h3 class="h3 text-navy mb-2">120+ hospitals across Karnataka</h3>
+        <p class="sm text-muted" style="line-height:1.7;">A network spanning government medical colleges, district hospitals and corporate healthcare institutions — built on long-term relationships and reliable supply.</p>
+        <a href="about-hospitals-served.html" class="btn btn-ghost" style="margin-top:var(--s2); padding-left:0;" id="about-hospitals-link">Hospitals Served <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PARTNER BRANDS STRIP
+═══════════════════════════════════════════ -->
+<section class="section-sm" id="partner-brands-strip" style="border-top: 1px solid var(--border-light);">
+  <div class="container">
+    <div class="flex-between mb-3 reveal">
+      <div>
+        <p class="section-label">Authorised Partners</p>
+        <h2 class="h3 text-navy">Trusted global brands. Verified supply.</h2>
+      </div>
+      <a href="partner-brands.html" class="btn btn-outline btn-sm" id="all-brands-link">All Partner Brands <span class="arr">→</span></a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--s2); align-items: center;" class="reveal">
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/baxter.png" alt="Baxter logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:#003366; border-radius:var(--r-md); display:flex; align-items:center; justify-content:center; color:#FFF; font-weight:700; font-size:12px; letter-spacing:.02em;">
+        DePuy Synthes
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/sorath-ortho.png" alt="Sorath Ortho logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:#E60012; border-radius:var(--r-md); display:flex; align-items:center; justify-content:center; color:#FFF; font-weight:700; font-size:13px; letter-spacing:.05em;">
+        TAKEDA
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/meril.png" alt="Meril logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/lenvitz.png" alt="Lenvitz logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/lyvex.png" alt="Lyvex logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/varenyam.png" alt="Varenyam logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+      <div style="height:60px; background:var(--surface); border:1px solid var(--border-light); border-radius:var(--r-md); display:flex; align-items:center; justify-content:center; color:var(--text-2); font-weight:700; font-size:12px; letter-spacing:.05em;">
+        CUROTHERM
+      </div>
+      <div style="height:60px; background:var(--white); border:1px solid var(--border-light); border-radius:var(--r-md); padding:8px 12px; display:flex; align-items:center; justify-content:center; box-shadow:var(--sh-sm);">
+        <img src="assets/images/brands/hillrom.png" alt="Hillrom logo" style="max-height:100%; max-width:100%; object-fit:contain;" />
+      </div>
+    </div>
+    <p class="sm text-muted" style="margin-top: var(--s2); text-align:center;">Logo assets and authorisation statements pending partner permissions (§6 checklist)</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CTA BAND
+═══════════════════════════════════════════ -->
+<section class="cta-band" id="homepage-cta">
+  <div class="container reveal">
+    <h2 class="h2">Looking for a specific product or clinical solution?</h2>
+    <p>Our team will respond with product information, clinical data and availability. No pricing is shared online.</p>
+    <a href="request-information.html" class="btn btn-white btn-lg" id="homepage-cta-btn">
+      Request Information <span class="arr">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="fn">United Pharma</div>
+        <p>Specialist healthcare-solutions distributor serving 120+ government and corporate hospitals across Karnataka. Authorised partner for leading global medical brands.</p>
+        <p style="margin-top:12px; font-size:12px; color:rgba(255,255,255,0.3);">Proprietor: S. Aravind · Bangalore, Karnataka</p>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="about-our-story.html">Our Story</a></li>
+          <li><a href="about-why-united-pharma.html">Why United Pharma</a></li>
+          <li><a href="about-hospitals-served.html">Hospitals Served</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="products.html?solution=anaesthesia">Anaesthesia</a></li>
+          <li><a href="#">Critical Care &amp; Respiratory</a></li>
+          <li><a href="#">Advanced Surgery</a></li>
+          <li><a href="#">Orthopaedics &amp; Sports Med</a></li>
+          <li><a href="#">Urology</a></li>
+          <li><a href="#">Patient Positioning</a></li>
+          <li><a href="#">Infection Prevention</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="partner-brands.html">Partner Brands</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="request-information.html">Request Information</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Privacy Notice</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 United Pharma. All rights reserved. Bangalore, Karnataka.</p>
+      <span class="hcp-badge">For healthcare professionals only</span>
+      <p>No public pricing. No online sales.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- PRODUCT DATA & INTERACTION SCRIPTS -->
+<script src="assets/data/products-catalogue.js"></script>
+<script src="assets/data/meril-catalogue.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
