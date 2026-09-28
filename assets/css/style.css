@@ -900,6 +900,8 @@ textarea.form-input { resize: vertical; min-height: 130px; }
   /* override inline 2-col grids on Contact / Request Information */
   #contact-layout, #request-information-form > div { grid-template-columns: minmax(0, 1fr) !important; }
   .contact-value   { overflow-wrap: anywhere; }
+  /* Partner Brands: 2 cards per row while they fit, 1 on phones */
+  #brands-gallery .grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
   .footer-grid     { grid-template-columns: 1fr; }
   .footer-bottom   { flex-direction: column; align-items: flex-start; }
   .tabs            { overflow-x: auto; -webkit-overflow-scrolling: touch; }
