@@ -886,6 +886,7 @@ textarea.form-input { resize: vertical; min-height: 130px; }
 @media (max-width: 1024px) {
   .sidebar-layout       { grid-template-columns: 220px 1fr; }
   .sidebar-layout-right { grid-template-columns: 1fr; }
+  #form-layout          { grid-template-columns: minmax(0, 1fr) !important; } /* overrides inline form + sidebar grid */
   .footer-grid          { grid-template-columns: 1fr 1fr; gap: var(--s4); }
   .grid-4               { grid-template-columns: repeat(2, 1fr); }
 }
@@ -896,6 +897,9 @@ textarea.form-input { resize: vertical; min-height: 130px; }
   .filter-sidebar  { position: static; max-height: none; overflow-y: visible; }
   .sub-nav         { position: static; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  /* override inline 2-col grids on Contact / Request Information */
+  #contact-layout, #request-information-form > div { grid-template-columns: minmax(0, 1fr) !important; }
+  .contact-value   { overflow-wrap: anywhere; }
   .footer-grid     { grid-template-columns: 1fr; }
   .footer-bottom   { flex-direction: column; align-items: flex-start; }
   .tabs            { overflow-x: auto; -webkit-overflow-scrolling: touch; }
