@@ -905,6 +905,9 @@ textarea.form-input { resize: vertical; min-height: 130px; }
   #brands-gallery .grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
   /* Our Story: let content column shrink to fit 320px screens */
   #our-story-content .sidebar-layout { grid-template-columns: minmax(0, 1fr); }
+  /* Homepage: solution cards 2 per row while they fit, 1 on phones; brands header wraps */
+  #solutions-overview .grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+  #partner-brands-strip .flex-between { flex-wrap: wrap; gap: var(--s2); }
   .footer-grid     { grid-template-columns: 1fr; }
   .footer-bottom   { flex-direction: column; align-items: flex-start; }
   .tabs            { overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -912,6 +915,10 @@ textarea.form-input { resize: vertical; min-height: 130px; }
   .spec-key        { min-width: unset; }
   .page-hero       { padding: var(--s6) 0 var(--s4); }
   .cta-band        { padding: var(--s6) 0; }
+}
+
+@media (max-width: 480px) {
+  #brand-logo-strip { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } /* Homepage: 2 logos per row on phones */
 }
 
 /* ======================================================
